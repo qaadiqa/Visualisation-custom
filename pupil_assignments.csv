@@ -1,0 +1,1311 @@
+pupil_id,bus_id,student_category,boarding_stop,exit_stop,school,school_type,travel_time_minutes,max_allowed_minutes,within_limit,max_waiting_time,max_transfers
+373,N1,elementary,"Neetze, Am Ried","Scharnebeck, Schulzentrum",GS Rudolf-Steiner-Schule,Grundschule,17.6,45,True,30,0
+4,N1,elementary,"Barförde, Poggenort","Hohnstorf, Schule",GS Hohnstorf,Grundschule,34.5,45,True,30,0
+555,N1,secondary,"Wendewisch, Hittberger Straße 59","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,40.1,60,True,45,1
+547,N1,elementary,"Wendewisch, Hittberger Straße 59","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,42.3,45,True,30,0
+354,N1,vocational,"Neetze, Am Dorfplatz","Scharnebeck, Schulzentrum",BBS III,Berufsschule,16.0,90,True,45,1
+355,N1,vocational,"Neetze, Am Dorfplatz","Scharnebeck, Schulzentrum",BBS III,Berufsschule,16.0,90,True,45,1
+245,N1,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,7.5,60,True,45,1
+546,N1,vocational,"Wendewisch, Campingplatz","Scharnebeck, Schulzentrum",BBS III Oedeme,Berufsschule,26.1,90,True,45,1
+249,N1,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Scharnebeck, Schulzentrum",Oberschule Scharnebeck,Oberschule,7.5,60,True,45,1
+258,N1,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,22.5,60,True,45,1
+241,N1,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,7.5,60,True,45,1
+418,N1,secondary,"Neetze, Neetzebrücke","Scharnebeck, Schulzentrum",IGS Lüneburg,Gesamtschule,15.0,60,True,45,1
+244,N1,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,7.5,60,True,45,1
+254,N1,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,22.5,60,True,45,1
+426,N2,elementary,"Neu Neetze, Am Milchberg","Neetze, Grundschule",GS Neetze,Grundschule,9.0,45,True,30,0
+427,N2,elementary,"Neu Neetze, Am Milchberg","Neetze, Grundschule",GS Neetze,Grundschule,9.0,45,True,30,0
+34,N2,elementary,"Boltersen, Bahnhofstraße","Neetze, Am Dorfplatz",GS Neetze,Grundschule,24.8,45,True,30,0
+410,N2,secondary,"Neetze, Grundschule","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,8.3,60,True,45,1
+84,N2,secondary,"Brackede, Pferdekoppel","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,24.8,60,True,45,1
+81,N2,secondary,"Brackede, Pferdekoppel","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,24.8,60,True,45,1
+428,N2,secondary,"Neu Neetze, Am Milchberg","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,17.3,60,True,45,1
+401,N2,secondary,"Neetze, Grundschule","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,8.3,60,True,45,1
+404,N2,secondary,"Neetze, Grundschule","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,8.3,60,True,45,1
+429,N2,secondary,"Neu Neetze, Am Milchberg","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,17.3,60,True,45,1
+390,N2,secondary,"Neetze, Bahnhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,9.8,60,True,45,1
+439,N3,elementary,"Neu Neetze, Birkenhof","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,16.8,45,True,30,0
+10,N3,vocational,"Bleckede, Marschweg","Scharnebeck, Schulzentrum",BBS I,Berufsschule,8.1,90,True,45,1
+215,N3,secondary,"Hohnstorf, Am Sportzentrum","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,15.6,60,True,45,1
+234,N3,secondary,"Hohnstorf, Dorfstraße","Scharnebeck, Schulzentrum",Oberschule Scharnebeck,Oberschule,16.0,60,True,45,1
+433,N3,elementary,"Neu Neetze, Birkenhof","Neetze, Am Dorfplatz",GS Neetze,Grundschule,31.8,45,True,30,0
+233,N3,secondary,"Hohnstorf, Dorfstraße","Scharnebeck, Schulzentrum",Oberschule Scharnebeck,Oberschule,16.0,60,True,45,1
+235,N3,secondary,"Hohnstorf, Dorfstraße","Scharnebeck, Schulzentrum",Oberschule Scharnebeck,Oberschule,16.0,60,True,45,1
+242,N3,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,31.8,60,True,45,1
+232,N3,secondary,"Hohnstorf, Dorfstraße","Scharnebeck, Schulzentrum",Oberschule Scharnebeck,Oberschule,16.0,60,True,45,1
+278,N3,secondary,"Hohnstorf, Kindergarten","Scharnebeck, Schulzentrum",Oberschule Scharnebeck,Oberschule,16.8,60,True,45,1
+2,N4,elementary,"Barförde, Barförder Elbdeich 22","Hohnstorf, Schule",GS Hohnstorf,Grundschule,17.5,45,True,30,0
+190,N4,elementary,"Hittbergen, Kirche","Hohnstorf, Schule",GS Hohnstorf,Grundschule,8.4,45,True,30,0
+198,N4,elementary,"Hittbergen, Roggenberg","Hohnstorf, Schule",GS Hohnstorf,Grundschule,10.0,45,True,30,0
+173,N4,elementary,"Hittbergen, Feldstraße","Hohnstorf, Schule",GS Hohnstorf,Grundschule,9.0,45,True,30,0
+166,N4,elementary,"Hittbergen, Feldstraße","Hohnstorf, Schule",GS Hohnstorf,Grundschule,9.0,45,True,30,0
+180,N4,elementary,"Hittbergen, Im Kamp","Hohnstorf, Schule",GS Hohnstorf,Grundschule,7.5,45,True,30,0
+3,N4,elementary,"Barförde, Barförder Elbdeich 22","Hohnstorf, Schule",GS Hohnstorf,Grundschule,17.5,45,True,30,0
+544,N4,secondary,"Vogelsang, Ort","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,34.0,60,True,45,1
+184,N4,secondary,"Hittbergen, Im Kamp","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.0,60,True,45,1
+285,N4,secondary,"Hohnstorf, Schule","Scharnebeck, Schulzentrum",Oberschule Scharnebeck,Oberschule,15.0,60,True,45,1
+286,N4,secondary,"Hohnstorf, Schule","Scharnebeck, Schulzentrum",Oberschule Scharnebeck,Oberschule,15.0,60,True,45,1
+204,N4,secondary,"Hittbergen, Schönfeld","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,26.5,60,True,45,1
+159,N4,secondary,"Hittbergen, Kirche","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.9,60,True,45,1
+1,N4,elementary,"Barförde, Barförder Elbdeich 22","Hohnstorf, Schule",GS Hohnstorf,Grundschule,17.5,45,True,30,0
+289,N4,secondary,"Hohnstorf, Schule","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,7.5,60,True,45,1
+425,N4,secondary,"Neu Jörgenstorf, Ort","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,41.5,60,True,45,1
+186,N4,secondary,"Hittbergen, Im Kamp","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.0,60,True,45,1
+117,N5,elementary,"Echem, Schulstraße","Hohnstorf, Schule",GS Hohnstorf,Grundschule,30.1,45,True,30,0
+201,N5,elementary,"Hittbergen, Roggenberg","Hohnstorf, Schule",GS Hohnstorf,Grundschule,36.7,45,True,30,0
+100,N5,vocational,"Bullendorf bei Echem, Brücke","Scharnebeck, Schulzentrum",BBS II,Berufsschule,40.5,90,True,45,1
+528,N5,secondary,"Scharnebeck, Lüneburger Straße","Scharnebeck, Schulzentrum",IGS Lüneburg,Gesamtschule,28.3,60,True,45,1
+529,N5,secondary,"Scharnebeck, Lüneburger Straße","Scharnebeck, Schulzentrum",IGS Lüneburg,Gesamtschule,28.3,60,True,45,1
+225,N5,vocational,"Hohnstorf, Am Sportzentrum","Scharnebeck, Schulzentrum",BBS I,Berufsschule,9.3,90,True,45,1
+219,N5,secondary,"Hohnstorf, Am Sportzentrum","Scharnebeck, Schulzentrum",Oberschule Scharnebeck,Oberschule,9.3,60,True,45,1
+282,N5,secondary,"Hohnstorf, Schule","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,7.5,60,True,45,1
+399,N5,secondary,"Neetze, Grundschule","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,24.3,60,True,45,1
+87,N5,elementary,"Bullendorf bei Echem, Am Buscheberg","Hohnstorf, Schule",GS Hohnstorf,Grundschule,33.9,45,True,30,0
+343,N5,secondary,"Neetze, Am Dorfplatz","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,25.2,60,True,45,1
+293,N5,secondary,"Hohnstorf, Schule","Bleckede, Schulzentrum",RS Bleckede,Realschule,15.0,60,True,45,1
+224,N5,vocational,"Hohnstorf, Am Sportzentrum","Scharnebeck, Schulzentrum",BBS III,Berufsschule,9.3,90,True,45,1
+218,N5,secondary,"Hohnstorf, Am Sportzentrum","Scharnebeck, Schulzentrum",Oberschule Scharnebeck,Oberschule,9.3,60,True,45,1
+222,N5,secondary,"Hohnstorf, Am Sportzentrum","Scharnebeck, Schulzentrum",IGS Lüneburg,Gesamtschule,9.3,60,True,45,1
+291,N5,secondary,"Hohnstorf, Schule","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.0,60,True,45,1
+214,N5,secondary,"Hohnstorf, Am Sportzentrum","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,9.3,60,True,45,1
+105,N5,vocational,Echem,"Scharnebeck, Schulzentrum",BBS I,Berufsschule,35.8,90,True,45,1
+411,N5,secondary,"Neetze, Grundschule","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,24.3,60,True,45,1
+333,N5,secondary,"Neetze, Am Dorfplatz","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,25.2,60,True,45,1
+532,N5,vocational,"Scharnebeck, Lüneburger Straße","Scharnebeck, Schulzentrum",BBS II,Berufsschule,28.3,90,True,45,1
+511,N5,secondary,"Scharnebeck, Adendorfer Straße","Scharnebeck, Schulzentrum",IGS Kreideberg,Gesamtschule,26.8,60,True,45,1
+527,N5,vocational,"Scharnebeck, Lübbelau","Scharnebeck, Schulzentrum",BBS I,Berufsschule,26.0,90,True,45,1
+288,N5,secondary,"Hohnstorf, Schule","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.0,60,True,45,1
+223,N5,vocational,"Hohnstorf, Am Sportzentrum","Scharnebeck, Schulzentrum",BBS III Oedeme,Berufsschule,9.3,90,True,45,1
+287,N5,secondary,"Hohnstorf, Schule","Scharnebeck, Schulzentrum",Oberschule Scharnebeck,Oberschule,7.5,60,True,45,1
+531,N5,vocational,"Scharnebeck, Lüneburger Straße","Scharnebeck, Schulzentrum",BBS III,Berufsschule,28.3,90,True,45,1
+283,N5,secondary,"Hohnstorf, Schule","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,7.5,60,True,45,1
+101,N5,secondary,Echem,"Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,35.8,60,True,45,1
+290,N5,secondary,"Hohnstorf, Schule","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.0,60,True,45,1
+412,N5,secondary,"Neetze, Grundschule","Scharnebeck, Schulzentrum",Gym Johanneum,Gymnasium,16.8,60,True,45,1
+116,N5,secondary,"Echem, Dorfstraße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,44.0,60,True,45,1
+213,N5,secondary,"Hohnstorf, Am Sportzentrum","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,9.3,60,True,45,1
+356,N5,vocational,"Neetze, Am Dorfplatz","Scharnebeck, Schulzentrum",BBS III,Berufsschule,17.7,90,True,45,1
+181,N5,elementary,"Hittbergen, Im Kamp","Hohnstorf, Schule",GS Hohnstorf,Grundschule,34.8,45,True,30,0
+220,N5,secondary,"Hohnstorf, Am Sportzentrum","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,16.8,60,True,45,1
+217,N5,secondary,"Hohnstorf, Am Sportzentrum","Scharnebeck, Schulzentrum",Oberschule Scharnebeck,Oberschule,9.3,60,True,45,1
+357,N5,vocational,"Neetze, Am Dorfplatz","Scharnebeck, Schulzentrum",BBS II,Berufsschule,17.7,90,True,45,1
+304,N5,secondary,"Jürgenstorf, Jürgenstorfer Straße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,51.7,60,True,45,1
+365,N5,secondary,"Neetze, Am Jahnstadion","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,26.0,60,True,45,1
+103,N5,secondary,Echem,"Scharnebeck, Schulzentrum",IGS Lüneburg,Gesamtschule,35.8,60,True,45,1
+413,N5,secondary,"Neetze, Grundschule","Scharnebeck, Schulzentrum",Gym Johanneum,Gymnasium,16.8,60,True,45,1
+525,N5,vocational,"Scharnebeck, Lübbelau","Scharnebeck, Schulzentrum",BBS II,Berufsschule,26.0,90,True,45,1
+521,N5,secondary,"Scharnebeck, Hauptstraße","Scharnebeck, Schulzentrum",IGS Lüneburg,Gesamtschule,27.5,60,True,45,1
+211,N5,secondary,"Hohnstorf, Schule","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.0,60,True,45,1
+314,N6,elementary,"Karze, An den Hauskoppeln","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,34.0,45,True,30,0
+470,N6,elementary,"Rullstorf, Alte Dorfstraße","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,31.0,45,True,30,0
+374,N6,elementary,"Neetze, Am Ried","Scharnebeck, Schulzentrum",GS Rudolf-Steiner-Schule,Grundschule,30.0,45,True,30,0
+367,N6,elementary,"Neetze, Am Ried","Neetze, Grundschule",GS Neetze,Grundschule,37.5,45,True,30,0
+424,N6,secondary,"Neu Boltersen, Neumühler Weg","Scharnebeck, Schulzentrum",Gym Lüneburger Heide,Gymnasium,41.5,60,True,45,1
+458,N6,elementary,"Radegast, Zum Kirchplatz","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,7.5,45,True,30,0
+457,N6,elementary,"Radegast, Zum Kirchplatz","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,7.5,45,True,30,0
+145,N6,elementary,"Garze, Große Straße 29","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,36.5,45,True,30,0
+489,N6,elementary,"Rullstorf, Im Ort","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,30.0,45,True,30,0
+422,N6,elementary,"Neu Boltersen, Möhlenkamp","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,33.2,45,True,30,0
+135,N6,elementary,"Garlstorf bei Bleckede, Dorfstraße 68","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,44.0,45,True,30,0
+419,N6,elementary,"Neu Boltersen, Möhlenkamp","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,33.2,45,True,30,0
+5,N6,elementary,Bleckede Mühlenweg (Garlstorf) 6,"Bleckede, Elbtalhaus",GS Bleckede,Grundschule,44.0,45,True,30,0
+459,N6,elementary,"Radegast, Zum Kirchplatz","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,7.5,45,True,30,0
+460,N6,elementary,"Radegast, Zum Kirchplatz","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,7.5,45,True,30,0
+420,N6,elementary,"Neu Boltersen, Möhlenkamp","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,33.2,45,True,30,0
+482,N6,elementary,"Rullstorf, Im Ort","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,30.0,45,True,30,0
+149,N6,elementary,"Garze, Große Straße 29","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,36.5,45,True,30,0
+153,N6,elementary,"Garze, Große Straße 71","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,35.4,45,True,30,0
+491,N6,elementary,"Rullstorf, Im Ort","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,30.0,45,True,30,0
+152,N6,elementary,"Garze, Große Straße 71","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,35.4,45,True,30,0
+461,N6,elementary,"Radegast, Zum Kirchplatz","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,7.5,45,True,30,0
+421,N6,elementary,"Neu Boltersen, Möhlenkamp","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,33.2,45,True,30,0
+494,N6,elementary,"Rullstorf, Im Ort","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,30.0,45,True,30,0
+144,N6,elementary,"Garze, Große Straße 29","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,36.5,45,True,30,0
+452,N8,elementary,"Neu Neetze, Haus Nr. 50","Neetze, Grundschule",GS Neetze,Grundschule,20.8,45,True,30,0
+450,N8,secondary,"Neu Neetze, Denker","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,26.0,60,True,45,1
+20,N8,elementary,"Bleckeder Moor, Zweiter Moorweg","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,36.5,45,True,30,0
+368,N8,elementary,"Neetze, Am Ried","Neetze, Grundschule",GS Neetze,Grundschule,2.8,45,True,30,0
+18,N8,elementary,"Bleckeder Moor, Fuchsweg","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,39.6,45,True,30,0
+137,N8,secondary,"Garlstorf bei Bleckede, Dorfstraße 68","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,18.5,60,True,45,1
+22,N8,elementary,"Bleckeder Moor, Zweiter Moorweg","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,36.5,45,True,30,0
+126,N8,secondary,"Garlstorf bei Bleckede, Dorfstraße 36","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,17.8,60,True,45,1
+371,N8,secondary,"Neetze, Am Ried","Scharnebeck, Schulzentrum",Gym Wilhelm-Raabe-Schule,Gymnasium,19.9,60,True,45,1
+393,N8,secondary,"Neetze, Bahnhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,9.2,60,True,45,1
+451,N8,vocational,"Neu Neetze, Denker","Scharnebeck, Schulzentrum",BBS III,Berufsschule,35.7,90,True,45,1
+138,N8,secondary,"Garlstorf bei Bleckede, Dorfstraße 68","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,18.5,60,True,45,1
+384,N8,secondary,"Neetze, Bahnhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,9.2,60,True,45,1
+125,N8,secondary,"Garlstorf bei Bleckede, Dorfstraße 36","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,17.8,60,True,45,1
+403,N8,secondary,"Neetze, Grundschule","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,7.5,60,True,45,1
+136,N8,elementary,"Garlstorf bei Bleckede, Dorfstraße 68","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,20.7,45,True,30,0
+134,N8,elementary,"Garlstorf bei Bleckede, Dorfstraße 68","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,20.7,45,True,30,0
+449,N8,elementary,"Neu Neetze, Denker","Neetze, Grundschule",GS Neetze,Grundschule,18.5,45,True,30,0
+130,N8,elementary,"Garlstorf bei Bleckede, Dorfstraße 68","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,20.7,45,True,30,0
+82,N8,secondary,"Brackede, Pferdekoppel","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,44.9,60,True,45,1
+335,N8,secondary,"Neetze, Am Dorfplatz","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,8.3,60,True,45,1
+381,N8,secondary,"Neetze, Bahnhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,9.2,60,True,45,1
+388,N8,secondary,"Neetze, Bahnhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,9.2,60,True,45,1
+369,N8,secondary,"Neetze, Am Ried","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,10.3,60,True,45,1
+383,N8,secondary,"Neetze, Bahnhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,9.2,60,True,45,1
+387,N8,secondary,"Neetze, Bahnhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,9.2,60,True,45,1
+132,N8,elementary,"Garlstorf bei Bleckede, Dorfstraße 68","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,20.7,45,True,30,0
+392,N8,secondary,"Neetze, Bahnhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,9.2,60,True,45,1
+344,N8,secondary,"Neetze, Am Dorfplatz","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,8.3,60,True,45,1
+481,N9,elementary,"Rullstorf, Im Ort","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,2.8,45,True,30,0
+467,N9,elementary,"Rullstorf, Alte Dorfstraße","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,3.9,45,True,30,0
+486,N9,elementary,"Rullstorf, Im Ort","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,2.8,45,True,30,0
+534,N9,secondary,"Scharnebeck, Meisterstraße","Scharnebeck, Schulzentrum",FöS Johannes-Rabeler-Schule,Förderschule,7.8,60,True,45,1
+57,N9,elementary,"Boltersen, Rullstorfer Straße","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,11.4,45,True,30,0
+444,N9,secondary,"Neu Neetze, Birkenhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,36.6,60,True,45,1
+502,N9,secondary,"Rullstorf, Im Ort","Scharnebeck, Schulzentrum",Rudolf-Steiner-Schule,Ersatzschule,10.3,60,True,45,1
+23,N9,secondary,"Bleckeder Moor, Zweiter Moorweg","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,33.9,60,True,45,1
+48,N9,secondary,"Boltersen, Rullstorfer Straße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,18.9,60,True,45,1
+535,N9,secondary,"Scharnebeck, Meisterstraße","Scharnebeck, Schulzentrum",FöS G AM Knieberg,Förderschule,7.8,60,True,45,1
+540,N9,vocational,"Scharnebeck, Meisterstraße","Scharnebeck, Schulzentrum",BBS III,Berufsschule,7.8,90,True,45,1
+539,N9,secondary,"Scharnebeck, Meisterstraße","Scharnebeck, Schulzentrum",IGS Lüneburg,Gesamtschule,7.8,60,True,45,1
+501,N9,secondary,"Rullstorf, Im Ort","Scharnebeck, Schulzentrum",Rudolf-Steiner-Schule,Ersatzschule,10.3,60,True,45,1
+90,N9,secondary,"Bullendorf bei Echem, Am Buscheberg","Scharnebeck, Schulzentrum",Oberschule Scharnebeck,Oberschule,36.6,60,True,45,1
+68,N9,secondary,"Boltersen, Rullstorfer Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,26.4,60,True,45,1
+41,N9,secondary,"Boltersen, Rullstorfer Straße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,18.9,60,True,45,1
+541,N9,vocational,"Scharnebeck, Meisterstraße","Scharnebeck, Schulzentrum",BBS I,Berufsschule,7.8,90,True,45,1
+17,N10,elementary,"Bleckeder Moor, Fuchsweg","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,7.5,45,True,30,0
+78,N10,elementary,"Brackede, Pferdekoppel","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,18.3,45,True,30,0
+16,N10,elementary,"Bleckeder Moor, Fuchsweg","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,7.5,45,True,30,0
+150,N10,elementary,"Garze, Große Straße 29","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,10.8,45,True,30,0
+303,N11,secondary,"Jürgenstorf, Jürgenstorfer Straße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,15.8,60,True,45,1
+191,N11,elementary,"Hittbergen, Kirche","Hohnstorf, Schule",GS Hohnstorf,Grundschule,30.8,45,True,30,0
+236,N11,secondary,"Hohnstorf, Dorfstraße","Scharnebeck, Schulzentrum",Oberschule Scharnebeck,Oberschule,7.5,60,True,45,1
+231,N11,secondary,"Hohnstorf, Dorfstraße","Scharnebeck, Schulzentrum",Oberschule Scharnebeck,Oberschule,7.5,60,True,45,1
+210,N11,secondary,"Hohnstorf, Kindergarten","Scharnebeck, Schulzentrum",Oberschule Scharnebeck,Oberschule,8.3,60,True,45,1
+230,N11,secondary,"Hohnstorf, Dorfstraße","Scharnebeck, Schulzentrum",Oberschule Scharnebeck,Oberschule,7.5,60,True,45,1
+228,N11,secondary,"Hohnstorf, Dorfstraße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,7.5,60,True,45,1
+281,N11,secondary,"Hohnstorf, Kindergarten","Scharnebeck, Schulzentrum",Oberschule Scharnebeck,Oberschule,8.3,60,True,45,1
+280,N11,secondary,"Hohnstorf, Kindergarten","Scharnebeck, Schulzentrum",Oberschule Scharnebeck,Oberschule,8.3,60,True,45,1
+455,N12,elementary,Neumühlen bei Rullstorf,"Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,17.6,45,True,30,0
+66,N12,elementary,"Boltersen, Rullstorfer Straße","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,8.2,45,True,30,0
+454,N12,secondary,Neumühlen bei Rullstorf,"Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,25.1,60,True,45,1
+533,N12,vocational,"Scharnebeck, Lüneburger Straße","Scharnebeck, Schulzentrum",BBS I,Berufsschule,32.6,90,True,45,1
+67,N12,elementary,"Boltersen, Rullstorfer Straße","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,8.2,45,True,30,0
+530,N12,vocational,"Scharnebeck, Lüneburger Straße","Scharnebeck, Schulzentrum",BBS III Oedeme,Berufsschule,32.6,90,True,45,1
+75,N12,secondary,"Boltersen, Rullstorfer Straße","Scharnebeck, Schulzentrum",IGS Lüneburg,Gesamtschule,15.7,60,True,45,1
+515,N12,secondary,"Scharnebeck, Bardowicker Straße","Scharnebeck, Schulzentrum",IGS Lüneburg,Gesamtschule,8.2,60,True,45,1
+277,N12,vocational,"Hohnstorf, Ernst-Kissolewski-Straße","Scharnebeck, Schulzentrum",BBS I,Berufsschule,40.1,90,True,45,1
+518,N12,vocational,"Scharnebeck, Bardowicker Straße","Scharnebeck, Schulzentrum",BBS III,Berufsschule,8.2,90,True,45,1
+514,N12,secondary,"Scharnebeck, Bardowicker Straße","Scharnebeck, Schulzentrum",IGS Lüneburg,Gesamtschule,8.2,60,True,45,1
+27,N12,vocational,"Boltersen, Bahnhof","Scharnebeck, Schulzentrum",BBS III,Berufsschule,23.2,90,True,45,1
+516,N12,vocational,"Scharnebeck, Bardowicker Straße","Scharnebeck, Schulzentrum",BBS III,Berufsschule,8.2,90,True,45,1
+73,N12,secondary,"Boltersen, Rullstorfer Straße","Scharnebeck, Schulzentrum",IGS Lüneburg,Gesamtschule,15.7,60,True,45,1
+46,N12,secondary,"Boltersen, Rullstorfer Straße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,15.7,60,True,45,1
+76,N12,secondary,"Boltersen, Rullstorfer Straße","Scharnebeck, Schulzentrum",IGS Lüneburg,Gesamtschule,15.7,60,True,45,1
+44,N12,secondary,"Boltersen, Rullstorfer Straße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,15.7,60,True,45,1
+517,N12,vocational,"Scharnebeck, Bardowicker Straße","Scharnebeck, Schulzentrum",BBS III,Berufsschule,8.2,90,True,45,1
+72,N12,secondary,"Boltersen, Rullstorfer Straße","Scharnebeck, Schulzentrum",IGS Lüneburg,Gesamtschule,15.7,60,True,45,1
+71,N12,secondary,"Boltersen, Rullstorfer Straße","Scharnebeck, Schulzentrum",Rudolf-Steiner-Schule,Ersatzschule,15.7,60,True,45,1
+15,N13,elementary,"Bleckeder Moor, Fuchsweg","Bleckede, Töpferdamm",GS Bleckede,Grundschule,23.3,45,True,30,0
+19,N13,elementary,"Bleckeder Moor, Fuchsweg","Bleckede, Töpferdamm",GS Bleckede,Grundschule,23.3,45,True,30,0
+25,N13,secondary,"Bleckeder Moor, Zweiter Moorweg","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,22.2,60,True,45,1
+24,N13,secondary,"Bleckeder Moor, Zweiter Moorweg","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,22.2,60,True,45,1
+185,N13,secondary,"Hittbergen, Im Kamp","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,11.0,60,True,45,1
+170,N13,elementary,"Hittbergen, Feldstraße","Hohnstorf, Schule",GS Hohnstorf,Grundschule,17.0,45,True,30,0
+197,N13,secondary,"Hittbergen, Kirche","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,10.1,60,True,45,1
+188,N13,elementary,"Hittbergen, Kirche","Hohnstorf, Schule",GS Hohnstorf,Grundschule,17.6,45,True,30,0
+443,N13,secondary,"Neu Neetze, Birkenhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,19.5,60,True,45,1
+445,N13,secondary,"Neu Neetze, Birkenhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,19.5,60,True,45,1
+160,N13,elementary,"Hittbergen, Feldstraße","Hohnstorf, Schule",GS Hohnstorf,Grundschule,17.0,45,True,30,0
+85,N13,elementary,"Bullendorf bei Echem, Am Buscheberg","Hohnstorf, Schule",GS Hohnstorf,Grundschule,19.5,45,True,30,0
+262,N13,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,32.8,60,True,45,1
+51,N14,elementary,"Boltersen, Rullstorfer Straße","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,15.0,45,True,30,0
+65,N14,elementary,"Boltersen, Rullstorfer Straße","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,15.0,45,True,30,0
+83,N14,secondary,"Brackede, Pferdekoppel","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.0,60,True,45,1
+79,N14,secondary,"Brackede, Pferdekoppel","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.0,60,True,45,1
+226,N14,secondary,"Hohnstorf, Bundesstraße 10","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,30.0,60,True,45,1
+80,N14,secondary,"Brackede, Pferdekoppel","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.0,60,True,45,1
+203,N15,elementary,"Hittbergen, Schönfeld","Hohnstorf, Schule",GS Hohnstorf,Grundschule,15.6,45,True,30,0
+323,N15,secondary,"Lüdersburg, Kirchtwiete","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.6,60,True,45,1
+169,N15,elementary,"Hittbergen, Feldstraße","Hohnstorf, Schule",GS Hohnstorf,Grundschule,23.1,45,True,30,0
+321,N15,secondary,"Lüdersburg, Kirchtwiete","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,23.1,60,True,45,1
+299,N15,secondary,"Hohnstorf, Triftweg","Bleckede, Schulzentrum",RS Bleckede,Realschule,8.1,60,True,45,1
+320,N15,secondary,"Lüdersburg, Kirchtwiete","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,23.1,60,True,45,1
+298,N15,secondary,"Hohnstorf, Triftweg","Bleckede, Schulzentrum",RS Bleckede,Realschule,8.1,60,True,45,1
+28,N16,elementary,"Boltersen, Bahnhofstraße","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,31.0,45,True,30,0
+128,N16,elementary,"Garlstorf bei Bleckede, Dorfstraße 68","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,15.0,45,True,30,0
+140,N16,secondary,"Garlstorf bei Bleckede, Dorfstraße 68","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,17.2,60,True,45,1
+139,N16,secondary,"Garlstorf bei Bleckede, Dorfstraße 68","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,17.2,60,True,45,1
+131,N16,elementary,"Garlstorf bei Bleckede, Dorfstraße 68","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,15.0,45,True,30,0
+133,N16,elementary,"Garlstorf bei Bleckede, Dorfstraße 68","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,15.0,45,True,30,0
+545,N16,secondary,"Vogelsang, Ort","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,33.2,60,True,45,1
+462,N16,secondary,"Radegast, Zum Kirchplatz","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,24.7,60,True,45,1
+456,N16,secondary,"Radegast, Elbuferstraße 41","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,25.7,60,True,45,1
+129,N16,elementary,"Garlstorf bei Bleckede, Dorfstraße 68","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,15.0,45,True,30,0
+526,N17,vocational,"Scharnebeck, Lübbelau","Scharnebeck, Schulzentrum",BBS I,Berufsschule,0.8,90,True,45,1
+21,N17,elementary,"Bleckeder Moor, Zweiter Moorweg","Bleckede, Töpferdamm",GS Bleckede,Grundschule,27.0,45,True,30,0
+104,N17,vocational,Echem,"Scharnebeck, Schulzentrum",BBS III Oedeme,Berufsschule,12.0,90,True,45,1
+312,N17,elementary,"Karze, An den Hauskoppeln","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,34.9,45,True,30,0
+520,N17,vocational,"Scharnebeck, Bardowicker Straße","Scharnebeck, Schulzentrum",BBS I,Berufsschule,1.5,90,True,45,1
+110,N17,secondary,"Echem, Dorfstraße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,11.4,60,True,45,1
+106,N17,vocational,Echem,"Scharnebeck, Schulzentrum",BBS I,Berufsschule,12.0,90,True,45,1
+522,N17,secondary,"Scharnebeck, Lübbelau","Scharnebeck, Schulzentrum",IGS Kreideberg,Gesamtschule,0.8,60,True,45,1
+111,N17,secondary,"Echem, Dorfstraße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,11.4,60,True,45,1
+157,N18,vocational,"Garze, Große Straße 71","Scharnebeck, Schulzentrum",BBS I,Berufsschule,17.9,90,True,45,1
+499,N18,elementary,"Rullstorf, Im Ort","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,15.8,45,True,30,0
+313,N18,elementary,"Karze, An den Hauskoppeln","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,34.4,45,True,30,0
+490,N18,elementary,"Rullstorf, Im Ort","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,15.8,45,True,30,0
+465,N18,elementary,"Rullstorf, Alte Dorfstraße","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,16.8,45,True,30,0
+492,N18,elementary,"Rullstorf, Im Ort","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,15.8,45,True,30,0
+468,N18,elementary,"Rullstorf, Alte Dorfstraße","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,16.8,45,True,30,0
+77,N18,vocational,"Brackede, Abzweig Garlstorf","Scharnebeck, Schulzentrum",BBS II,Berufsschule,26.9,90,True,45,1
+469,N18,elementary,"Rullstorf, Alte Dorfstraße","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,16.8,45,True,30,0
+146,N18,elementary,"Garze, Große Straße 29","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,31.8,45,True,30,0
+498,N18,elementary,"Rullstorf, Im Ort","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,15.8,45,True,30,0
+487,N18,elementary,"Rullstorf, Im Ort","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,15.8,45,True,30,0
+477,N18,secondary,"Rullstorf, Im Ort","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,8.3,60,True,45,1
+500,N18,secondary,"Rullstorf, Im Ort","Scharnebeck, Schulzentrum",Rudolf-Steiner-Schule,Ersatzschule,8.3,60,True,45,1
+474,N18,secondary,"Rullstorf, Boltersener Straße","Scharnebeck, Schulzentrum",IGS Lüneburg,Gesamtschule,7.5,60,True,45,1
+549,N19,elementary,"Wendewisch, Hittberger Straße 59","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,7.5,45,True,30,0
+548,N19,elementary,"Wendewisch, Hittberger Straße 59","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,7.5,45,True,30,0
+148,N19,elementary,"Garze, Große Straße 29","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,15.0,45,True,30,0
+311,N19,elementary,"Karze, An den Hauskoppeln","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,17.5,45,True,30,0
+154,N19,elementary,"Garze, Große Straße 71","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,16.1,45,True,30,0
+550,N19,secondary,"Wendewisch, Hittberger Straße 59","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,9.7,60,True,45,1
+551,N19,secondary,"Wendewisch, Hittberger Straße 59","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,9.7,60,True,45,1
+554,N19,secondary,"Wendewisch, Hittberger Straße 59","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,9.7,60,True,45,1
+310,N19,secondary,"Jürgenstorf, Jürgenstorfer Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,27.2,60,True,45,1
+552,N19,secondary,"Wendewisch, Hittberger Straße 59","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,9.7,60,True,45,1
+553,N19,secondary,"Wendewisch, Hittberger Straße 59","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,9.7,60,True,45,1
+308,N19,secondary,"Jürgenstorf, Jürgenstorfer Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,27.2,60,True,45,1
+147,N19,elementary,"Garze, Große Straße 29","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,15.0,45,True,30,0
+143,N20,elementary,"Garlstorf bei Bleckede, Neu Brackede","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,25.6,45,True,30,0
+50,N20,elementary,"Boltersen, Rullstorfer Straße","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,16.1,45,True,30,0
+64,N20,elementary,"Boltersen, Rullstorfer Straße","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,16.1,45,True,30,0
+12,N20,vocational,"Bleckede, Rathaus","Scharnebeck, Schulzentrum",BBS I,Berufsschule,16.1,90,True,45,1
+13,N20,vocational,"Bleckede, Rathaus","Scharnebeck, Schulzentrum",BBS I,Berufsschule,16.1,90,True,45,1
+32,N20,elementary,"Boltersen, Bahnhofstraße","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,16.2,45,True,30,0
+115,N20,secondary,"Echem, Dorfstraße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,32.4,60,True,45,1
+108,N20,secondary,Echem,"Scharnebeck, Schulzentrum",IGS Lüneburg,Gesamtschule,33.1,60,True,45,1
+55,N20,elementary,"Boltersen, Rullstorfer Straße","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,16.1,45,True,30,0
+127,N20,vocational,"Garlstorf bei Bleckede, Dorfstraße 36","Scharnebeck, Schulzentrum",BBS III,Berufsschule,42.0,90,True,45,1
+40,N20,secondary,"Boltersen, Rullstorfer Straße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,23.6,60,True,45,1
+120,N20,secondary,"Echem, Schulstraße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,31.2,60,True,45,1
+434,N21,elementary,"Neu Neetze, Birkenhof","Neetze, Grundschule",GS Neetze,Grundschule,18.5,45,True,30,0
+319,N21,secondary,"Lüdersburg, Kirchtwiete","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,52.7,60,True,45,1
+472,N21,secondary,"Rullstorf, Am Neetzekanal","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,48.2,60,True,45,1
+26,N21,secondary,"Bockelkathen, Auf dem Kreuze","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,49.7,60,True,45,1
+305,N21,secondary,"Jürgenstorf, Jürgenstorfer Straße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,56.7,60,True,45,1
+438,N21,elementary,"Neu Neetze, Birkenhof","Neetze, Grundschule",GS Neetze,Grundschule,18.5,45,True,30,0
+471,N21,vocational,"Rullstorf, Alte Dorfstraße","Scharnebeck, Schulzentrum",BBS III,Berufsschule,45.4,90,True,45,1
+119,N21,secondary,"Echem, Schulstraße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,18.5,60,True,45,1
+121,N21,secondary,"Echem, Schulstraße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,18.5,60,True,45,1
+109,N21,secondary,"Echem, Birkenweg","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,17.9,60,True,45,1
+513,N21,secondary,"Scharnebeck, Bardowicker Straße","Scharnebeck, Schulzentrum",IGS Kreideberg,Gesamtschule,41.0,60,True,45,1
+124,N21,vocational,"Echem, Schulstraße","Scharnebeck, Schulzentrum",BBS III Oedeme,Berufsschule,18.5,90,True,45,1
+352,N21,secondary,"Neetze, Am Dorfplatz","Scharnebeck, Schulzentrum",IGS Lüneburg,Gesamtschule,8.3,60,True,45,1
+252,N21,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,41.0,60,True,45,1
+440,N21,secondary,"Neu Neetze, Birkenhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,33.5,60,True,45,1
+537,N21,secondary,"Scharnebeck, Meisterstraße","Scharnebeck, Schulzentrum",IGS Lüneburg,Gesamtschule,41.9,60,True,45,1
+341,N21,secondary,"Neetze, Am Dorfplatz","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.8,60,True,45,1
+339,N21,secondary,"Neetze, Am Dorfplatz","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.8,60,True,45,1
+102,N21,secondary,Echem,"Scharnebeck, Schulzentrum",IGS Lüneburg,Gesamtschule,15.8,60,True,45,1
+107,N21,vocational,Echem,"Scharnebeck, Schulzentrum",BBS I,Berufsschule,15.8,90,True,45,1
+463,N21,vocational,"Rullstorf, Im Ort","Scharnebeck, Schulzentrum",BBS III Oedeme,Berufsschule,44.4,90,True,45,1
+396,N21,secondary,"Neetze, Grundschule","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.0,60,True,45,1
+349,N21,secondary,"Neetze, Am Dorfplatz","Scharnebeck, Schulzentrum",Gym Johanneum,Gymnasium,8.3,60,True,45,1
+239,N21,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,33.5,60,True,45,1
+338,N21,secondary,"Neetze, Am Dorfplatz","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.8,60,True,45,1
+442,N21,secondary,"Neu Neetze, Birkenhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,33.5,60,True,45,1
+432,N21,elementary,"Neu Neetze, Birkenhof","Neetze, Grundschule",GS Neetze,Grundschule,18.5,45,True,30,0
+113,N21,secondary,"Echem, Dorfstraße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,16.5,60,True,45,1
+397,N21,secondary,"Neetze, Grundschule","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.0,60,True,45,1
+325,N21,secondary,"Neetze, Am Dorfplatz","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.8,60,True,45,1
+123,N21,secondary,"Echem, Schulstraße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,26.0,60,True,45,1
+447,N21,secondary,"Neu Neetze, Birkenhof","Scharnebeck, Schulzentrum",Rudolf-Steiner-Schule,Ersatzschule,26.0,60,True,45,1
+122,N21,secondary,"Echem, Schulstraße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,18.5,60,True,45,1
+331,N21,secondary,"Neetze, Am Dorfplatz","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,8.3,60,True,45,1
+348,N21,secondary,"Neetze, Am Dorfplatz","Scharnebeck, Schulzentrum",Gym Johanneum,Gymnasium,8.3,60,True,45,1
+112,N21,secondary,"Echem, Dorfstraße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,16.5,60,True,45,1
+395,N21,secondary,"Neetze, Grundschule","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.0,60,True,45,1
+446,N21,secondary,"Neu Neetze, Birkenhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,33.5,60,True,45,1
+263,N21,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Bleckede, Schulzentrum",HS Bleckede,Hauptschule,41.0,60,True,45,1
+253,N21,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,41.0,60,True,45,1
+240,N21,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,33.5,60,True,45,1
+353,N21,vocational,"Neetze, Am Dorfplatz","Scharnebeck, Schulzentrum",BBS III Oedeme,Berufsschule,8.3,90,True,45,1
+118,N21,secondary,"Echem, Schulstraße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,18.5,60,True,45,1
+267,N21,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Bleckede, Schulzentrum",RS Bleckede,Realschule,41.0,60,True,45,1
+274,N21,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Scharnebeck, Schulzentrum",Oberschule Oedeme,Oberschule,33.5,60,True,45,1
+329,N21,secondary,"Neetze, Grundschule","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.0,60,True,45,1
+347,N21,secondary,"Neetze, Am Dorfplatz","Scharnebeck, Schulzentrum",Gym Lüneburger Heide,Gymnasium,8.3,60,True,45,1
+114,N21,secondary,"Echem, Dorfstraße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,16.5,60,True,45,1
+276,N21,vocational,"Hohnstorf, Ernst-Kissolewski-Straße","Scharnebeck, Schulzentrum",BBS II,Berufsschule,33.5,90,True,45,1
+398,N21,secondary,"Neetze, Grundschule","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.0,60,True,45,1
+358,N21,vocational,"Neetze, Am Dorfplatz","Scharnebeck, Schulzentrum",BBS I,Berufsschule,8.3,90,True,45,1
+243,N22,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,35.3,60,True,45,1
+259,N22,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,42.8,60,True,45,1
+89,N22,elementary,"Bullendorf bei Echem, Am Buscheberg","Hohnstorf, Schule",GS Hohnstorf,Grundschule,32.5,45,True,30,0
+496,N22,elementary,"Rullstorf, Im Ort","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,30.0,45,True,30,0
+301,N22,vocational,"Hohnstorf, Triftweg","Scharnebeck, Schulzentrum",BBS III,Berufsschule,27.8,90,True,45,1
+36,N22,secondary,"Boltersen, Bahnhofstraße","Scharnebeck, Schulzentrum",Rudolf-Steiner-Schule,Ersatzschule,50.1,60,True,45,1
+495,N22,elementary,"Rullstorf, Im Ort","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,30.0,45,True,30,0
+187,N22,secondary,"Hittbergen, Im Kamp","Scharnebeck, Schulzentrum",IGS Lüneburg,Gesamtschule,16.5,60,True,45,1
+488,N22,elementary,"Rullstorf, Im Ort","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,30.0,45,True,30,0
+417,N22,secondary,"Neetze, Neetzebrücke","Scharnebeck, Schulzentrum",Gym Johanneum,Gymnasium,42.8,60,True,45,1
+163,N22,elementary,"Hittbergen, Feldstraße","Hohnstorf, Schule",GS Hohnstorf,Grundschule,30.0,45,True,30,0
+172,N22,elementary,"Hittbergen, Feldstraße","Hohnstorf, Schule",GS Hohnstorf,Grundschule,30.0,45,True,30,0
+292,N22,secondary,"Hohnstorf, Schule","Bleckede, Schulzentrum",RS Bleckede,Realschule,34.7,60,True,45,1
+175,N22,secondary,"Hittbergen, Feldstraße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,15.0,60,True,45,1
+42,N22,secondary,"Boltersen, Rullstorfer Straße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,50.0,60,True,45,1
+216,N22,secondary,"Hohnstorf, Am Sportzentrum","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,25.3,60,True,45,1
+507,N22,vocational,"Rullstorf, Im Ort","Scharnebeck, Schulzentrum",BBS I,Berufsschule,7.5,90,True,45,1
+508,N22,vocational,"Rullstorf, Im Ort","Scharnebeck, Schulzentrum",BBS I,Berufsschule,7.5,90,True,45,1
+171,N22,elementary,"Hittbergen, Feldstraße","Hohnstorf, Schule",GS Hohnstorf,Grundschule,30.0,45,True,30,0
+195,N22,secondary,"Hittbergen, Kirche","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,23.1,60,True,45,1
+92,N22,secondary,"Bullendorf bei Echem, Am Buscheberg","Scharnebeck, Schulzentrum",Oberschule Scharnebeck,Oberschule,17.5,60,True,45,1
+505,N22,secondary,"Rullstorf, Im Ort","Scharnebeck, Schulzentrum",IGS Lüneburg,Gesamtschule,7.5,60,True,45,1
+208,N22,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,42.8,60,True,45,1
+247,N22,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Scharnebeck, Schulzentrum",Oberschule Scharnebeck,Oberschule,35.3,60,True,45,1
+194,N22,secondary,"Hittbergen, Kirche","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,15.6,60,True,45,1
+478,N22,secondary,"Rullstorf, Im Ort","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,7.5,60,True,45,1
+174,N22,secondary,"Hittbergen, Feldstraße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,15.0,60,True,45,1
+227,N22,secondary,"Hohnstorf, Dorfstraße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,25.0,60,True,45,1
+504,N22,secondary,"Rullstorf, Im Ort","Scharnebeck, Schulzentrum",IGS Lüneburg,Gesamtschule,7.5,60,True,45,1
+503,N22,secondary,"Rullstorf, Im Ort","Scharnebeck, Schulzentrum",IGS Lüneburg,Gesamtschule,7.5,60,True,45,1
+88,N22,elementary,"Bullendorf bei Echem, Am Buscheberg","Hohnstorf, Schule",GS Hohnstorf,Grundschule,32.5,45,True,30,0
+300,N22,vocational,"Hohnstorf, Triftweg","Scharnebeck, Schulzentrum",BBS III Oedeme,Berufsschule,27.8,90,True,45,1
+479,N22,secondary,"Rullstorf, Im Ort","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,7.5,60,True,45,1
+483,N22,elementary,"Rullstorf, Im Ort","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,30.0,45,True,30,0
+255,N22,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,42.8,60,True,45,1
+297,N22,secondary,"Hohnstorf, Triftweg","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,35.3,60,True,45,1
+493,N22,elementary,"Rullstorf, Im Ort","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,30.0,45,True,30,0
+506,N22,vocational,"Rullstorf, Im Ort","Scharnebeck, Schulzentrum",BBS III,Berufsschule,7.5,90,True,45,1
+237,N22,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,35.3,60,True,45,1
+284,N23,secondary,"Hohnstorf, Schule","Scharnebeck, Schulzentrum",Oberschule Scharnebeck,Oberschule,33.6,60,True,45,1
+142,N23,secondary,"Garlstorf bei Bleckede, Schmiede","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.0,60,True,45,1
+436,N23,elementary,"Neu Neetze, Birkenhof","Neetze, Grundschule",GS Neetze,Grundschule,38.9,45,True,30,0
+509,N23,elementary,"Rullstorf, K 2/Zum Bahnhof","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,38.2,45,True,30,0
+141,N23,elementary,"Garlstorf bei Bleckede, Schmiede","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,37.5,45,True,30,0
+435,N23,elementary,"Neu Neetze, Birkenhof","Neetze, Grundschule",GS Neetze,Grundschule,38.9,45,True,30,0
+543,N23,vocational,"Scharnebeck, Schulzentrum","Scharnebeck, Schulzentrum",BBS III,Berufsschule,0.0,90,True,45,1
+431,N23,vocational,"Neu Neetze, Am Milchberg","Scharnebeck, Schulzentrum",BBS III,Berufsschule,23.2,90,True,45,1
+441,N23,secondary,"Neu Neetze, Birkenhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,31.4,60,True,45,1
+430,N23,vocational,"Neu Neetze, Am Milchberg","Scharnebeck, Schulzentrum",BBS III Oedeme,Berufsschule,23.2,90,True,45,1
+221,N23,secondary,"Hohnstorf, Am Sportzentrum","Scharnebeck, Schulzentrum",IGS Kreideberg,Gesamtschule,31.7,60,True,45,1
+306,N23,secondary,"Jürgenstorf, Jürgenstorfer Straße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,45.7,60,True,45,1
+437,N23,elementary,"Neu Neetze, Birkenhof","Neetze, Grundschule",GS Neetze,Grundschule,38.9,45,True,30,0
+324,N23,vocational,"Lüdersburg, Kirchtwiete","Scharnebeck, Schulzentrum",BBS I,Berufsschule,41.7,90,True,45,1
+302,N23,vocational,"Hohnstorf, Triftweg","Scharnebeck, Schulzentrum",BBS II,Berufsschule,34.2,90,True,45,1
+296,N23,secondary,"Hohnstorf, Triftweg","Scharnebeck, Schulzentrum",Oberschule Scharnebeck,Oberschule,34.2,60,True,45,1
+448,N23,vocational,"Neu Neetze, Birkenhof","Scharnebeck, Schulzentrum",BBS II,Berufsschule,23.8,90,True,45,1
+542,N23,elementary,"Scharnebeck, Schulzentrum","Scharnebeck, Schulzentrum",GS St. Ursula,Grundschule,0.0,45,True,30,0
+485,N23,elementary,"Rullstorf, Im Ort","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,37.5,45,True,30,0
+229,N23,secondary,"Hohnstorf, Dorfstraße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,31.4,60,True,45,1
+309,N24,secondary,"Jürgenstorf, Jürgenstorfer Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,42.8,60,True,45,1
+37,N24,secondary,"Boltersen, Bahnhofstraße","Scharnebeck, Schulzentrum",Rudolf-Steiner-Schule,Ersatzschule,38.7,60,True,45,1
+165,N24,elementary,"Hittbergen, Feldstraße","Hohnstorf, Schule",GS Hohnstorf,Grundschule,24.0,45,True,30,0
+158,N24,secondary,"Hittbergen, Im Kamp","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,10.5,60,True,45,1
+7,N24,vocational,"Bleckede, Bahnhof","Scharnebeck, Schulzentrum",Dr. von Morgenstern Schulen,Berufsschule,9.0,90,True,45,1
+400,N24,secondary,"Neetze, Grundschule","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,20.7,60,True,45,1
+47,N24,secondary,"Boltersen, Rullstorfer Straße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,38.6,60,True,45,1
+272,N24,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Bleckede, Schulzentrum",RS Bleckede,Realschule,13.2,60,True,45,1
+238,N24,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,20.7,60,True,45,1
+275,N24,vocational,"Hohnstorf, Ernst-Kissolewski-Straße","Scharnebeck, Schulzentrum",BBS II,Berufsschule,20.7,90,True,45,1
+207,N24,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,13.2,60,True,45,1
+98,N24,secondary,"Bullendorf bei Echem, Am Buscheberg","Bleckede, Schulzentrum",HS Bleckede,Hauptschule,11.5,60,True,45,1
+95,N24,secondary,"Bullendorf bei Echem, Am Buscheberg","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,11.5,60,True,45,1
+164,N24,elementary,"Hittbergen, Feldstraße","Hohnstorf, Schule",GS Hohnstorf,Grundschule,24.0,45,True,30,0
+318,N24,secondary,"Lüdersburg, Kirchtwiete","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,38.7,60,True,45,1
+86,N24,elementary,"Bullendorf bei Echem, Am Buscheberg","Hohnstorf, Schule",GS Hohnstorf,Grundschule,26.5,45,True,30,0
+206,N24,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,13.2,60,True,45,1
+330,N24,secondary,"Neetze, Grundschule","Scharnebeck, Schulzentrum",IGS Lüneburg,Gesamtschule,28.2,60,True,45,1
+8,N24,vocational,"Bleckede, Bahnhof","Scharnebeck, Schulzentrum",BBS III,Berufsschule,9.0,90,True,45,1
+93,N24,secondary,"Bullendorf bei Echem, Am Buscheberg","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,11.5,60,True,45,1
+337,N24,secondary,"Neetze, Am Dorfplatz","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,23.0,60,True,45,1
+351,N24,secondary,"Neetze, Am Dorfplatz","Scharnebeck, Schulzentrum",Rudolf-Steiner-Schule,Ersatzschule,30.5,60,True,45,1
+91,N24,secondary,"Bullendorf bei Echem, Am Buscheberg","Scharnebeck, Schulzentrum",Oberschule Scharnebeck,Oberschule,19.0,60,True,45,1
+414,N24,secondary,"Neetze, Neetzebrücke","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,23.9,60,True,45,1
+182,N24,elementary,"Hittbergen, Im Kamp","Hohnstorf, Schule",GS Hohnstorf,Grundschule,25.5,45,True,30,0
+264,N24,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Bleckede, Schulzentrum",HS Bleckede,Hauptschule,13.2,60,True,45,1
+178,N24,secondary,"Hittbergen, Feldstraße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,9.0,60,True,45,1
+94,N24,secondary,"Bullendorf bei Echem, Am Buscheberg","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,11.5,60,True,45,1
+416,N24,secondary,"Neetze, Neetzebrücke","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,23.9,60,True,45,1
+176,N24,secondary,"Hittbergen, Feldstraße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,9.0,60,True,45,1
+257,N24,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,13.2,60,True,45,1
+177,N24,secondary,"Hittbergen, Feldstraße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,9.0,60,True,45,1
+268,N24,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Bleckede, Schulzentrum",RS Bleckede,Realschule,13.2,60,True,45,1
+334,N24,secondary,"Neetze, Am Dorfplatz","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,23.0,60,True,45,1
+251,N24,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Scharnebeck, Schulzentrum",Oberschule Scharnebeck,Oberschule,20.7,60,True,45,1
+273,N24,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Scharnebeck, Schulzentrum",IGS Lüneburg,Gesamtschule,20.7,60,True,45,1
+189,N24,elementary,"Hittbergen, Kirche","Hohnstorf, Schule",GS Hohnstorf,Grundschule,24.6,45,True,30,0
+322,N24,secondary,"Lüdersburg, Kirchtwiete","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,38.7,60,True,45,1
+250,N24,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Scharnebeck, Schulzentrum",Oberschule Scharnebeck,Oberschule,20.7,60,True,45,1
+205,N24,secondary,Hohnstorf (Elbe) Rehwiese 26,"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,13.2,60,True,45,1
+391,N24,secondary,"Neetze, Bahnhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,22.1,60,True,45,1
+248,N24,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Scharnebeck, Schulzentrum",Oberschule Scharnebeck,Oberschule,20.7,60,True,45,1
+271,N24,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Bleckede, Schulzentrum",RS Bleckede,Realschule,13.2,60,True,45,1
+265,N24,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Bleckede, Schulzentrum",RS Bleckede,Realschule,13.2,60,True,45,1
+382,N24,secondary,"Neetze, Bahnhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,22.1,60,True,45,1
+96,N24,secondary,"Bullendorf bei Echem, Am Buscheberg","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,11.5,60,True,45,1
+196,N24,secondary,"Hittbergen, Kirche","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,9.6,60,True,45,1
+9,N24,vocational,"Bleckede, Bahnhof","Scharnebeck, Schulzentrum",BBS II,Berufsschule,9.0,90,True,45,1
+246,N24,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Scharnebeck, Schulzentrum",Oberschule Scharnebeck,Oberschule,20.7,60,True,45,1
+179,N24,secondary,"Hittbergen, Feldstraße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,9.0,60,True,45,1
+183,N24,elementary,"Hittbergen, Im Kamp","Hohnstorf, Schule",GS Hohnstorf,Grundschule,25.5,45,True,30,0
+415,N24,secondary,"Neetze, Neetzebrücke","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,23.9,60,True,45,1
+97,N24,secondary,"Bullendorf bei Echem, Am Buscheberg","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,11.5,60,True,45,1
+408,N25,secondary,"Neetze, Grundschule","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,9.2,60,True,45,1
+49,N25,elementary,"Boltersen, Rullstorfer Straße","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,25.9,45,True,30,0
+270,N25,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Bleckede, Schulzentrum",RS Bleckede,Realschule,37.7,60,True,45,1
+524,N25,secondary,"Scharnebeck, Lübbelau","Scharnebeck, Schulzentrum",IGS Lüneburg,Gesamtschule,45.2,60,True,45,1
+307,N25,secondary,"Jürgenstorf, Jürgenstorfer Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,45.2,60,True,45,1
+33,N25,elementary,"Boltersen, Bahnhofstraße","Neetze, Am Dorfplatz",GS Neetze,Grundschule,41.0,45,True,30,0
+29,N25,elementary,"Boltersen, Bahnhofstraße","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,26.0,45,True,30,0
+328,N25,secondary,"Neetze, Am Jahnstadion","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,10.9,60,True,45,1
+69,N25,secondary,"Boltersen, Rullstorfer Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,18.4,60,True,45,1
+407,N25,secondary,"Neetze, Grundschule","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,9.2,60,True,45,1
+519,N25,vocational,"Scharnebeck, Bardowicker Straße","Scharnebeck, Schulzentrum",BBS II,Berufsschule,44.4,90,True,45,1
+31,N25,elementary,"Boltersen, Bahnhofstraße","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,26.0,45,True,30,0
+11,N25,vocational,"Bleckede, Rathaus","Scharnebeck, Schulzentrum",BBS I,Berufsschule,16.1,90,True,45,1
+54,N25,elementary,"Boltersen, Rullstorfer Straße","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,25.9,45,True,30,0
+538,N25,secondary,"Scharnebeck, Meisterstraße","Scharnebeck, Schulzentrum",IGS Lüneburg,Gesamtschule,43.5,60,True,45,1
+6,N25,secondary,"Bleckede, Bahnhof","Scharnebeck, Schulzentrum",IGS Kreideberg,Gesamtschule,16.7,60,True,45,1
+360,N25,secondary,"Neetze, Am Jahnstadion","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,10.9,60,True,45,1
+53,N25,elementary,"Boltersen, Rullstorfer Straße","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,25.9,45,True,30,0
+409,N25,secondary,"Neetze, Grundschule","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,9.2,60,True,45,1
+484,N25,elementary,"Rullstorf, Im Ort","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,33.5,45,True,30,0
+362,N25,secondary,"Neetze, Am Jahnstadion","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,10.9,60,True,45,1
+336,N25,secondary,"Neetze, Am Dorfplatz","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,10.1,60,True,45,1
+35,N25,secondary,"Boltersen, Bahnhofstraße","Scharnebeck, Schulzentrum",Gym Johanneum,Gymnasium,33.5,60,True,45,1
+405,N25,secondary,"Neetze, Grundschule","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,9.2,60,True,45,1
+402,N25,secondary,"Neetze, Grundschule","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,9.2,60,True,45,1
+38,N25,secondary,"Boltersen, Bahnhofstraße","Scharnebeck, Schulzentrum",IGS Lüneburg,Gesamtschule,33.5,60,True,45,1
+209,N25,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,37.7,60,True,45,1
+342,N25,secondary,"Neetze, Am Dorfplatz","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,10.1,60,True,45,1
+70,N25,secondary,"Boltersen, Rullstorfer Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,18.4,60,True,45,1
+30,N25,elementary,"Boltersen, Bahnhofstraße","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,26.0,45,True,30,0
+261,N25,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,37.7,60,True,45,1
+269,N25,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Bleckede, Schulzentrum",RS Bleckede,Realschule,37.7,60,True,45,1
+361,N25,secondary,"Neetze, Am Jahnstadion","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,10.9,60,True,45,1
+327,N25,secondary,"Neetze, Am Jahnstadion","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,10.9,60,True,45,1
+345,N25,secondary,"Neetze, Am Dorfplatz","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,10.1,60,True,45,1
+406,N25,secondary,"Neetze, Grundschule","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,9.2,60,True,45,1
+156,N26,secondary,"Garze, Große Straße 71","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,9.6,60,True,45,1
+256,N26,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,25.4,60,True,45,1
+363,N26,secondary,"Neetze, Am Jahnstadion","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,17.9,60,True,45,1
+340,N26,secondary,"Neetze, Am Dorfplatz","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,17.1,60,True,45,1
+151,N26,secondary,"Garze, Große Straße 29","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,8.5,60,True,45,1
+266,N26,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Bleckede, Schulzentrum",RS Bleckede,Realschule,25.4,60,True,45,1
+260,N26,secondary,"Hohnstorf, Ernst-Kissolewski-Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,25.4,60,True,45,1
+155,N26,elementary,"Garze, Große Straße 71","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,11.7,45,True,30,0
+14,N26,elementary,"Bleckeder Moor, Am Papenkamp","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,6.5,45,True,30,0
+523,N27,secondary,"Scharnebeck, Lübbelau","Scharnebeck, Schulzentrum",IGS Lüneburg,Gesamtschule,50.9,60,True,45,1
+294,N27,secondary,"Hohnstorf, Triftweg","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,42.6,60,True,45,1
+315,N27,elementary,"Karze, An den Hauskoppeln","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,33.8,45,True,30,0
+375,N27,secondary,"Neetze, Am Ried","Scharnebeck, Schulzentrum",Rudolf-Steiner-Schule,Ersatzschule,7.5,60,True,45,1
+386,N27,secondary,"Neetze, Bahnhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,18.3,60,True,45,1
+453,N27,secondary,Neumühlen bei Rullstorf,"Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,33.8,60,True,45,1
+378,N27,vocational,"Neetze, Am Ried","Scharnebeck, Schulzentrum",BBS III,Berufsschule,7.5,90,True,45,1
+510,N27,vocational,"Rullstorf, Neumühlen","Scharnebeck, Schulzentrum",BBS II,Berufsschule,33.8,90,True,45,1
+385,N27,secondary,"Neetze, Bahnhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,18.3,60,True,45,1
+377,N27,secondary,"Neetze, Am Ried","Scharnebeck, Schulzentrum",IGS Lüneburg,Gesamtschule,7.5,60,True,45,1
+326,N27,secondary,"Neetze, Am Dorfplatz","Scharnebeck, Schulzentrum",Oberschule Am Wasserturm,Oberschule,9.4,60,True,45,1
+199,N27,elementary,"Hittbergen, Roggenberg","Hohnstorf, Schule",GS Hohnstorf,Grundschule,36.0,45,True,30,0
+167,N27,elementary,"Hittbergen, Feldstraße","Hohnstorf, Schule",GS Hohnstorf,Grundschule,34.9,45,True,30,0
+376,N27,secondary,"Neetze, Am Ried","Scharnebeck, Schulzentrum",IGS Lüneburg,Gesamtschule,7.5,60,True,45,1
+366,N27,secondary,"Neetze, Am Jahnstadion","Scharnebeck, Schulzentrum",IGS Kreideberg,Gesamtschule,10.3,60,True,45,1
+370,N27,secondary,"Neetze, Am Ried","Scharnebeck, Schulzentrum",Gym Wilhelm-Raabe-Schule,Gymnasium,7.5,60,True,45,1
+380,N27,secondary,"Neetze, Bahnhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,18.3,60,True,45,1
+512,N27,vocational,"Scharnebeck, Adendorfer Straße","Scharnebeck, Schulzentrum",BBS II,Berufsschule,50.1,90,True,45,1
+202,N27,secondary,"Hittbergen, Roggenberg","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,28.5,60,True,45,1
+364,N27,secondary,"Neetze, Am Jahnstadion","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,19.9,60,True,45,1
+212,N27,secondary,"Hohnstorf, Am Sportzentrum","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,41.3,60,True,45,1
+359,N27,secondary,"Neetze, Am Jahnstadion","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,19.9,60,True,45,1
+332,N27,secondary,"Neetze, Am Dorfplatz","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,9.4,60,True,45,1
+168,N27,elementary,"Hittbergen, Feldstraße","Hohnstorf, Schule",GS Hohnstorf,Grundschule,34.9,45,True,30,0
+295,N27,secondary,"Hohnstorf, Triftweg","Scharnebeck, Schulzentrum",Oberschule Scharnebeck,Oberschule,42.6,60,True,45,1
+162,N27,elementary,"Hittbergen, Feldstraße","Hohnstorf, Schule",GS Hohnstorf,Grundschule,34.9,45,True,30,0
+346,N27,secondary,"Neetze, Am Dorfplatz","Scharnebeck, Schulzentrum",IGS Embsen,Gesamtschule,9.4,60,True,45,1
+389,N27,secondary,"Neetze, Bahnhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,18.3,60,True,45,1
+372,N27,secondary,"Neetze, Am Ried","Scharnebeck, Schulzentrum",Gym Johanneum,Gymnasium,7.5,60,True,45,1
+316,N27,secondary,"Karze, An den Hauskoppeln","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,36.0,60,True,45,1
+317,N27,vocational,"Karze, An den Hauskoppeln","Scharnebeck, Schulzentrum",BBS III,Berufsschule,26.3,90,True,45,1
+350,N27,secondary,"Neetze, Am Dorfplatz","Scharnebeck, Schulzentrum",Rudolf-Steiner-Schule,Ersatzschule,9.4,60,True,45,1
+200,N27,elementary,"Hittbergen, Roggenberg","Hohnstorf, Schule",GS Hohnstorf,Grundschule,36.0,45,True,30,0
+379,N27,secondary,"Neetze, Bahnhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,18.3,60,True,45,1
+161,N27,elementary,"Hittbergen, Feldstraße","Hohnstorf, Schule",GS Hohnstorf,Grundschule,34.9,45,True,30,0
+394,N27,vocational,"Neetze, Bahnhof","Scharnebeck, Schulzentrum",BBS II,Berufsschule,8.6,90,True,45,1
+99,N28,vocational,"Bullendorf bei Echem, Brücke","Scharnebeck, Schulzentrum",BBS III,Berufsschule,37.3,90,True,45,1
+192,N28,elementary,"Hittbergen, Kirche","Hohnstorf, Schule",GS Hohnstorf,Grundschule,37.3,45,True,30,0
+52,N28,elementary,"Boltersen, Rullstorfer Straße","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,22.5,45,True,30,0
+62,N28,elementary,"Boltersen, Rullstorfer Straße","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,22.5,45,True,30,0
+61,N28,elementary,"Boltersen, Rullstorfer Straße","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,22.5,45,True,30,0
+60,N28,elementary,"Boltersen, Rullstorfer Straße","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,22.5,45,True,30,0
+466,N28,elementary,"Rullstorf, Alte Dorfstraße","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,33.5,45,True,30,0
+43,N28,secondary,"Boltersen, Rullstorfer Straße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,7.5,60,True,45,1
+480,N28,elementary,"Rullstorf, Im Ort","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,32.5,45,True,30,0
+279,N28,secondary,"Hohnstorf, Kindergarten","Scharnebeck, Schulzentrum",Oberschule Scharnebeck,Oberschule,44.8,60,True,45,1
+58,N28,elementary,"Boltersen, Rullstorfer Straße","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,22.5,45,True,30,0
+56,N28,elementary,"Boltersen, Rullstorfer Straße","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,22.5,45,True,30,0
+497,N28,elementary,"Rullstorf, Im Ort","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,32.5,45,True,30,0
+536,N28,secondary,"Scharnebeck, Meisterstraße","Scharnebeck, Schulzentrum",IGS Lüneburg,Gesamtschule,15.0,60,True,45,1
+423,N28,vocational,"Neu Boltersen, Möhlenkamp","Scharnebeck, Schulzentrum",BBS I,Berufsschule,20.7,90,True,45,1
+63,N28,elementary,"Boltersen, Rullstorfer Straße","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,22.5,45,True,30,0
+193,N28,elementary,"Hittbergen, Kirche","Hohnstorf, Schule",GS Hohnstorf,Grundschule,37.3,45,True,30,0
+74,N28,secondary,"Boltersen, Rullstorfer Straße","Scharnebeck, Schulzentrum",IGS Lüneburg,Gesamtschule,7.5,60,True,45,1
+59,N28,elementary,"Boltersen, Rullstorfer Straße","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,22.5,45,True,30,0
+476,N28,secondary,"Rullstorf, Im Ort","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,17.5,60,True,45,1
+464,N28,secondary,"Rullstorf, Alte Dorfstraße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,18.5,60,True,45,1
+39,N28,secondary,"Boltersen, Rullstorfer Straße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,7.5,60,True,45,1
+473,N28,elementary,"Rullstorf, Am Neetzekanal","Scharnebeck, Grundschule",GS Scharnebeck,Grundschule,37.3,45,True,30,0
+475,N28,secondary,"Rullstorf, Im Ort","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,17.5,60,True,45,1
+45,N28,secondary,"Boltersen, Rullstorfer Straße","Scharnebeck, Schulzentrum",Gym Scharnebeck,Gymnasium,7.5,60,True,45,1
+608,S1,elementary,"Alt Garge, Hauptstraße","Barskamp, Grundschule",GS Barskamp,Grundschule,8.4,45,True,30,0
+901,S1,elementary,"Ellringen, Kettelberg","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,36.8,45,True,30,0
+903,S1,elementary,"Ellringen, Kettelberg","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,36.8,45,True,30,0
+694,S1,elementary,"Bleckede, Barskamper Weg","Bleckede, Töpferdamm",GS Bleckede,Grundschule,31.3,45,True,30,0
+722,S1,elementary,"Bleckede, Elbweg","Bleckede, Töpferdamm",GS Bleckede,Grundschule,30.9,45,True,30,0
+693,S1,elementary,"Bleckede, Barskamper Weg","Bleckede, Töpferdamm",GS Bleckede,Grundschule,31.3,45,True,30,0
+609,S1,elementary,"Alt Garge, Hauptstraße","Barskamp, Grundschule",GS Barskamp,Grundschule,8.4,45,True,30,0
+575,S1,elementary,"Alt Garge, Bahnhof","Barskamp, Grundschule",GS Barskamp,Grundschule,7.5,45,True,30,0
+566,S1,elementary,"Alt Garge, Bahnhof","Barskamp, Grundschule",GS Barskamp,Grundschule,7.5,45,True,30,0
+585,S1,elementary,"Alt Garge, Bahnhof","Barskamp, Grundschule",GS Barskamp,Grundschule,7.5,45,True,30,0
+563,S1,elementary,"Alt Garge, Bahnhof","Barskamp, Grundschule",GS Barskamp,Grundschule,7.5,45,True,30,0
+724,S1,elementary,"Bleckede, Elbweg","Bleckede, Töpferdamm",GS Bleckede,Grundschule,30.9,45,True,30,0
+698,S1,elementary,"Bleckede, Breetzer Straße","Bleckede, Töpferdamm",GS Bleckede,Grundschule,34.4,45,True,30,0
+584,S1,elementary,"Alt Garge, Bahnhof","Barskamp, Grundschule",GS Barskamp,Grundschule,7.5,45,True,30,0
+723,S2,elementary,"Bleckede, Elbweg","Bleckede, Töpferdamm",GS Bleckede,Grundschule,15.4,45,True,30,0
+690,S2,elementary,"Bleckede, Barskamper Weg","Bleckede, Töpferdamm",GS Bleckede,Grundschule,15.0,45,True,30,0
+721,S2,elementary,"Bleckede, Elbweg","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,15.8,45,True,30,0
+570,S2,elementary,"Alt Garge, Bahnhof","Barskamp, Grundschule",GS Barskamp,Grundschule,15.4,45,True,30,0
+564,S2,elementary,"Alt Garge, Bahnhof","Barskamp, Grundschule",GS Barskamp,Grundschule,15.4,45,True,30,0
+699,S2,elementary,"Bleckede, Breetzer Straße","Bleckede, Töpferdamm",GS Bleckede,Grundschule,18.6,45,True,30,0
+577,S2,elementary,"Alt Garge, Bahnhof","Barskamp, Grundschule",GS Barskamp,Grundschule,15.4,45,True,30,0
+697,S2,elementary,"Bleckede, Breetzer Straße","Bleckede, Töpferdamm",GS Bleckede,Grundschule,18.6,45,True,30,0
+758,S2,elementary,"Bleckede, Saatbau","Bleckede, Töpferdamm",GS Bleckede,Grundschule,16.7,45,True,30,0
+696,S2,vocational,"Bleckede, Breetzer Straße","Dahlenburg, Schulzentrum",BBS III,Berufsschule,34.0,90,True,45,1
+587,S2,elementary,"Alt Garge, Bahnhof","Bleckede, Töpferdamm",GS Bleckede,Grundschule,7.5,45,True,30,0
+597,S2,secondary,"Alt Garge, Bahnhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,30.4,60,True,45,1
+579,S2,elementary,"Alt Garge, Bahnhof","Barskamp, Grundschule",GS Barskamp,Grundschule,15.4,45,True,30,0
+623,S3,elementary,"Alt Garge, Turnhalle","Barskamp, Grundschule",GS Barskamp,Grundschule,9.0,45,True,30,0
+635,S3,elementary,"Barskamp, Markt","Bleckede, Töpferdamm",GS Bleckede,Grundschule,8.8,45,True,30,0
+622,S3,elementary,"Alt Garge, Turnhalle","Barskamp, Grundschule",GS Barskamp,Grundschule,9.0,45,True,30,0
+634,S3,vocational,"Barskamp, Markt","Dahlenburg, Schulzentrum",BBS III Oedeme,Berufsschule,16.4,90,True,45,1
+636,S3,elementary,"Barskamp, Markt","Bleckede, Töpferdamm",GS Bleckede,Grundschule,8.8,45,True,30,0
+647,S3,secondary,"Barskamp, Walmsburger Straße","Dahlenburg, Schulzentrum",Rudolf-Steiner-Schule,Ersatzschule,16.5,60,True,45,1
+913,S3,vocational,"Gienau, Wiebecker Straße","Dahlenburg, Schulzentrum",BBS III Oedeme,Berufsschule,32.0,90,True,45,1
+1069,S3,secondary,"Neetzendorf, Ort","Dahlenburg, Schulzentrum",IGS Lüneburg,Gesamtschule,39.5,60,True,45,1
+580,S3,elementary,"Alt Garge, Bahnhof","Barskamp, Grundschule",GS Barskamp,Grundschule,9.5,45,True,30,0
+681,S4,elementary,"Bavendorf, Mitte/B 216","Dahlenburg, Schulzentrum",GS Igelschule (Hagen),Grundschule,11.9,45,True,30,0
+805,S4,secondary,"Dahlenburg, Fliederweg","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,9.6,60,True,45,1
+811,S4,secondary,"Dahlenburg, Abzweig Sommerbeck","Dahlenburg, Schulzentrum",IGS Kreideberg,Gesamtschule,35.4,60,True,45,1
+896,S4,secondary,"Eimstorf, Ort","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,44.2,60,True,45,1
+1006,S4,elementary,"Nahrendorf, Mücklingen","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,42.9,45,True,30,0
+974,S4,secondary,"Lemgrabe, An der Kleinbahn","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,11.9,60,True,45,1
+746,S4,vocational,"Bleckede, Lüneburger Straße","Dahlenburg, Schulzentrum",BBS III,Berufsschule,51.8,90,True,45,1
+1008,S4,secondary,"Nahrendorf, Mücklingen","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,35.4,60,True,45,1
+1221,S4,elementary,"Walmsburg, Kateminer Straße","Barskamp, Grundschule",GS Barskamp,Grundschule,42.9,45,True,30,0
+1199,S4,vocational,"Walmsburg, Bruchdorfer Straße","Dahlenburg, Schulzentrum",BBS III Oedeme,Berufsschule,19.9,90,True,45,1
+668,S4,secondary,"Bavendorf, Im Dorfe","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,12.4,60,True,45,1
+981,S4,secondary,"Lemgrabe, An der Kleinbahn","Dahlenburg, Schulzentrum",IGS Lüneburg,Gesamtschule,4.4,60,True,45,1
+658,S4,secondary,"Bavendorf, Im Dorfe","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,19.9,60,True,45,1
+1214,S4,secondary,"Walmsburg, Bruchdorfer Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,27.4,60,True,45,1
+666,S4,secondary,"Bavendorf, Im Dorfe","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,12.4,60,True,45,1
+810,S4,secondary,"Dahlenburg, Abzweig Sommerbeck","Dahlenburg, Schulzentrum",IGS Kreideberg,Gesamtschule,35.4,60,True,45,1
+672,S4,secondary,"Bavendorf, Im Dorfe","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,12.4,60,True,45,1
+684,S4,secondary,"Bavendorf, Mitte/B 216","Dahlenburg, Schulzentrum",Gym Wilhelm-Raabe-Schule,Gymnasium,11.9,60,True,45,1
+836,S4,secondary,"Dahlenburg, Fliederweg","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,2.1,60,True,45,1
+680,S4,secondary,"Bavendorf, Mitte/B 216","Dahlenburg, Schulzentrum",Rudolf-Steiner-Schule,Ersatzschule,11.9,60,True,45,1
+1013,S4,vocational,"Nahrendorf, Im Klint","Dahlenburg, Schulzentrum",BBS II,Berufsschule,44.2,90,True,45,1
+687,S5,elementary,Birkenhof,"Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,42.7,45,True,30,0
+688,S5,elementary,"Bleckede, Barskamper Weg","Bleckede, Töpferdamm",GS Bleckede,Grundschule,37.5,45,True,30,0
+930,S5,secondary,"Göddingen, Wöppenberg","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,59.7,60,True,45,1
+977,S5,secondary,"Lemgrabe, An der Kleinbahn","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,54.5,60,True,45,1
+1193,S5,secondary,"Ventschau, Ortsmitte","Marienau, Gymnasium",Gym Marienau,Gymnasium,39.5,60,True,45,1
+769,S5,vocational,"Bleckede, Sandfeld","Dahlenburg, Schulzentrum",BBS III Oedeme,Berufsschule,74.7,90,True,45,1
+1133,S5,vocational,"Thomasburg, Im Winkel","Dahlenburg, Schulzentrum",BBS II,Berufsschule,39.5,90,True,45,1
+1139,S5,secondary,"Thomasburg, Im Winkel","Dahlenburg, Schulzentrum",Rudolf-Steiner-Schule,Ersatzschule,39.5,60,True,45,1
+1191,S5,secondary,"Ventschau, Ortsmitte","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,24.5,60,True,45,1
+1309,S5,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,17.0,60,True,45,1
+1244,S5,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,17.0,60,True,45,1
+1267,S5,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,17.0,60,True,45,1
+1259,S5,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,17.0,60,True,45,1
+624,S6,elementary,"Alt Garge, Turnhalle","Barskamp, Grundschule",GS Barskamp,Grundschule,8.0,45,True,30,0
+614,S6,elementary,"Alt Garge, Hauptstraße","Barskamp, Grundschule",GS Barskamp,Grundschule,7.5,45,True,30,0
+1014,S6,elementary,"Nahrendorf, Im Klint","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,33.6,45,True,30,0
+991,S6,elementary,"Marienau, Drosselstraße 7","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,23.4,45,True,30,0
+1173,S6,secondary,"Tosterglope, Siedlung","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,40.7,60,True,45,1
+1072,S6,secondary,"Oldendorf (Göhrde), Alte Poststraße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,39.5,60,True,45,1
+1101,S6,secondary,"Radenbeck, Im Siek","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,55.7,60,True,45,1
+581,S6,elementary,"Alt Garge, Bahnhof","Barskamp, Grundschule",GS Barskamp,Grundschule,8.4,45,True,30,0
+989,S6,elementary,"Marienau, Drosselstraße 7","Bleckede, Töpferdamm",GS Bleckede,Grundschule,34.0,45,True,30,0
+1029,S6,secondary,"Nahrendorf, Im Klint","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,34.7,60,True,45,1
+702,S7,elementary,"Bleckede, Brennbusch","Bleckede, Töpferdamm",GS Bleckede,Grundschule,8.6,45,True,30,0
+703,S7,elementary,"Bleckede, Brennbusch","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,8.9,45,True,30,0
+704,S7,elementary,"Bleckede, Brennbusch","Bleckede, Töpferdamm",GS Bleckede,Grundschule,8.6,45,True,30,0
+705,S7,elementary,"Bleckede, Brennbusch","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,8.9,45,True,30,0
+706,S7,elementary,"Bleckede, Brennbusch","Bleckede, Töpferdamm",GS Bleckede,Grundschule,8.6,45,True,30,0
+707,S7,elementary,"Bleckede, Brennbusch","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,8.9,45,True,30,0
+725,S7,elementary,"Bleckede, Elbweg","Bleckede, Töpferdamm",GS Bleckede,Grundschule,8.0,45,True,30,0
+726,S7,elementary,"Bleckede, Elbweg","Bleckede, Töpferdamm",GS Bleckede,Grundschule,8.0,45,True,30,0
+727,S7,elementary,"Bleckede, Elbweg","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,8.4,45,True,30,0
+728,S7,elementary,"Bleckede, Elbweg","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,8.4,45,True,30,0
+730,S7,elementary,"Bleckede, Elbweg","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,8.4,45,True,30,0
+756,S7,elementary,"Bleckede, Saatbau","Bleckede, Töpferdamm",GS Bleckede,Grundschule,6.8,45,True,30,0
+757,S7,elementary,"Bleckede, Saatbau","Bleckede, Töpferdamm",GS Bleckede,Grundschule,6.8,45,True,30,0
+759,S7,elementary,"Bleckede, Saatbau","Bleckede, Töpferdamm",GS Bleckede,Grundschule,6.8,45,True,30,0
+760,S7,elementary,"Bleckede, Saatbau","Bleckede, Töpferdamm",GS Bleckede,Grundschule,6.8,45,True,30,0
+762,S7,elementary,"Bleckede, Saatbau","Bleckede, Töpferdamm",GS Bleckede,Grundschule,6.8,45,True,30,0
+763,S7,elementary,"Bleckede, Saatbau","Bleckede, Töpferdamm",GS Bleckede,Grundschule,6.8,45,True,30,0
+772,S7,elementary,"Bleckede, Schiedenitzweg","Bleckede, Töpferdamm",GS Bleckede,Grundschule,4.4,45,True,30,0
+596,S7,secondary,"Alt Garge, Bahnhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,16.0,60,True,45,1
+616,S7,elementary,"Alt Garge, Hauptstraße","Bleckede, Töpferdamm",GS Bleckede,Grundschule,14.3,45,True,30,0
+731,S7,elementary,"Bleckede, Elbweg","Bleckede, Töpferdamm",GS Bleckede,Grundschule,8.0,45,True,30,0
+1136,S7,secondary,"Thomasburg, Im Winkel","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,42.1,60,True,45,1
+1140,S7,vocational,"Thomasburg, Radenbecker Weg","Dahlenburg, Schulzentrum",BBS I,Berufsschule,31.8,90,True,45,1
+1155,S7,secondary,"Thomasburg, Radenbecker Weg","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,31.8,60,True,45,1
+695,S7,elementary,"Bleckede, Barskamper Weg","Bleckede, Töpferdamm",GS Bleckede,Grundschule,5.4,45,True,30,0
+719,S7,elementary,"Bleckede, Elbweg","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,8.4,45,True,30,0
+776,S7,elementary,"Bleckede, Schulzentrum","Bleckede, Töpferdamm",GS Bleckede,Grundschule,2.0,45,True,30,0
+1153,S7,secondary,"Thomasburg, Radenbecker Weg","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,24.3,60,True,45,1
+1152,S7,secondary,"Thomasburg, Radenbecker Weg","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,24.3,60,True,45,1
+689,S7,elementary,"Bleckede, Barskamper Weg","Bleckede, Töpferdamm",GS Bleckede,Grundschule,5.4,45,True,30,0
+754,S7,vocational,"Bleckede, Robert-Koch-Straße","Dahlenburg, Schulzentrum",BBS III,Berufsschule,13.1,90,True,45,1
+779,S7,elementary,"Bleckede, Schulzentrum","Bleckede, Töpferdamm",GS Bleckede,Grundschule,2.0,45,True,30,0
+1147,S7,secondary,"Thomasburg, Radenbecker Weg","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,24.3,60,True,45,1
+720,S7,elementary,"Bleckede, Elbweg","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,8.4,45,True,30,0
+737,S7,vocational,"Bleckede, Lüneburger Straße","Dahlenburg, Schulzentrum",BBS I,Berufsschule,57.1,90,True,45,1
+709,S7,vocational,"Bleckede, Dahlenburger Straße","Dahlenburg, Schulzentrum",BBS III Oedeme,Berufsschule,14.1,90,True,45,1
+589,S7,secondary,"Alt Garge, Bahnhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,16.0,60,True,45,1
+1096,S7,secondary,"Radenbeck, Dorfstraße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,27.1,60,True,45,1
+937,S7,secondary,Harmstorf bei Dahlem,Nieperfitz,Lernort Nieperfitz,nicht verwendete Schulen,49.6,60,True,45,1
+595,S7,secondary,"Alt Garge, Bahnhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,16.0,60,True,45,1
+750,S7,vocational,"Bleckede, Rathaus","Dahlenburg, Schulzentrum",BBS III,Berufsschule,57.6,90,True,45,1
+736,S7,secondary,"Bleckede, Elbweg","Dahlenburg, Schulzentrum",Rudolf-Steiner-Schule,Ersatzschule,18.1,60,True,45,1
+1135,S7,secondary,"Thomasburg, Im Winkel","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,42.1,60,True,45,1
+708,S7,secondary,"Bleckede, Brennbusch","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,18.6,60,True,45,1
+691,S7,elementary,"Bleckede, Barskamper Weg","Bleckede, Töpferdamm",GS Bleckede,Grundschule,5.4,45,True,30,0
+799,S7,secondary,Harmstorf bei Dahlem,"Marienau, Gymnasium",Gym Marienau,Gymnasium,57.1,60,True,45,1
+1154,S7,secondary,"Thomasburg, Radenbecker Weg","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,24.3,60,True,45,1
+692,S7,elementary,"Bleckede, Barskamper Weg","Bleckede, Töpferdamm",GS Bleckede,Grundschule,5.4,45,True,30,0
+1097,S7,secondary,"Radenbeck, Dorfstraße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,27.1,60,True,45,1
+929,S7,secondary,"Göddingen, Wöppenberg","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,57.6,60,True,45,1
+939,S7,secondary,Harmstorf bei Dahlem,"Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,42.1,60,True,45,1
+777,S7,elementary,"Bleckede, Schulzentrum","Bleckede, Töpferdamm",GS Bleckede,Grundschule,2.0,45,True,30,0
+773,S8,elementary,"Bleckede, Schiedenitzweg","Bleckede, Töpferdamm",GS Bleckede,Grundschule,5.7,45,True,30,0
+761,S8,elementary,"Bleckede, Saatbau","Bleckede, Töpferdamm",GS Bleckede,Grundschule,3.5,45,True,30,0
+755,S8,elementary,"Bleckede, Robert-Koch-Straße","Bleckede, Töpferdamm",GS Bleckede,Grundschule,4.8,45,True,30,0
+778,S8,elementary,"Bleckede, Schulzentrum","Bleckede, Töpferdamm",GS Bleckede,Grundschule,2.0,45,True,30,0
+1068,S8,secondary,"Neestahl, Kleinmoor","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,43.5,60,True,45,1
+781,S8,elementary,"Bleckede, Schulzentrum","Bleckede, Töpferdamm",GS Bleckede,Grundschule,2.0,45,True,30,0
+1264,S8,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.2,60,True,45,1
+801,S8,elementary,"Dahlem, Steinweg","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,33.4,45,True,30,0
+1288,S8,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.2,60,True,45,1
+1122,S8,secondary,"Riecklingen, Abzweigung","Dahlenburg, Schulzentrum",Rudolf-Steiner-Schule,Ersatzschule,44.6,60,True,45,1
+1284,S8,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.2,60,True,45,1
+798,S8,secondary,Harmstorf bei Dahlem,"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,28.5,60,True,45,1
+883,S8,secondary,"Dahlenburg, Quickborn","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,22.7,60,True,45,1
+782,S8,secondary,"Bleckede, Schulzentrum","Dahlenburg, Schulzentrum",IGS Lüneburg,Gesamtschule,12.6,60,True,45,1
+774,S8,elementary,"Bleckede, Schiedenitzweg","Bleckede, Töpferdamm",GS Bleckede,Grundschule,5.7,45,True,30,0
+1303,S8,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.2,60,True,45,1
+771,S8,secondary,"Bleckede, Sandfeld","Dahlenburg, Schulzentrum",IGS Lüneburg,Gesamtschule,59.6,60,True,45,1
+787,S9,elementary,"Breetze, Bokelstraße","Bleckede, Töpferdamm",GS Bleckede,Grundschule,9.7,45,True,30,0
+788,S9,elementary,"Breetze, Bokelstraße","Bleckede, Töpferdamm",GS Bleckede,Grundschule,9.7,45,True,30,0
+789,S9,elementary,"Breetze, Bokelstraße","Bleckede, Töpferdamm",GS Bleckede,Grundschule,9.7,45,True,30,0
+790,S9,elementary,"Breetze, Bokelstraße","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,10.1,45,True,30,0
+794,S9,elementary,"Breetze, Ziegelei","Bleckede, Töpferdamm",GS Bleckede,Grundschule,11.2,45,True,30,0
+795,S9,elementary,"Breetze, Ziegelei","Bleckede, Töpferdamm",GS Bleckede,Grundschule,11.2,45,True,30,0
+796,S9,elementary,"Breetze, Ziegelei","Bleckede, Töpferdamm",GS Bleckede,Grundschule,11.2,45,True,30,0
+797,S9,elementary,Harmstorf bei Dahlem,"Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,41.6,45,True,30,0
+817,S9,secondary,"Dahlenburg, Buendorf","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,34.1,60,True,45,1
+935,S9,secondary,Harmstorf bei Dahlem,"Dahlenburg, Schulzentrum",IGS Lüneburg,Gesamtschule,56.6,60,True,45,1
+1137,S9,secondary,"Thomasburg, Im Winkel","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,64.1,60,False,45,1
+1210,S9,secondary,"Walmsburg, Bruchdorfer Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,41.6,60,True,45,1
+1251,S9,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,17.6,60,True,45,1
+1283,S9,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,17.6,60,True,45,1
+648,S9,vocational,"Bavendorf, Mitte/B 216","Dahlenburg, Schulzentrum",BBS I,Berufsschule,78.7,90,True,45,1
+815,S9,vocational,"Dahlenburg, Buendorf","Dahlenburg, Schulzentrum",BBS III Oedeme,Berufsschule,41.6,90,True,45,1
+1143,S9,vocational,"Thomasburg, Radenbecker Weg","Dahlenburg, Schulzentrum",BBS II,Berufsschule,72.7,90,True,45,1
+1278,S9,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,17.6,60,True,45,1
+1212,S9,secondary,"Walmsburg, Bruchdorfer Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,41.6,60,True,45,1
+918,S9,secondary,"Gienau, Wiebecker Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,56.6,60,True,45,1
+800,S10,elementary,"Dahlem, Steinweg","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,31.2,45,True,30,0
+812,S10,elementary,"Dahlenburg, Abzweigung Dumstorf","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,8.2,45,True,30,0
+988,S10,secondary,Lüben,"Dahlenburg, Schulzentrum",IGS Lüneburg,Gesamtschule,41.5,60,True,45,1
+1240,S10,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,24.3,60,True,45,1
+1223,S10,elementary,"Walmsburg, Kateminer Straße","Barskamp, Grundschule",GS Barskamp,Grundschule,39.8,45,True,30,0
+1088,S10,secondary,"Pommoissel, Pommoisseler Straße","Dahlenburg, Schulzentrum",IGS Lüneburg,Gesamtschule,39.8,60,True,45,1
+1012,S10,vocational,"Nahrendorf, Im Klint","Dahlenburg, Schulzentrum",BBS I,Berufsschule,47.6,90,True,45,1
+1216,S10,secondary,"Walmsburg, Bruchdorfer Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,31.8,60,True,45,1
+1253,S10,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,24.3,60,True,45,1
+884,S10,secondary,"Dahlenburg, Quickborn","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,10.6,60,True,45,1
+889,S10,secondary,"Dahlenburg, Schulzentrum","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,9.6,60,True,45,1
+829,S10,secondary,"Dahlenburg, Ehrenfriedhof","Dahlenburg, Schulzentrum",IGS Lüneburg,Gesamtschule,5.9,60,True,45,1
+1197,S10,vocational,"Walmsburg, Bruchdorfer Straße","Dahlenburg, Schulzentrum",BBS II,Berufsschule,24.3,90,True,45,1
+1213,S10,secondary,"Walmsburg, Bruchdorfer Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,31.8,60,True,45,1
+1200,S10,elementary,"Walmsburg, Bruchdorfer Straße","Barskamp, Grundschule",GS Barskamp,Grundschule,39.3,45,True,30,0
+1211,S10,secondary,"Walmsburg, Bruchdorfer Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,31.8,60,True,45,1
+1261,S10,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,24.3,60,True,45,1
+822,S10,vocational,"Dahlenburg, Ehrenfriedhof","Dahlenburg, Schulzentrum",BBS II,Berufsschule,5.9,90,True,45,1
+1092,S10,secondary,"Pommoissel, Pommoisseler Straße","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,39.8,60,True,45,1
+1282,S10,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,24.3,60,True,45,1
+1247,S10,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,24.3,60,True,45,1
+858,S10,secondary,"Dahlenburg, Markt","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,12.2,60,True,45,1
+890,S10,secondary,"Dahlenburg, Schulzentrum","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,9.6,60,True,45,1
+826,S10,secondary,"Dahlenburg, Ehrenfriedhof","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,5.9,60,True,45,1
+818,S10,secondary,"Dahlenburg, Buendorf","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,11.1,60,True,45,1
+888,S11,elementary,"Dahlenburg, Schulzentrum","Dahlenburg, Schulzentrum",GS Rudolf-Steiner-Schule,Grundschule,0.0,45,True,30,0
+786,S11,elementary,Boitze,"Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,42.6,45,True,30,0
+984,S11,secondary,"Lemgrabe, Hauptstraße 32","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,49.0,60,True,45,1
+620,S11,secondary,"Alt Garge, Hauptstraße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,32.4,60,True,45,1
+785,S11,vocational,Boitze,"Dahlenburg, Schulzentrum",BBS I,Berufsschule,41.5,90,True,45,1
+983,S11,secondary,"Lemgrabe, Hauptstraße 32","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,49.0,60,True,45,1
+1194,S11,secondary,"Ventschau, Ortsmitte","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,7.5,60,True,45,1
+1192,S11,secondary,"Ventschau, Ortsmitte","Marienau, Gymnasium",Gym Marienau,Gymnasium,23.6,60,True,45,1
+751,S11,vocational,"Bleckede, Rathaus","Dahlenburg, Schulzentrum",BBS III,Berufsschule,16.4,90,True,45,1
+1190,S11,secondary,"Ventschau, Ortsmitte","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,16.1,60,True,45,1
+1195,S11,secondary,"Ventschau, Ortsmitte","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,7.5,60,True,45,1
+605,S11,vocational,"Alt Garge, Hauptstraße","Dahlenburg, Schulzentrum",BBS III,Berufsschule,23.9,90,True,45,1
+869,S11,secondary,"Dahlenburg, Mittelfeld","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,39.9,60,True,45,1
+1001,S11,secondary,"Marienau, Drosselstraße 7","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,34.0,60,True,45,1
+1187,S11,elementary,"Ventschau, Ortsmitte","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,8.6,45,True,30,0
+1189,S11,secondary,"Ventschau, Ortsmitte","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,16.1,60,True,45,1
+1290,S11,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,23.6,60,True,45,1
+1242,S11,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,23.6,60,True,45,1
+1291,S11,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,23.6,60,True,45,1
+875,S11,secondary,"Dahlenburg, Mittelfeld","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,39.9,60,True,45,1
+894,S12,elementary,"Dumstorf, Am Kirchkamp","Dahlenburg, Schulzentrum",GS Rudolf-Steiner-Schule,Grundschule,7.8,45,True,30,0
+968,S12,elementary,"Lemgrabe, An der Kleinbahn","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,6.8,45,True,30,0
+560,S12,elementary,"Alt Garge, Bahnhof","Barskamp, Grundschule",GS Barskamp,Grundschule,24.8,45,True,30,0
+1090,S12,secondary,"Pommoissel, Pommoisseler Straße","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,31.2,60,True,45,1
+562,S12,elementary,"Alt Garge, Bahnhof","Barskamp, Grundschule",GS Barskamp,Grundschule,24.8,45,True,30,0
+613,S12,elementary,"Alt Garge, Hauptstraße","Barskamp, Grundschule",GS Barskamp,Grundschule,23.9,45,True,30,0
+845,S12,vocational,"Dahlenburg, Markt","Dahlenburg, Schulzentrum",BBS II,Berufsschule,0.9,90,True,45,1
+559,S12,elementary,"Alt Garge, Bahnhof","Barskamp, Grundschule",GS Barskamp,Grundschule,24.8,45,True,30,0
+599,S12,secondary,"Alt Garge, Bahnhof","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,16.2,60,True,45,1
+827,S12,secondary,"Dahlenburg, Ehrenfriedhof","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,2.0,60,True,45,1
+819,S12,vocational,"Dahlenburg, Ehrenfriedhof","Dahlenburg, Schulzentrum",BBS I,Berufsschule,2.0,90,True,45,1
+561,S12,elementary,"Alt Garge, Bahnhof","Barskamp, Grundschule",GS Barskamp,Grundschule,24.8,45,True,30,0
+856,S12,secondary,"Dahlenburg, Markt","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,17.0,60,True,45,1
+565,S12,elementary,"Alt Garge, Bahnhof","Barskamp, Grundschule",GS Barskamp,Grundschule,24.8,45,True,30,0
+557,S12,vocational,"Alt Garge, Bahnhof","Dahlenburg, Schulzentrum",BBS I,Berufsschule,16.2,90,True,45,1
+861,S12,secondary,"Dahlenburg, Markt","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,17.0,60,True,45,1
+832,S12,vocational,"Dahlenburg, Fliederweg","Dahlenburg, Schulzentrum",BBS III,Berufsschule,3.4,90,True,45,1
+835,S12,secondary,"Dahlenburg, Fliederweg","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,3.4,60,True,45,1
+1037,S12,secondary,"Nahrendorf, Im Klint","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,23.7,60,True,45,1
+900,S13,elementary,"Ellringen, Kettelberg","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,7.5,45,True,30,0
+914,S13,elementary,"Gienau, Wiebecker Straße","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,41.2,45,True,30,0
+729,S13,elementary,"Bleckede, Elbweg","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,22.5,45,True,30,0
+701,S13,elementary,"Bleckede, Brennbusch","Bleckede, Elbtalhaus",GS Bleckede,Grundschule,23.0,45,True,30,0
+899,S13,elementary,"Ellringen, Kettelberg","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,7.5,45,True,30,0
+954,S13,elementary,"Kovahl, Alter Rundling","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,23.0,45,True,30,0
+905,S13,secondary,"Ellringen, Kettelberg","Marienau, Gymnasium",Gym Marienau,Gymnasium,22.5,60,True,45,1
+906,S13,secondary,"Ellringen, Kettelberg","Marienau, Gymnasium",Gym Marienau,Gymnasium,22.5,60,True,45,1
+1186,S13,elementary,"Ventschau, Ortsmitte","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,26.2,45,True,30,0
+1032,S13,secondary,"Nahrendorf, Im Klint","Marienau, Gymnasium",Gym Marienau,Gymnasium,48.8,60,True,45,1
+920,S14,elementary,"Göddingen, Am Fischteich","Barskamp, Grundschule",GS Barskamp,Grundschule,3.3,45,True,30,0
+921,S14,elementary,"Göddingen, Am Fischteich","Barskamp, Grundschule",GS Barskamp,Grundschule,3.3,45,True,30,0
+922,S14,elementary,"Göddingen, Wöppenberg","Barskamp, Grundschule",GS Barskamp,Grundschule,4.1,45,True,30,0
+923,S14,elementary,"Göddingen, Wöppenberg","Barskamp, Grundschule",GS Barskamp,Grundschule,4.1,45,True,30,0
+924,S14,elementary,"Göddingen, Wöppenberg","Barskamp, Grundschule",GS Barskamp,Grundschule,4.1,45,True,30,0
+925,S14,elementary,"Göddingen, Wöppenberg","Barskamp, Grundschule",GS Barskamp,Grundschule,4.1,45,True,30,0
+926,S14,elementary,"Göddingen, Wöppenberg","Barskamp, Grundschule",GS Barskamp,Grundschule,4.1,45,True,30,0
+927,S14,elementary,"Göddingen, Wöppenberg","Barskamp, Grundschule",GS Barskamp,Grundschule,4.1,45,True,30,0
+932,S14,elementary,Harmstorf bei Dahlem,"Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,19.1,45,True,30,0
+940,S14,secondary,Harmstorf bei Dahlem,"Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,20.1,60,True,45,1
+986,S14,secondary,"Lemgrabe, Hauptstraße 32","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,57.8,60,True,45,1
+1215,S14,secondary,"Walmsburg, Bruchdorfer Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,57.8,60,True,45,1
+1220,S14,vocational,"Walmsburg, Kateminer Straße","Dahlenburg, Schulzentrum",BBS III,Berufsschule,81.0,90,True,45,1
+674,S14,secondary,"Bavendorf, Mitte/B 216","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,35.3,60,True,45,1
+824,S14,secondary,"Dahlenburg, Ehrenfriedhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,34.3,60,True,45,1
+821,S14,vocational,"Dahlenburg, Ehrenfriedhof","Dahlenburg, Schulzentrum",BBS II,Berufsschule,26.8,90,True,45,1
+745,S14,vocational,"Bleckede, Lüneburger Straße","Dahlenburg, Schulzentrum",BBS III,Berufsschule,66.0,90,True,45,1
+775,S14,vocational,"Bleckede, Schulzentrum","Dahlenburg, Schulzentrum",BBS III,Berufsschule,65.3,90,True,45,1
+808,S14,secondary,"Dahlenburg, Mittelfeld","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,35.3,60,True,45,1
+945,S14,vocational,"Köstorf, Haus Nr. 6","Dahlenburg, Schulzentrum",BBS II,Berufsschule,73.5,90,True,45,1
+895,S14,secondary,"Dumstorf, Am Kirchkamp","Dahlenburg, Schulzentrum",Rudolf-Steiner-Schule,Ersatzschule,42.8,60,True,45,1
+941,S15,elementary,Klein Sommerbeck 15,"Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,24.7,45,True,30,0
+946,S15,elementary,"Köstorf, Haus Nr. 6","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,39.7,45,True,30,0
+741,S15,vocational,"Bleckede, Lüneburger Straße","Dahlenburg, Schulzentrum",BBS II,Berufsschule,59.2,90,True,45,1
+873,S15,secondary,"Dahlenburg, Mittelfeld","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,13.7,60,True,45,1
+717,S15,vocational,"Bleckede, Elbweg","Dahlenburg, Schulzentrum",BBS I,Berufsschule,56.3,90,True,45,1
+700,S15,vocational,"Bleckede, Brennbusch","Dahlenburg, Schulzentrum",BBS III Oedeme,Berufsschule,55.8,90,True,45,1
+809,S15,secondary,"Dahlenburg, Quickborn","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,10.0,60,True,45,1
+1110,S15,secondary,"Radenbeck, Linnenkamp","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,21.8,60,True,45,1
+1111,S15,secondary,"Radenbeck, Linnenkamp","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,21.8,60,True,45,1
+1056,S15,secondary,"Nahrendorf, Tangsehler Weg","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,33.3,60,True,45,1
+1113,S15,secondary,"Radenbeck, Linnenkamp","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,21.8,60,True,45,1
+1105,S15,secondary,"Radenbeck, Im Siek","Marienau, Gymnasium",Gym Marienau,Gymnasium,30.0,60,True,45,1
+665,S15,secondary,"Bavendorf, Im Dorfe","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,20.1,60,True,45,1
+853,S15,secondary,"Dahlenburg, Markt","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,11.6,60,True,45,1
+816,S15,secondary,"Dahlenburg, Buendorf","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,10.5,60,True,45,1
+848,S15,vocational,"Dahlenburg, Markt","Dahlenburg, Schulzentrum",BBS III Oedeme,Berufsschule,4.1,90,True,45,1
+664,S15,secondary,"Bavendorf, Im Dorfe","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,20.1,60,True,45,1
+1053,S15,secondary,"Nahrendorf, Tangsehler Weg","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,33.3,60,True,45,1
+882,S15,secondary,"Dahlenburg, Quickborn","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,10.0,60,True,45,1
+661,S15,secondary,"Bavendorf, Im Dorfe","Dahlenburg, Schulzentrum",IGS Lüneburg,Gesamtschule,20.1,60,True,45,1
+679,S15,secondary,"Bavendorf, Mitte/B 216","Dahlenburg, Schulzentrum",Rudolf-Steiner-Schule,Ersatzschule,19.7,60,True,45,1
+944,S15,secondary,"Köstorf, Haus Nr. 6","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,40.8,60,True,45,1
+1050,S15,secondary,"Nahrendorf, Tangsehler Weg","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,40.8,60,True,45,1
+1263,S15,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,55.8,60,True,45,1
+1106,S15,secondary,"Radenbeck, Im Siek","Dahlenburg, Schulzentrum",IGS Lüneburg,Gesamtschule,15.0,60,True,45,1
+867,S15,secondary,"Dahlenburg, Mittelfeld","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,13.7,60,True,45,1
+878,S15,secondary,"Dahlenburg, Mittelfeld","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,13.7,60,True,45,1
+1098,S15,secondary,"Radenbeck, Dorfstraße","Dahlenburg, Schulzentrum",Rudolf-Steiner-Schule,Ersatzschule,13.7,60,True,45,1
+1099,S15,secondary,"Radenbeck, Im Siek","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,22.5,60,True,45,1
+948,S15,secondary,"Köstorf, Haus Nr. 6","Marienau, Gymnasium",Gym Marienau,Gymnasium,55.8,60,True,45,1
+814,S15,vocational,"Dahlenburg, Buendorf","Dahlenburg, Schulzentrum",BBS I,Berufsschule,3.0,90,True,45,1
+942,S15,secondary,Klein Sommerbeck 15,"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,33.3,60,True,45,1
+1258,S15,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,55.8,60,True,45,1
+850,S15,secondary,"Dahlenburg, Markt","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,11.6,60,True,45,1
+1304,S15,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,55.8,60,True,45,1
+1095,S15,secondary,"Radenbeck, Dorfstraße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,21.2,60,True,45,1
+807,S15,secondary,"Dahlenburg, Markt","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,11.6,60,True,45,1
+849,S15,secondary,"Dahlenburg, Markt","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,11.6,60,True,45,1
+1055,S15,secondary,"Nahrendorf, Tangsehler Weg","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,33.3,60,True,45,1
+965,S16,elementary,"Lemgrabe, Am Hasenberg","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,5.1,45,True,30,0
+966,S16,elementary,"Lemgrabe, Am Hasenberg","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,5.1,45,True,30,0
+967,S16,elementary,"Lemgrabe, Am Hasenberg","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,5.1,45,True,30,0
+838,S16,elementary,"Dahlenburg, Klein Sommerbeck 15","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,21.9,45,True,30,0
+839,S16,secondary,"Dahlenburg, Klein Sommerbeck 15","Dahlenburg, Schulzentrum",Gym Oedeme,Gymnasium,22.9,60,True,45,1
+833,S16,secondary,"Dahlenburg, Fliederweg","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,10.0,60,True,45,1
+971,S16,elementary,"Lemgrabe, An der Kleinbahn","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,3.8,45,True,30,0
+970,S16,elementary,"Lemgrabe, An der Kleinbahn","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,3.8,45,True,30,0
+990,S16,elementary,"Marienau, Drosselstraße 7","Bleckede, Töpferdamm",GS Bleckede,Grundschule,44.4,45,True,30,0
+943,S16,secondary,Klein Sommerbeck 15,"Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,42.4,60,True,45,1
+1134,S16,secondary,"Thomasburg, Im Winkel","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,22.9,60,True,45,1
+1146,S16,secondary,"Thomasburg, Radenbecker Weg","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,21.9,60,True,45,1
+886,S16,secondary,"Dahlenburg, Quickborn","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,30.4,60,True,45,1
+979,S16,secondary,"Lemgrabe, An der Kleinbahn","Dahlenburg, Schulzentrum",IGS Lüneburg,Gesamtschule,4.8,60,True,45,1
+969,S16,elementary,"Lemgrabe, An der Kleinbahn","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,3.8,45,True,30,0
+1138,S16,secondary,"Thomasburg, Im Winkel","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,15.4,60,True,45,1
+985,S16,secondary,"Lemgrabe, Hauptstraße 32","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,6.9,60,True,45,1
+840,S16,vocational,"Dahlenburg, Markt","Dahlenburg, Schulzentrum",BBS I,Berufsschule,31.7,90,True,45,1
+1255,S16,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,57.4,60,True,45,1
+982,S16,secondary,"Lemgrabe, Hauptstraße 32","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,14.4,60,True,45,1
+973,S17,elementary,"Lemgrabe, An der Kleinbahn","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,4.2,45,True,30,0
+830,S17,vocational,"Dahlenburg, Fliederweg","Dahlenburg, Schulzentrum",BBS I,Berufsschule,3.0,90,True,45,1
+837,S17,secondary,"Dahlenburg, Grundschule",Nieperfitz,Lernort Nieperfitz,nicht verwendete Schulen,9.0,60,True,45,1
+893,S17,elementary,"Dumstorf, Am Kirchkamp","Dahlenburg, Schulzentrum",GS Rudolf-Steiner-Schule,Grundschule,7.4,45,True,30,0
+1080,S17,elementary,"Pommoissel, Pommoisseler Straße","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,13.8,45,True,30,0
+1082,S17,secondary,"Pommoissel, Pommoisseler Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,29.9,60,True,45,1
+987,S17,elementary,Lüben,"Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,15.6,45,True,30,0
+1089,S17,secondary,"Pommoissel, Pommoisseler Straße","Dahlenburg, Schulzentrum",IGS Lüneburg,Gesamtschule,14.9,60,True,45,1
+902,S17,elementary,"Ellringen, Kettelberg","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,23.1,45,True,30,0
+972,S17,elementary,"Lemgrabe, An der Kleinbahn","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,4.2,45,True,30,0
+803,S17,secondary,"Dahlem, Steinweg",Nieperfitz,Lernort Nieperfitz,nicht verwendete Schulen,39.1,60,True,45,1
+1076,S17,elementary,"Pommoissel, Pommoisseler Straße","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,13.8,45,True,30,0
+831,S17,vocational,"Dahlenburg, Fliederweg","Dahlenburg, Schulzentrum",BBS II,Berufsschule,3.0,90,True,45,1
+1085,S17,secondary,"Pommoissel, Pommoisseler Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,29.9,60,True,45,1
+859,S17,secondary,"Dahlenburg, Markt","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,16.3,60,True,45,1
+978,S17,secondary,"Lemgrabe, An der Kleinbahn","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,5.3,60,True,45,1
+1256,S17,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,54.1,60,True,45,1
+992,S18,elementary,"Marienau, Drosselstraße 7","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,4.0,45,True,30,0
+993,S18,elementary,"Marienau, Drosselstraße 7","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,4.0,45,True,30,0
+995,S18,elementary,"Marienau, Drosselstraße 7","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,4.0,45,True,30,0
+998,S18,elementary,"Marienau, Drosselstraße 7","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,4.0,45,True,30,0
+1003,S18,elementary,"Marienau, Gymnasium","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,4.4,45,True,30,0
+1070,S18,elementary,"Oldendorf (Göhrde), Alte Poststraße","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,44.0,45,True,30,0
+804,S18,secondary,Dahlenburg Am Kirchkamp 16,"Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,52.6,60,True,45,1
+568,S18,elementary,"Alt Garge, Bahnhof","Barskamp, Grundschule",GS Barskamp,Grundschule,21.3,45,True,30,0
+1004,S18,elementary,"Marienau, Gymnasium","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,4.4,45,True,30,0
+1075,S18,vocational,"Pommoissel, Pommoisseler Straße","Dahlenburg, Schulzentrum",BBS II,Berufsschule,34.4,90,True,45,1
+598,S18,secondary,"Alt Garge, Bahnhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,28.8,60,True,45,1
+582,S18,elementary,"Alt Garge, Bahnhof","Barskamp, Grundschule",GS Barskamp,Grundschule,21.3,45,True,30,0
+1093,S18,secondary,"Pommoissel, Pommoisseler Straße","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,34.4,60,True,45,1
+586,S18,elementary,"Alt Garge, Bahnhof","Barskamp, Grundschule",GS Barskamp,Grundschule,21.3,45,True,30,0
+590,S18,secondary,"Alt Garge, Bahnhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,28.8,60,True,45,1
+852,S18,secondary,"Dahlenburg, Markt","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,16.3,60,True,45,1
+1048,S18,secondary,"Nahrendorf, Tangsehler Weg","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,56.9,60,True,45,1
+994,S18,elementary,"Marienau, Drosselstraße 7","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,4.0,45,True,30,0
+828,S18,secondary,"Dahlenburg, Ehrenfriedhof","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,2.4,60,True,45,1
+928,S18,secondary,"Göddingen, Wöppenberg","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,32.8,60,True,45,1
+739,S18,vocational,"Bleckede, Lüneburger Straße","Dahlenburg, Schulzentrum",BBS II,Berufsschule,26.0,90,True,45,1
+919,S18,elementary,"Göddingen, Am Fischteich","Barskamp, Grundschule",GS Barskamp,Grundschule,26.0,45,True,30,0
+610,S18,elementary,"Alt Garge, Hauptstraße","Barskamp, Grundschule",GS Barskamp,Grundschule,20.4,45,True,30,0
+770,S18,secondary,"Bleckede, Sandfeld","Dahlenburg, Schulzentrum",IGS Lüneburg,Gesamtschule,26.9,60,True,45,1
+583,S18,elementary,"Alt Garge, Bahnhof","Barskamp, Grundschule",GS Barskamp,Grundschule,21.3,45,True,30,0
+744,S18,vocational,"Bleckede, Lüneburger Straße","Dahlenburg, Schulzentrum",BBS III,Berufsschule,26.0,90,True,45,1
+857,S18,secondary,"Dahlenburg, Markt","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,16.3,60,True,45,1
+1005,S19,elementary,"Marienau, Gymnasium","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,38.7,45,True,30,0
+997,S19,elementary,"Marienau, Drosselstraße 7","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,3.7,45,True,30,0
+1002,S19,secondary,"Marienau, Drosselstraße 7","Dahlenburg, Schulzentrum",IGS Lüneburg,Gesamtschule,4.7,60,True,45,1
+834,S19,secondary,"Dahlenburg, Fliederweg","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.7,60,True,45,1
+820,S19,vocational,"Dahlenburg, Ehrenfriedhof","Dahlenburg, Schulzentrum",BBS II,Berufsschule,2.1,90,True,45,1
+576,S19,elementary,"Alt Garge, Bahnhof","Barskamp, Grundschule",GS Barskamp,Grundschule,33.0,45,True,30,0
+1071,S19,elementary,"Oldendorf (Göhrde), Alte Poststraße","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,24.4,45,True,30,0
+1035,S19,secondary,"Nahrendorf, Im Klint","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,28.2,60,True,45,1
+996,S19,elementary,"Marienau, Drosselstraße 7","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,3.7,45,True,30,0
+1000,S19,secondary,"Marienau, Drosselstraße 7","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,12.2,60,True,45,1
+802,S19,secondary,"Dahlem, Steinweg","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,44.1,60,True,45,1
+588,S19,secondary,"Alt Garge, Bahnhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,25.5,60,True,45,1
+1074,S19,secondary,"Oldendorf (Göhrde), Alte Poststraße","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,25.5,60,True,45,1
+980,S19,secondary,"Lemgrabe, An der Kleinbahn","Dahlenburg, Schulzentrum",IGS Lüneburg,Gesamtschule,10.5,60,True,45,1
+975,S19,secondary,"Lemgrabe, An der Kleinbahn","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,18.0,60,True,45,1
+594,S19,secondary,"Alt Garge, Bahnhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,25.5,60,True,45,1
+999,S19,secondary,"Marienau, Drosselstraße 7","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,12.2,60,True,45,1
+573,S19,elementary,"Alt Garge, Bahnhof","Barskamp, Grundschule",GS Barskamp,Grundschule,33.0,45,True,30,0
+976,S19,secondary,"Lemgrabe, An der Kleinbahn","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,10.5,60,True,45,1
+825,S19,secondary,"Dahlenburg, Ehrenfriedhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,9.6,60,True,45,1
+558,S19,vocational,"Alt Garge, Bahnhof","Dahlenburg, Schulzentrum",BBS II,Berufsschule,18.0,90,True,45,1
+1057,S19,secondary,"Nahrendorf, Tangsehler Weg","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,29.1,60,True,45,1
+556,S19,secondary,"Alt Garge, Bahnhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,25.5,60,True,45,1
+592,S19,secondary,"Alt Garge, Bahnhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,25.5,60,True,45,1
+1015,S20,elementary,"Nahrendorf, Im Klint","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,7.7,45,True,30,0
+1016,S20,elementary,"Nahrendorf, Im Klint","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,7.7,45,True,30,0
+1017,S20,elementary,"Nahrendorf, Im Klint","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,7.7,45,True,30,0
+1019,S20,elementary,"Nahrendorf, Im Klint","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,7.7,45,True,30,0
+1021,S20,elementary,"Nahrendorf, Im Klint","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,7.7,45,True,30,0
+1022,S20,elementary,"Nahrendorf, Im Klint","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,7.7,45,True,30,0
+1023,S20,elementary,"Nahrendorf, Im Klint","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,7.7,45,True,30,0
+1039,S20,elementary,"Nahrendorf, Mücklingen","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,43.1,45,True,30,0
+1040,S20,elementary,"Nahrendorf, Tangsehler Weg","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,8.6,45,True,30,0
+1176,S20,elementary,"Ventschau, Am Dicken Busch","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,23.6,45,True,30,0
+1182,S20,elementary,"Ventschau, Ortsmitte","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,24.4,45,True,30,0
+1103,S20,secondary,"Radenbeck, Im Siek","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,39.4,60,True,45,1
+1020,S20,elementary,"Nahrendorf, Im Klint","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,7.7,45,True,30,0
+844,S20,vocational,"Dahlenburg, Markt","Dahlenburg, Schulzentrum",BBS II,Berufsschule,15.2,90,True,45,1
+1044,S20,elementary,"Nahrendorf, Tangsehler Weg","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,8.6,45,True,30,0
+1246,S20,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,23.6,60,True,45,1
+1148,S20,secondary,"Thomasburg, Radenbecker Weg","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,43.1,60,True,45,1
+1281,S20,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,23.6,60,True,45,1
+1041,S21,elementary,"Nahrendorf, Tangsehler Weg","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,8.9,45,True,30,0
+1042,S21,elementary,"Nahrendorf, Tangsehler Weg","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,8.9,45,True,30,0
+1043,S21,elementary,"Nahrendorf, Tangsehler Weg","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,8.9,45,True,30,0
+1045,S21,elementary,"Nahrendorf, Tangsehler Weg","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,8.9,45,True,30,0
+1046,S21,elementary,"Nahrendorf, Tangsehler Weg","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,8.9,45,True,30,0
+1062,S21,elementary,"Neestahl, Abzweig Tangsehl","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,32.8,45,True,30,0
+1063,S21,elementary,"Neestahl, Abzweig Tangsehl","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,32.8,45,True,30,0
+1010,S21,secondary,"Nahrendorf, Mücklingen","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,23.9,60,True,45,1
+1116,S21,elementary,"Reeßeln, Abzweigung","Barskamp, Grundschule",GS Barskamp,Grundschule,40.3,45,True,30,0
+1011,S21,secondary,"Nahrendorf, Mücklingen","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,23.9,60,True,45,1
+1009,S21,secondary,"Nahrendorf, Mücklingen","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,23.9,60,True,45,1
+1078,S21,elementary,"Pommoissel, Pommoisseler Straße","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,34.3,45,True,30,0
+1218,S21,secondary,"Walmsburg, Bruchdorfer Straße","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,46.4,60,True,45,1
+1049,S21,secondary,"Nahrendorf, Tangsehler Weg","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,16.4,60,True,45,1
+863,S21,secondary,"Dahlenburg, Markt","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,7.7,60,True,45,1
+1007,S21,elementary,"Nahrendorf, Mücklingen","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,16.4,45,True,30,0
+1038,S21,elementary,"Nahrendorf, Mücklingen","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,16.4,45,True,30,0
+1198,S21,vocational,"Walmsburg, Bruchdorfer Straße","Dahlenburg, Schulzentrum",BBS III Oedeme,Berufsschule,46.4,90,True,45,1
+854,S21,secondary,"Dahlenburg, Markt","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,7.7,60,True,45,1
+823,S21,vocational,"Dahlenburg, Ehrenfriedhof","Dahlenburg, Schulzentrum",BBS III,Berufsschule,23.9,90,True,45,1
+841,S21,vocational,"Dahlenburg, Markt","Dahlenburg, Schulzentrum",BBS I,Berufsschule,22.7,90,True,45,1
+1279,S21,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,49.3,60,True,45,1
+1054,S21,secondary,"Nahrendorf, Tangsehler Weg","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,31.4,60,True,45,1
+1204,S22,elementary,"Walmsburg, Bruchdorfer Straße","Barskamp, Grundschule",GS Barskamp,Grundschule,23.4,45,True,30,0
+1209,S22,elementary,"Walmsburg, Bruchdorfer Straße","Barskamp, Grundschule",GS Barskamp,Grundschule,23.4,45,True,30,0
+1180,S22,elementary,"Ventschau, Ortsmitte","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,15.0,45,True,30,0
+1185,S22,elementary,"Ventschau, Ortsmitte","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,15.0,45,True,30,0
+1181,S22,elementary,"Ventschau, Ortsmitte","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,15.0,45,True,30,0
+569,S22,elementary,"Alt Garge, Bahnhof","Barskamp, Grundschule",GS Barskamp,Grundschule,15.9,45,True,30,0
+1217,S22,secondary,"Walmsburg, Bruchdorfer Straße","Dahlenburg, Schulzentrum",IGS Lüneburg,Gesamtschule,31.9,60,True,45,1
+567,S22,elementary,"Alt Garge, Bahnhof","Barskamp, Grundschule",GS Barskamp,Grundschule,15.9,45,True,30,0
+1079,S22,elementary,"Pommoissel, Pommoisseler Straße","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,38.4,45,True,30,0
+606,S22,elementary,"Alt Garge, Hauptstraße","Barskamp, Grundschule",GS Barskamp,Grundschule,15.0,45,True,30,0
+574,S22,elementary,"Alt Garge, Bahnhof","Barskamp, Grundschule",GS Barskamp,Grundschule,15.9,45,True,30,0
+1188,S22,elementary,"Ventschau, Ortsmitte","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,15.0,45,True,30,0
+1184,S22,elementary,"Ventschau, Ortsmitte","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,15.0,45,True,30,0
+1118,S23,elementary,"Riecklingen, Abzweigung","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,30.4,45,True,30,0
+1119,S23,elementary,"Riecklingen, Abzweigung","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,30.4,45,True,30,0
+1120,S23,elementary,"Riecklingen, Abzweigung","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,30.4,45,True,30,0
+1121,S23,elementary,"Riecklingen, Abzweigung","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,30.4,45,True,30,0
+1126,S23,elementary,"Seedorf bei Boitze, Ort","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,20.0,45,True,30,0
+1144,S23,elementary,"Thomasburg, Radenbecker Weg","Dahlenburg, Schulzentrum",GS St. Ursula,Grundschule,13.5,45,True,30,0
+1196,S23,secondary,Vindorf,"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,31.5,60,True,45,1
+1100,S23,secondary,"Radenbeck, Im Siek","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,17.2,60,True,45,1
+1102,S23,secondary,"Radenbeck, Im Siek","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,17.2,60,True,45,1
+1124,S23,secondary,"Seedorf bei Boitze, Abzweigung","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,22.1,60,True,45,1
+1114,S23,secondary,"Radenbeck, Linnenkamp","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,18.0,60,True,45,1
+1141,S23,vocational,"Thomasburg, Radenbecker Weg","Dahlenburg, Schulzentrum",BBS I,Berufsschule,13.5,90,True,45,1
+1150,S23,secondary,"Thomasburg, Radenbecker Weg","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,21.0,60,True,45,1
+1107,S23,secondary,"Radenbeck, Im Siek","Dahlenburg, Schulzentrum",Oberschule Am Wasserturm,Oberschule,9.7,60,True,45,1
+1158,S23,secondary,"Thomasburg, Radenbecker Weg","Dahlenburg, Schulzentrum",IGS Lüneburg,Gesamtschule,13.5,60,True,45,1
+891,S23,secondary,"Dahlenburg, Schulzentrum","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,9.7,60,True,45,1
+1067,S23,elementary,"Neestahl, Kleinmoor","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,37.9,45,True,30,0
+1104,S23,secondary,"Radenbeck, Im Siek","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,17.2,60,True,45,1
+843,S23,vocational,"Dahlenburg, Markt","Dahlenburg, Schulzentrum",BBS II,Berufsschule,1.3,90,True,45,1
+1034,S23,secondary,"Nahrendorf, Im Klint","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,54.0,60,True,45,1
+1145,S23,secondary,"Thomasburg, Radenbecker Weg","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,21.0,60,True,45,1
+1109,S23,secondary,"Radenbeck, Linnenkamp","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,18.0,60,True,45,1
+1108,S23,secondary,"Radenbeck, Im Siek","Dahlenburg, Schulzentrum",Oberschule Am Wasserturm,Oberschule,9.7,60,True,45,1
+1130,S23,secondary,"Seedorf bei Boitze, Ort",Nieperfitz,Lernort Nieperfitz,nicht verwendete Schulen,36.0,60,True,45,1
+1127,S23,secondary,"Seedorf bei Boitze, Ort","Marienau, Gymnasium",Gym Marienau,Gymnasium,43.5,60,True,45,1
+847,S23,vocational,"Dahlenburg, Markt","Dahlenburg, Schulzentrum",BBS III,Berufsschule,1.3,90,True,45,1
+1149,S23,secondary,"Thomasburg, Radenbecker Weg","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,21.0,60,True,45,1
+1299,S23,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,54.0,60,True,45,1
+1300,S23,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,54.0,60,True,45,1
+864,S23,secondary,"Dahlenburg, Markt","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,8.8,60,True,45,1
+1151,S23,secondary,"Thomasburg, Radenbecker Weg","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,21.0,60,True,45,1
+1033,S23,secondary,"Nahrendorf, Im Klint","Dahlenburg, Schulzentrum",IGS Lüneburg,Gesamtschule,54.0,60,True,45,1
+1066,S23,vocational,"Neestahl, Kleinmoor","Dahlenburg, Schulzentrum",BBS II,Berufsschule,39.0,90,True,45,1
+1233,S23,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,54.0,60,True,45,1
+1306,S23,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,54.0,60,True,45,1
+851,S23,secondary,"Dahlenburg, Markt","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,8.8,60,True,45,1
+1159,S24,elementary,"Tosterglope, Neuhauser Straße","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,11.4,45,True,30,0
+1160,S24,elementary,"Tosterglope, Neuhauser Straße","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,11.4,45,True,30,0
+1161,S24,elementary,"Tosterglope, Neuhauser Straße","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,11.4,45,True,30,0
+1162,S24,elementary,"Tosterglope, Neuhauser Straße","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,11.4,45,True,30,0
+1163,S24,elementary,"Tosterglope, Neuhauser Straße","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,11.4,45,True,30,0
+1166,S24,elementary,"Tosterglope, Siedlung","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,12.2,45,True,30,0
+1167,S24,elementary,"Tosterglope, Siedlung","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,12.2,45,True,30,0
+1168,S24,elementary,"Tosterglope, Siedlung","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,12.2,45,True,30,0
+1169,S24,elementary,"Tosterglope, Siedlung","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,12.2,45,True,30,0
+1170,S24,elementary,"Tosterglope, Siedlung","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,12.2,45,True,30,0
+1171,S24,elementary,"Tosterglope, Siedlung","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,12.2,45,True,30,0
+1175,S24,elementary,"Ventschau, Am Dicken Busch","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,7.7,45,True,30,0
+898,S24,secondary,"Ellringen, Ellringer Neetzetal","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,52.5,60,True,45,1
+904,S24,secondary,"Ellringen, Kettelberg","Marienau, Gymnasium",Gym Marienau,Gymnasium,59.4,60,True,45,1
+955,S24,secondary,"Kovahl, Alter Rundling","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,36.9,60,True,45,1
+1024,S24,secondary,"Nahrendorf, Im Klint","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,34.3,60,True,45,1
+1073,S24,secondary,"Oldendorf (Göhrde), Alte Poststraße","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,21.9,60,True,45,1
+1112,S24,secondary,"Radenbeck, Linnenkamp","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,59.4,60,True,45,1
+1157,S24,secondary,"Thomasburg, Radenbecker Weg","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,60.0,60,True,45,1
+1234,S24,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,44.4,60,True,45,1
+1266,S24,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,44.4,60,True,45,1
+1298,S24,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,44.4,60,True,45,1
+846,S24,vocational,"Dahlenburg, Markt","Dahlenburg, Schulzentrum",BBS III,Berufsschule,1.3,90,True,45,1
+1293,S24,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,44.4,60,True,45,1
+960,S24,secondary,"Kovahl, Alter Rundling",Nieperfitz,Lernort Nieperfitz,nicht verwendete Schulen,59.4,60,True,45,1
+743,S24,vocational,"Bleckede, Lüneburger Straße","Dahlenburg, Schulzentrum",BBS II,Berufsschule,67.5,90,True,45,1
+1081,S25,elementary,"Pommoissel, Pommoisseler Straße","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,27.0,45,True,30,0
+813,S25,elementary,"Dahlenburg, Birkenhof","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,34.5,45,True,30,0
+1047,S25,elementary,"Nahrendorf, Tangsehler Weg","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,17.2,45,True,30,0
+1018,S25,elementary,"Nahrendorf, Im Klint","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,18.0,45,True,30,0
+1183,S25,elementary,"Ventschau, Ortsmitte","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,9.5,45,True,30,0
+1077,S25,elementary,"Pommoissel, Pommoisseler Straße","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,27.0,45,True,30,0
+868,S25,secondary,"Dahlenburg, Mittelfeld","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,9.5,60,True,45,1
+881,S25,secondary,"Dahlenburg, Mittelfeld","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,9.5,60,True,45,1
+953,S25,elementary,"Kovahl, Alter Rundling","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,12.8,45,True,30,0
+1064,S25,secondary,"Neestahl, Abzweig Tangsehl","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,33.0,60,True,45,1
+1179,S25,elementary,"Ventschau, Ortsmitte","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,9.5,45,True,30,0
+1202,S26,elementary,"Walmsburg, Bruchdorfer Straße","Barskamp, Grundschule",GS Barskamp,Grundschule,8.0,45,True,30,0
+1203,S26,elementary,"Walmsburg, Bruchdorfer Straße","Barskamp, Grundschule",GS Barskamp,Grundschule,8.0,45,True,30,0
+1205,S26,elementary,"Walmsburg, Bruchdorfer Straße","Barskamp, Grundschule",GS Barskamp,Grundschule,8.0,45,True,30,0
+1206,S26,elementary,"Walmsburg, Bruchdorfer Straße","Barskamp, Grundschule",GS Barskamp,Grundschule,8.0,45,True,30,0
+1222,S26,elementary,"Walmsburg, Kateminer Straße","Barskamp, Grundschule",GS Barskamp,Grundschule,7.5,45,True,30,0
+593,S26,secondary,"Alt Garge, Bahnhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,31.4,60,True,45,1
+908,S26,secondary,"Ellringen, Kettelberg","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,50.4,60,True,45,1
+1207,S26,elementary,"Walmsburg, Bruchdorfer Straße","Barskamp, Grundschule",GS Barskamp,Grundschule,8.0,45,True,30,0
+1229,S26,secondary,"Walmsburg, Kateminer Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.0,60,True,45,1
+1225,S26,elementary,"Walmsburg, Kateminer Straße","Barskamp, Grundschule",GS Barskamp,Grundschule,7.5,45,True,30,0
+1201,S26,elementary,"Walmsburg, Bruchdorfer Straße","Barskamp, Grundschule",GS Barskamp,Grundschule,8.0,45,True,30,0
+1228,S26,secondary,"Walmsburg, Kateminer Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.0,60,True,45,1
+1219,S26,vocational,"Walmsburg, Kateminer Straße","Dahlenburg, Schulzentrum",BBS I,Berufsschule,22.5,90,True,45,1
+1227,S26,elementary,"Walmsburg, Kateminer Straße","Barskamp, Grundschule",GS Barskamp,Grundschule,7.5,45,True,30,0
+1224,S26,elementary,"Walmsburg, Kateminer Straße","Barskamp, Grundschule",GS Barskamp,Grundschule,7.5,45,True,30,0
+1230,S26,secondary,"Walmsburg, Kateminer Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.0,60,True,45,1
+911,S26,secondary,"Ellringen, Kettelberg","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,50.4,60,True,45,1
+615,S26,elementary,"Alt Garge, Hauptstraße","Barskamp, Grundschule",GS Barskamp,Grundschule,23.0,45,True,30,0
+612,S26,elementary,"Alt Garge, Hauptstraße","Barskamp, Grundschule",GS Barskamp,Grundschule,23.0,45,True,30,0
+611,S26,elementary,"Alt Garge, Hauptstraße","Barskamp, Grundschule",GS Barskamp,Grundschule,23.0,45,True,30,0
+607,S26,elementary,"Alt Garge, Hauptstraße","Barskamp, Grundschule",GS Barskamp,Grundschule,23.0,45,True,30,0
+591,S26,secondary,"Alt Garge, Bahnhof","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,31.4,60,True,45,1
+860,S26,secondary,"Dahlenburg, Markt","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,60.0,60,True,45,1
+963,S26,secondary,"Kovahl, Alter Rundling","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,57.9,60,True,45,1
+1226,S26,elementary,"Walmsburg, Kateminer Straße","Barskamp, Grundschule",GS Barskamp,Grundschule,7.5,45,True,30,0
+571,S26,elementary,"Alt Garge, Bahnhof","Barskamp, Grundschule",GS Barskamp,Grundschule,23.9,45,True,30,0
+619,S26,secondary,"Alt Garge, Hauptstraße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,30.5,60,True,45,1
+572,S26,elementary,"Alt Garge, Bahnhof","Barskamp, Grundschule",GS Barskamp,Grundschule,23.9,45,True,30,0
+876,S26,secondary,"Dahlenburg, Mittelfeld","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,57.9,60,True,45,1
+1307,S26,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,23.0,60,True,45,1
+1208,S26,elementary,"Walmsburg, Bruchdorfer Straße","Barskamp, Grundschule",GS Barskamp,Grundschule,8.0,45,True,30,0
+1295,S26,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,23.0,60,True,45,1
+1310,S26,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,23.0,60,True,45,1
+879,S26,secondary,"Dahlenburg, Mittelfeld","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,57.9,60,True,45,1
+1286,S26,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,23.0,60,True,45,1
+578,S26,elementary,"Alt Garge, Bahnhof","Barskamp, Grundschule",GS Barskamp,Grundschule,23.9,45,True,30,0
+806,S26,secondary,"Dahlenburg, Markt","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,60.0,60,True,45,1
+931,S26,secondary,"Göddingen, Wöppenberg","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,42.9,60,True,45,1
+1273,S26,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,23.0,60,True,45,1
+1305,S26,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,23.0,60,True,45,1
+1296,S26,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,23.0,60,True,45,1
+842,S26,vocational,"Dahlenburg, Markt","Dahlenburg, Schulzentrum",BBS II,Berufsschule,67.5,90,True,45,1
+600,S27,secondary,"Alt Garge, Bahnhof","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,14.5,60,True,45,1
+601,S27,secondary,"Alt Garge, Bahnhof","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,14.5,60,True,45,1
+602,S27,secondary,"Alt Garge, Bahnhof","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,14.5,60,True,45,1
+603,S27,secondary,"Alt Garge, Bahnhof","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,14.5,60,True,45,1
+604,S27,secondary,"Alt Garge, Bahnhof","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,14.5,60,True,45,1
+617,S27,secondary,"Alt Garge, Hauptstraße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,21.1,60,True,45,1
+618,S27,secondary,"Alt Garge, Hauptstraße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,21.1,60,True,45,1
+621,S27,secondary,"Alt Garge, Hauptstraße","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,13.6,60,True,45,1
+625,S27,secondary,"Alt Garge, Turnhalle","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,21.5,60,True,45,1
+626,S27,secondary,"Barskamp, Markt","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,16.1,60,True,45,1
+627,S27,secondary,"Barskamp, Hohe Luft","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.0,60,True,45,1
+628,S27,secondary,"Barskamp, Hohe Luft","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.0,60,True,45,1
+629,S27,secondary,"Barskamp, Hohe Luft","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.0,60,True,45,1
+630,S27,secondary,"Barskamp, Hohe Luft","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.0,60,True,45,1
+631,S27,secondary,"Barskamp, Hohe Luft","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.0,60,True,45,1
+632,S27,secondary,"Barskamp, Hohe Luft","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,7.5,60,True,45,1
+633,S27,secondary,"Barskamp, Hohe Luft","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,7.5,60,True,45,1
+637,S27,secondary,"Barskamp, Markt","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,16.1,60,True,45,1
+638,S27,secondary,"Barskamp, Markt","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,16.1,60,True,45,1
+639,S27,secondary,"Barskamp, Markt","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,16.1,60,True,45,1
+640,S27,secondary,"Barskamp, Markt","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,16.1,60,True,45,1
+641,S27,secondary,"Barskamp, Markt","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,16.1,60,True,45,1
+642,S27,secondary,"Barskamp, Markt","Dahlenburg, Schulzentrum",IGS Lüneburg,Gesamtschule,8.6,60,True,45,1
+643,S27,secondary,"Barskamp, Walmsburger Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,16.3,60,True,45,1
+907,S27,secondary,"Ellringen, Kettelberg","Marienau, Gymnasium",Gym Marienau,Gymnasium,53.3,60,True,45,1
+958,S27,secondary,"Kovahl, Alter Rundling",Nieperfitz,Lernort Nieperfitz,nicht verwendete Schulen,53.3,60,True,45,1
+1027,S27,secondary,"Nahrendorf, Im Klint","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,68.3,60,False,45,1
+1083,S27,secondary,"Pommoissel, Pommoisseler Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,53.3,60,True,45,1
+1115,S27,secondary,"Radenbeck, Linnenkamp","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,60.8,60,False,45,1
+1165,S27,secondary,"Tosterglope, Neuhauser Straße","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,67.5,60,False,45,1
+1237,S27,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,30.8,60,True,45,1
+1269,S27,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,30.8,60,True,45,1
+1301,S27,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,30.8,60,True,45,1
+749,S27,vocational,"Bleckede, Rathaus","Dahlenburg, Schulzentrum",BBS II,Berufsschule,22.0,90,True,45,1
+887,S27,vocational,"Dahlenburg, Schulzentrum","Dahlenburg, Schulzentrum",BBS I,Berufsschule,0.0,90,True,45,1
+644,S28,secondary,"Barskamp, Walmsburger Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,22.5,60,True,45,1
+645,S28,secondary,"Barskamp, Walmsburger Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,22.5,60,True,45,1
+646,S28,secondary,"Barskamp, Walmsburger Straße","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,30.0,60,True,45,1
+649,S28,secondary,Bavendorf Bahnhof,"Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,22.5,60,True,45,1
+650,S28,secondary,Bavendorf Bahnhof,"Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,22.5,60,True,45,1
+651,S28,secondary,Bavendorf Bahnhof,"Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,22.5,60,True,45,1
+652,S28,secondary,"Bavendorf, Im Dorfe","Dahlenburg, Schulzentrum",IGS Lüneburg,Gesamtschule,59.3,60,True,45,1
+653,S28,secondary,"Bavendorf, Mitte/B 216","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,59.7,60,True,45,1
+1028,S28,secondary,"Nahrendorf, Im Klint","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,51.8,60,True,45,1
+1084,S28,secondary,"Pommoissel, Pommoisseler Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,30.0,60,True,45,1
+1117,S28,secondary,"Reeßeln, Abzweigung","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,59.7,60,True,45,1
+1172,S28,secondary,"Tosterglope, Siedlung","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,38.3,60,True,45,1
+1238,S28,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,7.5,60,True,45,1
+1270,S28,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,7.5,60,True,45,1
+1302,S28,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,7.5,60,True,45,1
+892,S28,vocational,"Dumstorf, Am Kirchkamp","Dahlenburg, Schulzentrum",BBS I,Berufsschule,74.7,90,True,45,1
+1091,S28,secondary,"Pommoissel, Pommoisseler Straße","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,37.5,60,True,45,1
+1260,S28,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,7.5,60,True,45,1
+1232,S28,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,7.5,60,True,45,1
+1164,S28,secondary,"Tosterglope, Neuhauser Straße",Nieperfitz,Lernort Nieperfitz,nicht verwendete Schulen,52.5,60,True,45,1
+1277,S28,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,7.5,60,True,45,1
+1297,S28,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,7.5,60,True,45,1
+1087,S28,secondary,"Pommoissel, Pommoisseler Straße","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,37.5,60,True,45,1
+655,S29,secondary,"Bavendorf, Mitte/B 216","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,10.5,60,True,45,1
+659,S29,secondary,"Bavendorf, Im Dorfe","Marienau, Gymnasium",Gym Marienau,Gymnasium,18.4,60,True,45,1
+663,S29,secondary,"Bavendorf, Im Dorfe","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,10.9,60,True,45,1
+669,S29,secondary,"Bavendorf, Im Dorfe","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,10.9,60,True,45,1
+670,S29,secondary,"Bavendorf, Im Dorfe","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,10.9,60,True,45,1
+675,S29,secondary,"Bavendorf, Mitte/B 216","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,10.5,60,True,45,1
+676,S29,secondary,"Bavendorf, Mitte/B 216","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,10.5,60,True,45,1
+738,S29,vocational,"Bleckede, Lüneburger Straße","Dahlenburg, Schulzentrum",BBS I,Berufsschule,47.1,90,True,45,1
+793,S29,secondary,"Breetze, Bokelstraße","Dahlenburg, Schulzentrum",IGS Lüneburg,Gesamtschule,51.6,60,True,45,1
+660,S29,secondary,"Bavendorf, Im Dorfe","Marienau, Gymnasium",Gym Marienau,Gymnasium,18.4,60,True,45,1
+677,S29,secondary,"Bavendorf, Mitte/B 216","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,10.5,60,True,45,1
+1268,S29,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,33.4,60,True,45,1
+1051,S29,secondary,"Nahrendorf, Tangsehler Weg","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,30.4,60,True,45,1
+947,S29,secondary,"Köstorf, Haus Nr. 6","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,53.7,60,True,45,1
+671,S29,secondary,"Bavendorf, Im Dorfe","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,10.9,60,True,45,1
+654,S29,secondary,"Bavendorf, Mitte/B 216","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,10.5,60,True,45,1
+1250,S29,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,33.4,60,True,45,1
+656,S29,secondary,"Bavendorf, Mitte/B 216","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,10.5,60,True,45,1
+1036,S29,secondary,"Nahrendorf, Im Klint","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,31.2,60,True,45,1
+686,S29,secondary,"Bavendorf, Mitte/B 216","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,10.5,60,True,45,1
+874,S29,secondary,"Dahlenburg, Mittelfeld","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,18.0,60,True,45,1
+865,S29,secondary,"Dahlenburg, Markt","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.9,60,True,45,1
+950,S29,secondary,"Köstorf, Haus Nr. 6","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,38.7,60,True,45,1
+872,S29,secondary,"Dahlenburg, Mittelfeld","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,18.0,60,True,45,1
+662,S29,secondary,"Bavendorf, Im Dorfe","Dahlenburg, Schulzentrum",IGS Lüneburg,Gesamtschule,10.9,60,True,45,1
+657,S29,secondary,"Bavendorf, Mitte/B 216","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,10.5,60,True,45,1
+1239,S29,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,33.4,60,True,45,1
+1262,S29,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,33.4,60,True,45,1
+1265,S29,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,33.4,60,True,45,1
+673,S29,secondary,"Bavendorf, Im Dorfe","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,10.9,60,True,45,1
+1236,S29,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,33.4,60,True,45,1
+768,S29,vocational,"Bleckede, Sandfeld","Dahlenburg, Schulzentrum",BBS III Oedeme,Berufsschule,46.2,90,True,45,1
+957,S29,secondary,"Kovahl, Alter Rundling","Dahlenburg, Schulzentrum",IGS Lüneburg,Gesamtschule,25.9,60,True,45,1
+880,S29,secondary,"Dahlenburg, Mittelfeld","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,18.0,60,True,45,1
+1271,S29,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,33.4,60,True,45,1
+685,S29,secondary,"Bavendorf, Mitte/B 216","Dahlenburg, Schulzentrum",Oberschule Am Wasserturm,Oberschule,10.5,60,True,45,1
+1060,S29,secondary,"Nahrendorf, Tangsehler Weg","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,30.4,60,True,45,1
+1249,S29,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,33.4,60,True,45,1
+909,S29,secondary,"Ellringen, Kettelberg","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,58.2,60,True,45,1
+764,S29,vocational,"Bleckede, Sandfeld","Dahlenburg, Schulzentrum",BBS II,Berufsschule,46.2,90,True,45,1
+1287,S29,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,33.4,60,True,45,1
+678,S29,secondary,"Bavendorf, Mitte/B 216","Dahlenburg, Schulzentrum",IGS Lüneburg,Gesamtschule,10.5,60,True,45,1
+949,S29,secondary,"Köstorf, Haus Nr. 6","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,38.7,60,True,45,1
+667,S29,secondary,"Bavendorf, Im Dorfe","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,10.9,60,True,45,1
+952,S29,secondary,"Kovahl, Alter Rundling","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,25.9,60,True,45,1
+682,S29,secondary,"Bavendorf, Mitte/B 216","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,10.5,60,True,45,1
+870,S29,secondary,"Dahlenburg, Mittelfeld","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,18.0,60,True,45,1
+866,S29,secondary,"Dahlenburg, Markt","Dahlenburg, Schulzentrum",IGS Kreideberg,Gesamtschule,0.9,60,True,45,1
+1252,S29,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,33.4,60,True,45,1
+877,S29,secondary,"Dahlenburg, Mittelfeld","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,18.0,60,True,45,1
+1285,S29,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,33.4,60,True,45,1
+1231,S29,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,33.4,60,True,45,1
+766,S29,vocational,"Bleckede, Sandfeld","Dahlenburg, Schulzentrum",BBS III,Berufsschule,46.2,90,True,45,1
+683,S29,secondary,"Bavendorf, Mitte/B 216","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,10.5,60,True,45,1
+871,S29,secondary,"Dahlenburg, Mittelfeld","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,18.0,60,True,45,1
+956,S29,secondary,"Kovahl, Alter Rundling","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,25.9,60,True,45,1
+710,S30,secondary,"Bleckede, Dahlenburger Straße",Nieperfitz,Lernort Nieperfitz,nicht verwendete Schulen,15.3,60,True,45,1
+711,S30,secondary,"Bleckede, Dahlenburger Straße","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,22.8,60,True,45,1
+712,S30,secondary,"Bleckede, Elbtalhaus","Dahlenburg, Schulzentrum",IGS Kreideberg,Gesamtschule,19.2,60,True,45,1
+713,S30,secondary,"Bleckede, Elbtalhaus","Dahlenburg, Schulzentrum",IGS Kreideberg,Gesamtschule,19.2,60,True,45,1
+714,S30,secondary,"Bleckede, Elbtalhaus","Dahlenburg, Schulzentrum",IGS Kreideberg,Gesamtschule,19.2,60,True,45,1
+715,S30,secondary,"Bleckede, Elbtalhaus","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,19.2,60,True,45,1
+732,S30,secondary,"Bleckede, Elbweg","Dahlenburg, Schulzentrum",IGS Lüneburg,Gesamtschule,26.2,60,True,45,1
+733,S30,secondary,"Bleckede, Elbweg",Nieperfitz,Lernort Nieperfitz,nicht verwendete Schulen,18.7,60,True,45,1
+734,S30,secondary,"Bleckede, Elbweg",Nieperfitz,Lernort Nieperfitz,nicht verwendete Schulen,18.7,60,True,45,1
+735,S30,secondary,"Bleckede, Elbweg","Dahlenburg, Schulzentrum",Rudolf-Steiner-Schule,Ersatzschule,26.2,60,True,45,1
+748,S30,secondary,"Bleckede, Lüneburger Straße","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,20.8,60,True,45,1
+910,S30,secondary,"Ellringen, Kettelberg","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,33.7,60,True,45,1
+961,S30,secondary,"Kovahl, Alter Rundling",Nieperfitz,Lernort Nieperfitz,nicht verwendete Schulen,54.5,60,True,45,1
+1030,S30,secondary,"Nahrendorf, Im Klint","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,56.7,60,True,45,1
+1086,S30,secondary,"Pommoissel, Pommoisseler Straße","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,9.5,60,True,45,1
+1123,S30,secondary,"Seedorf bei Boitze, Abzweigung","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,56.7,60,True,45,1
+1174,S30,secondary,"Ventschau, Ortsmitte","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,49.2,60,True,45,1
+1272,S30,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,24.5,60,True,45,1
+753,S30,vocational,"Bleckede, Robert-Koch-Straße","Dahlenburg, Schulzentrum",BBS III,Berufsschule,23.8,90,True,45,1
+1289,S30,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,24.5,60,True,45,1
+1052,S30,secondary,"Nahrendorf, Tangsehler Weg","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,57.6,60,True,45,1
+1280,S30,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,24.5,60,True,45,1
+1061,S30,secondary,"Nahrendorf, Tangsehler Weg","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,57.6,60,True,45,1
+897,S30,secondary,"Ellringen, Ellringer Neetzetal","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,41.7,60,True,45,1
+1248,S30,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,24.5,60,True,45,1
+1058,S30,secondary,"Nahrendorf, Tangsehler Weg",Nieperfitz,Lernort Nieperfitz,nicht verwendete Schulen,50.1,60,True,45,1
+959,S30,secondary,"Kovahl, Alter Rundling",Nieperfitz,Lernort Nieperfitz,nicht verwendete Schulen,54.5,60,True,45,1
+1031,S31,secondary,"Nahrendorf, Im Klint","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,36.2,60,True,45,1
+1177,S31,secondary,"Ventschau, Am Dicken Busch","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,51.2,60,True,45,1
+936,S31,secondary,Harmstorf bei Dahlem,Nieperfitz,Lernort Nieperfitz,nicht verwendete Schulen,38.4,60,True,45,1
+780,S31,elementary,"Bleckede, Schulzentrum","Bleckede, Töpferdamm",GS Bleckede,Grundschule,38.4,45,True,30,0
+933,S31,secondary,Harmstorf bei Dahlem,"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,30.9,60,True,45,1
+855,S31,secondary,"Dahlenburg, Markt","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,8.4,60,True,45,1
+784,S31,secondary,"Bleckede, Schulzentrum","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,15.9,60,True,45,1
+1178,S31,secondary,"Ventschau, Am Dicken Busch","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,43.7,60,True,45,1
+934,S31,secondary,Harmstorf bei Dahlem,"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,30.9,60,True,45,1
+783,S31,secondary,"Bleckede, Schulzentrum","Dahlenburg, Schulzentrum",IGS Lüneburg,Gesamtschule,15.9,60,True,45,1
+1308,S31,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.9,60,True,45,1
+1094,S31,secondary,"Radenbeck, Dorfstraße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,58.7,60,True,45,1
+964,S31,secondary,"Kovahl, Alter Rundling","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,30.9,60,True,45,1
+1142,S31,vocational,"Thomasburg, Radenbecker Weg","Dahlenburg, Schulzentrum",BBS II,Berufsschule,53.9,90,True,45,1
+1243,S31,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.9,60,True,45,1
+1156,S31,secondary,"Thomasburg, Radenbecker Weg","Dahlenburg, Schulzentrum",Gym Johanneum,Gymnasium,53.9,60,True,45,1
+1241,S31,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.9,60,True,45,1
+1275,S31,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.9,60,True,45,1
+951,S31,secondary,"Kovahl, Alter Rundling","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,30.9,60,True,45,1
+862,S31,secondary,"Dahlenburg, Markt","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,8.4,60,True,45,1
+938,S31,secondary,Harmstorf bei Dahlem,"Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,23.4,60,True,45,1
+1059,S31,secondary,"Nahrendorf, Tangsehler Weg","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,35.3,60,True,45,1
+1274,S31,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,15.9,60,True,45,1
+792,S32,secondary,"Breetze, Bokelstraße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,36.3,60,True,45,1
+1254,S32,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,10.1,60,True,45,1
+752,S32,secondary,"Bleckede, Rathaus","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,18.9,60,True,45,1
+912,S32,secondary,"Gienau, Wiebecker Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,20.3,60,True,45,1
+1025,S32,secondary,"Nahrendorf, Im Klint","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,59.5,60,True,45,1
+767,S32,vocational,"Bleckede, Sandfeld","Dahlenburg, Schulzentrum",BBS III,Berufsschule,20.3,90,True,45,1
+740,S32,vocational,"Bleckede, Lüneburger Straße","Dahlenburg, Schulzentrum",BBS II,Berufsschule,19.4,90,True,45,1
+917,S32,secondary,"Gienau, Wiebecker Straße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,20.3,60,True,45,1
+765,S32,vocational,"Bleckede, Sandfeld","Dahlenburg, Schulzentrum",BBS III,Berufsschule,20.3,90,True,45,1
+1065,S32,vocational,"Neestahl, Kleinmoor","Dahlenburg, Schulzentrum",BBS I,Berufsschule,51.3,90,True,45,1
+1128,S32,secondary,"Seedorf bei Boitze, Ort",Nieperfitz,Lernort Nieperfitz,nicht verwendete Schulen,43.8,60,True,45,1
+791,S32,secondary,"Breetze, Bokelstraße","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,36.3,60,True,45,1
+1132,S32,vocational,"Süschendorf, Kreuzung","Dahlenburg, Schulzentrum",BBS III,Berufsschule,70.5,90,True,45,1
+1131,S32,secondary,"Seedorf bei Boitze, Ort","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,36.3,60,True,45,1
+885,S32,secondary,"Dahlenburg, Quickborn","Dahlenburg, Schulzentrum",Gym Herderschule,Gymnasium,59.5,60,True,45,1
+916,S32,elementary,"Gienau, Wiebecker Straße","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,42.8,45,True,30,0
+1125,S32,secondary,"Seedorf bei Boitze, Abzweigung","Dahlenburg, Schulzentrum",Oberschule Dahlenburg,Oberschule,35.3,60,True,45,1
+742,S32,vocational,"Bleckede, Lüneburger Straße","Dahlenburg, Schulzentrum",BBS II,Berufsschule,19.4,90,True,45,1
+1257,S32,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,10.1,60,True,45,1
+718,S32,vocational,"Bleckede, Elbweg","Dahlenburg, Schulzentrum",BBS III Oedeme,Berufsschule,10.1,90,True,45,1
+962,S32,secondary,"Kovahl, Alter Rundling",Nieperfitz,Lernort Nieperfitz,nicht verwendete Schulen,59.5,60,True,45,1
+1245,S32,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,10.1,60,True,45,1
+915,S32,elementary,"Gienau, Wiebecker Straße","Dahlenburg, Grundschule",GS Dahlenburg,Grundschule,42.8,45,True,30,0
+1294,S32,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,10.1,60,True,45,1
+1235,S32,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,10.1,60,True,45,1
+1276,S32,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,10.1,60,True,45,1
+1292,S32,secondary,Bleckede (Fähre),"Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,10.1,60,True,45,1
+716,S32,vocational,"Bleckede, Elbweg","Dahlenburg, Schulzentrum",BBS I,Berufsschule,10.1,90,True,45,1
+1026,S32,secondary,"Nahrendorf, Im Klint","Bleckede, Schulzentrum",Gym Bleckede,Gymnasium,59.5,60,True,45,1
+1129,S32,secondary,"Seedorf bei Boitze, Ort",Nieperfitz,Lernort Nieperfitz,nicht verwendete Schulen,43.8,60,True,45,1
+747,S32,vocational,"Bleckede, Lüneburger Straße","Dahlenburg, Schulzentrum",BBS III Oedeme,Berufsschule,19.4,90,True,45,1

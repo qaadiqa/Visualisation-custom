@@ -1,0 +1,568 @@
+bus_id,region,stop_sequence,stop_name,num_pupils
+N1,North,1,"Barförde, Poggenort",1
+N1,North,2,"Wendewisch, Campingplatz",1
+N1,North,3,"Wendewisch, Hittberger Straße 59",2
+N1,North,4,"Neetze, Am Ried",1
+N1,North,5,"Neetze, Am Dorfplatz",2
+N1,North,6,"Neetze, Neetzebrücke",1
+N1,North,7,"Hohnstorf, Ernst-Kissolewski-Straße",6
+N2,North,1,"Boltersen, Bahnhofstraße",1
+N2,North,2,"Brackede, Pferdekoppel",2
+N2,North,3,"Neu Neetze, Am Milchberg",4
+N2,North,4,"Neetze, Bahnhof",1
+N2,North,5,"Neetze, Grundschule",3
+N3,North,1,"Hohnstorf, Ernst-Kissolewski-Straße",1
+N3,North,2,"Neu Neetze, Birkenhof",2
+N3,North,3,"Hohnstorf, Kindergarten",1
+N3,North,4,"Hohnstorf, Dorfstraße",4
+N3,North,5,"Hohnstorf, Am Sportzentrum",1
+N3,North,6,"Bleckede, Marschweg",1
+N4,North,1,"Neu Jörgenstorf, Ort",1
+N4,North,2,"Vogelsang, Ort",1
+N4,North,3,"Hittbergen, Schönfeld",1
+N4,North,4,"Barförde, Barförder Elbdeich 22",3
+N4,North,5,"Hittbergen, Roggenberg",1
+N4,North,6,"Hittbergen, Feldstraße",2
+N4,North,7,"Hittbergen, Kirche",2
+N4,North,8,"Hittbergen, Im Kamp",3
+N4,North,9,"Hohnstorf, Schule",3
+N5,North,1,"Jürgenstorf, Jürgenstorfer Straße",1
+N5,North,2,"Hittbergen, Roggenberg",1
+N5,North,3,"Hittbergen, Im Kamp",1
+N5,North,4,"Bullendorf bei Echem, Am Buscheberg",1
+N5,North,5,"Bullendorf bei Echem, Brücke",1
+N5,North,6,"Echem, Schulstraße",1
+N5,North,7,"Echem, Dorfstraße",1
+N5,North,8,Echem,3
+N5,North,9,"Scharnebeck, Lüneburger Straße",4
+N5,North,10,"Scharnebeck, Hauptstraße",1
+N5,North,11,"Scharnebeck, Adendorfer Straße",1
+N5,North,12,"Scharnebeck, Lübbelau",2
+N5,North,13,"Neetze, Am Jahnstadion",1
+N5,North,14,"Neetze, Am Dorfplatz",4
+N5,North,15,"Neetze, Grundschule",4
+N5,North,16,"Hohnstorf, Am Sportzentrum",10
+N5,North,17,"Hohnstorf, Schule",8
+N6,North,1,Bleckede Mühlenweg (Garlstorf) 6,1
+N6,North,2,"Garlstorf bei Bleckede, Dorfstraße 68",1
+N6,North,3,"Garze, Große Straße 29",3
+N6,North,4,"Garze, Große Straße 71",2
+N6,North,5,"Karze, An den Hauskoppeln",1
+N6,North,6,"Neu Boltersen, Neumühler Weg",1
+N6,North,7,"Neu Boltersen, Möhlenkamp",4
+N6,North,8,"Rullstorf, Alte Dorfstraße",1
+N6,North,9,"Rullstorf, Im Ort",4
+N6,North,10,"Neetze, Am Ried",2
+N6,North,11,"Radegast, Zum Kirchplatz",5
+N8,North,1,"Brackede, Pferdekoppel",1
+N8,North,2,"Bleckeder Moor, Fuchsweg",1
+N8,North,3,"Bleckeder Moor, Zweiter Moorweg",2
+N8,North,4,"Neu Neetze, Haus Nr. 50",1
+N8,North,5,"Neu Neetze, Denker",3
+N8,North,6,"Garlstorf bei Bleckede, Dorfstraße 68",6
+N8,North,7,"Garlstorf bei Bleckede, Dorfstraße 36",2
+N8,North,8,"Neetze, Am Ried",3
+N8,North,9,"Neetze, Bahnhof",7
+N8,North,10,"Neetze, Am Dorfplatz",2
+N8,North,11,"Neetze, Grundschule",1
+N9,North,1,"Bullendorf bei Echem, Am Buscheberg",1
+N9,North,2,"Neu Neetze, Birkenhof",1
+N9,North,3,"Bleckeder Moor, Zweiter Moorweg",1
+N9,North,4,"Boltersen, Rullstorfer Straße",4
+N9,North,5,"Rullstorf, Alte Dorfstraße",1
+N9,North,6,"Rullstorf, Im Ort",4
+N9,North,7,"Scharnebeck, Meisterstraße",5
+N10,North,1,"Brackede, Pferdekoppel",1
+N10,North,2,"Garze, Große Straße 29",1
+N10,North,3,"Bleckeder Moor, Fuchsweg",2
+N11,North,1,"Hittbergen, Kirche",1
+N11,North,2,"Jürgenstorf, Jürgenstorfer Straße",1
+N11,North,3,"Hohnstorf, Kindergarten",3
+N11,North,4,"Hohnstorf, Dorfstraße",4
+N12,North,1,"Hohnstorf, Ernst-Kissolewski-Straße",1
+N12,North,2,"Scharnebeck, Lüneburger Straße",2
+N12,North,3,Neumühlen bei Rullstorf,2
+N12,North,4,"Boltersen, Bahnhof",1
+N12,North,5,"Boltersen, Rullstorfer Straße",9
+N12,North,6,"Scharnebeck, Bardowicker Straße",5
+N13,North,1,"Hohnstorf, Ernst-Kissolewski-Straße",1
+N13,North,2,"Bleckeder Moor, Fuchsweg",2
+N13,North,3,"Bleckeder Moor, Zweiter Moorweg",2
+N13,North,4,"Neu Neetze, Birkenhof",2
+N13,North,5,"Bullendorf bei Echem, Am Buscheberg",1
+N13,North,6,"Hittbergen, Im Kamp",1
+N13,North,7,"Hittbergen, Kirche",2
+N13,North,8,"Hittbergen, Feldstraße",2
+N14,North,1,"Hohnstorf, Bundesstraße 10",1
+N14,North,2,"Boltersen, Rullstorfer Straße",2
+N14,North,3,"Brackede, Pferdekoppel",3
+N15,North,1,"Hittbergen, Feldstraße",1
+N15,North,2,"Hittbergen, Schönfeld",1
+N15,North,3,"Lüdersburg, Kirchtwiete",3
+N15,North,4,"Hohnstorf, Triftweg",2
+N16,North,1,"Boltersen, Bahnhofstraße",1
+N16,North,2,"Vogelsang, Ort",1
+N16,North,3,"Radegast, Elbuferstraße 41",1
+N16,North,4,"Radegast, Zum Kirchplatz",1
+N16,North,5,"Garlstorf bei Bleckede, Dorfstraße 68",6
+N17,North,1,"Karze, An den Hauskoppeln",1
+N17,North,2,"Bleckeder Moor, Zweiter Moorweg",1
+N17,North,3,Echem,2
+N17,North,4,"Echem, Dorfstraße",2
+N17,North,5,"Scharnebeck, Bardowicker Straße",1
+N17,North,6,"Scharnebeck, Lübbelau",2
+N18,North,1,"Brackede, Abzweig Garlstorf",1
+N18,North,2,"Karze, An den Hauskoppeln",1
+N18,North,3,"Garze, Große Straße 71",1
+N18,North,4,"Garze, Große Straße 29",1
+N18,North,5,"Rullstorf, Alte Dorfstraße",3
+N18,North,6,"Rullstorf, Im Ort",7
+N18,North,7,"Rullstorf, Boltersener Straße",1
+N19,North,1,"Jürgenstorf, Jürgenstorfer Straße",2
+N19,North,2,"Karze, An den Hauskoppeln",1
+N19,North,3,"Garze, Große Straße 71",1
+N19,North,4,"Garze, Große Straße 29",2
+N19,North,5,"Wendewisch, Hittberger Straße 59",7
+N20,North,1,"Garlstorf bei Bleckede, Dorfstraße 36",1
+N20,North,2,"Garlstorf bei Bleckede, Neu Brackede",1
+N20,North,3,Echem,1
+N20,North,4,"Echem, Dorfstraße",1
+N20,North,5,"Echem, Schulstraße",1
+N20,North,6,"Boltersen, Bahnhofstraße",1
+N20,North,7,"Boltersen, Rullstorfer Straße",4
+N20,North,8,"Bleckede, Rathaus",2
+N21,North,1,"Jürgenstorf, Jürgenstorfer Straße",1
+N21,North,2,"Lüdersburg, Kirchtwiete",1
+N21,North,3,"Bockelkathen, Auf dem Kreuze",1
+N21,North,4,"Rullstorf, Am Neetzekanal",1
+N21,North,5,"Rullstorf, Alte Dorfstraße",1
+N21,North,6,"Rullstorf, Im Ort",1
+N21,North,7,"Scharnebeck, Meisterstraße",1
+N21,North,8,"Scharnebeck, Bardowicker Straße",1
+N21,North,9,"Hohnstorf, Ernst-Kissolewski-Straße",8
+N21,North,10,"Neu Neetze, Birkenhof",7
+N21,North,11,"Echem, Schulstraße",6
+N21,North,12,"Echem, Birkenweg",1
+N21,North,13,"Echem, Dorfstraße",3
+N21,North,14,Echem,2
+N21,North,15,"Neetze, Am Dorfplatz",11
+N21,North,16,"Neetze, Grundschule",5
+N22,North,1,"Boltersen, Bahnhofstraße",1
+N22,North,2,"Boltersen, Rullstorfer Straße",1
+N22,North,3,"Neetze, Neetzebrücke",1
+N22,North,4,"Hohnstorf, Ernst-Kissolewski-Straße",6
+N22,North,5,"Hohnstorf, Triftweg",3
+N22,North,6,"Hohnstorf, Schule",1
+N22,North,7,"Hohnstorf, Am Sportzentrum",1
+N22,North,8,"Hohnstorf, Dorfstraße",1
+N22,North,9,"Bullendorf bei Echem, Am Buscheberg",3
+N22,North,10,"Hittbergen, Im Kamp",1
+N22,North,11,"Hittbergen, Kirche",2
+N22,North,12,"Hittbergen, Feldstraße",5
+N22,North,13,"Rullstorf, Im Ort",13
+N23,North,1,"Jürgenstorf, Jürgenstorfer Straße",1
+N23,North,2,"Lüdersburg, Kirchtwiete",1
+N23,North,3,"Hohnstorf, Triftweg",2
+N23,North,4,"Hohnstorf, Schule",1
+N23,North,5,"Hohnstorf, Am Sportzentrum",1
+N23,North,6,"Hohnstorf, Dorfstraße",1
+N23,North,7,"Neu Neetze, Birkenhof",5
+N23,North,8,"Neu Neetze, Am Milchberg",2
+N23,North,9,"Rullstorf, K 2/Zum Bahnhof",1
+N23,North,10,"Rullstorf, Im Ort",1
+N23,North,11,"Garlstorf bei Bleckede, Schmiede",2
+N23,North,12,"Scharnebeck, Schulzentrum",2
+N24,North,1,"Jürgenstorf, Jürgenstorfer Straße",1
+N24,North,2,"Lüdersburg, Kirchtwiete",2
+N24,North,3,"Boltersen, Bahnhofstraße",1
+N24,North,4,"Boltersen, Rullstorfer Straße",1
+N24,North,5,"Neetze, Neetzebrücke",3
+N24,North,6,"Neetze, Am Dorfplatz",3
+N24,North,7,"Neetze, Bahnhof",2
+N24,North,8,"Neetze, Grundschule",2
+N24,North,9,"Hohnstorf, Ernst-Kissolewski-Straße",15
+N24,North,10,Hohnstorf (Elbe) Rehwiese 26,1
+N24,North,11,"Bullendorf bei Echem, Am Buscheberg",8
+N24,North,12,"Hittbergen, Im Kamp",3
+N24,North,13,"Hittbergen, Kirche",2
+N24,North,14,"Hittbergen, Feldstraße",6
+N24,North,15,"Bleckede, Bahnhof",3
+N25,North,1,"Jürgenstorf, Jürgenstorfer Straße",1
+N25,North,2,"Hohnstorf, Ernst-Kissolewski-Straße",4
+N25,North,3,"Scharnebeck, Lübbelau",1
+N25,North,4,"Scharnebeck, Bardowicker Straße",1
+N25,North,5,"Scharnebeck, Meisterstraße",1
+N25,North,6,"Rullstorf, Im Ort",1
+N25,North,7,"Boltersen, Bahnhofstraße",6
+N25,North,8,"Boltersen, Rullstorfer Straße",5
+N25,North,9,"Neetze, Am Jahnstadion",5
+N25,North,10,"Neetze, Am Dorfplatz",3
+N25,North,11,"Neetze, Grundschule",6
+N25,North,12,"Bleckede, Bahnhof",1
+N25,North,13,"Bleckede, Rathaus",1
+N26,North,1,"Hohnstorf, Ernst-Kissolewski-Straße",3
+N26,North,2,"Neetze, Am Jahnstadion",1
+N26,North,3,"Neetze, Am Dorfplatz",1
+N26,North,4,"Garze, Große Straße 71",2
+N26,North,5,"Garze, Große Straße 29",1
+N26,North,6,"Bleckeder Moor, Am Papenkamp",1
+N27,North,1,"Scharnebeck, Lübbelau",1
+N27,North,2,"Scharnebeck, Adendorfer Straße",1
+N27,North,3,"Hohnstorf, Triftweg",2
+N27,North,4,"Hohnstorf, Am Sportzentrum",1
+N27,North,5,"Rullstorf, Neumühlen",1
+N27,North,6,Neumühlen bei Rullstorf,1
+N27,North,7,"Karze, An den Hauskoppeln",3
+N27,North,8,"Hittbergen, Roggenberg",3
+N27,North,9,"Hittbergen, Feldstraße",4
+N27,North,10,"Neetze, Am Jahnstadion",3
+N27,North,11,"Neetze, Am Dorfplatz",4
+N27,North,12,"Neetze, Bahnhof",6
+N27,North,13,"Neetze, Am Ried",6
+N28,North,1,"Hohnstorf, Kindergarten",1
+N28,North,2,"Bullendorf bei Echem, Brücke",1
+N28,North,3,"Hittbergen, Kirche",2
+N28,North,4,"Rullstorf, Am Neetzekanal",1
+N28,North,5,"Neu Boltersen, Möhlenkamp",1
+N28,North,6,"Rullstorf, Alte Dorfstraße",2
+N28,North,7,"Rullstorf, Im Ort",4
+N28,North,8,"Scharnebeck, Meisterstraße",1
+N28,North,9,"Boltersen, Rullstorfer Straße",12
+S1,South,1,"Ellringen, Kettelberg",2
+S1,South,2,"Bleckede, Breetzer Straße",1
+S1,South,3,"Bleckede, Barskamper Weg",2
+S1,South,4,"Bleckede, Elbweg",2
+S1,South,5,"Alt Garge, Hauptstraße",2
+S1,South,6,"Alt Garge, Bahnhof",5
+S2,South,1,"Bleckede, Breetzer Straße",3
+S2,South,2,"Bleckede, Saatbau",1
+S2,South,3,"Bleckede, Elbweg",2
+S2,South,4,"Bleckede, Barskamper Weg",1
+S2,South,5,"Alt Garge, Bahnhof",6
+S3,South,1,"Neetzendorf, Ort",1
+S3,South,2,"Gienau, Wiebecker Straße",1
+S3,South,3,"Alt Garge, Bahnhof",1
+S3,South,4,"Alt Garge, Turnhalle",2
+S3,South,5,"Barskamp, Walmsburger Straße",1
+S3,South,6,"Barskamp, Markt",3
+S4,South,1,"Bleckede, Lüneburger Straße",1
+S4,South,2,"Nahrendorf, Im Klint",1
+S4,South,3,"Eimstorf, Ort",1
+S4,South,4,"Dahlenburg, Abzweig Sommerbeck",2
+S4,South,5,"Nahrendorf, Mücklingen",2
+S4,South,6,"Walmsburg, Kateminer Straße",1
+S4,South,7,"Walmsburg, Bruchdorfer Straße",2
+S4,South,8,"Bavendorf, Im Dorfe",4
+S4,South,9,"Bavendorf, Mitte/B 216",3
+S4,South,10,"Lemgrabe, An der Kleinbahn",2
+S4,South,11,"Dahlenburg, Fliederweg",2
+S5,South,1,"Bleckede, Sandfeld",1
+S5,South,2,"Göddingen, Wöppenberg",1
+S5,South,3,Birkenhof,1
+S5,South,4,"Lemgrabe, An der Kleinbahn",1
+S5,South,5,"Bleckede, Barskamper Weg",1
+S5,South,6,"Thomasburg, Im Winkel",2
+S5,South,7,"Ventschau, Ortsmitte",2
+S5,South,8,Bleckede (Fähre),4
+S6,South,1,"Radenbeck, Im Siek",1
+S6,South,2,"Tosterglope, Siedlung",1
+S6,South,3,"Nahrendorf, Im Klint",2
+S6,South,4,"Oldendorf (Göhrde), Alte Poststraße",1
+S6,South,5,"Marienau, Drosselstraße 7",2
+S6,South,6,"Alt Garge, Bahnhof",1
+S6,South,7,"Alt Garge, Turnhalle",1
+S6,South,8,"Alt Garge, Hauptstraße",1
+S7,South,1,"Göddingen, Wöppenberg",1
+S7,South,2,"Bleckede, Rathaus",1
+S7,South,3,"Bleckede, Lüneburger Straße",1
+S7,South,4,"Thomasburg, Im Winkel",2
+S7,South,5,Harmstorf bei Dahlem,3
+S7,South,6,"Radenbeck, Dorfstraße",2
+S7,South,7,"Thomasburg, Radenbecker Weg",6
+S7,South,8,"Alt Garge, Hauptstraße",1
+S7,South,9,"Alt Garge, Bahnhof",3
+S7,South,10,"Bleckede, Brennbusch",7
+S7,South,11,"Bleckede, Elbweg",9
+S7,South,12,"Bleckede, Saatbau",6
+S7,South,13,"Bleckede, Barskamper Weg",4
+S7,South,14,"Bleckede, Schiedenitzweg",1
+S7,South,15,"Bleckede, Dahlenburger Straße",1
+S7,South,16,"Bleckede, Robert-Koch-Straße",1
+S7,South,17,"Bleckede, Schulzentrum",3
+S8,South,1,"Bleckede, Sandfeld",1
+S8,South,2,"Neestahl, Kleinmoor",1
+S8,South,3,"Riecklingen, Abzweigung",1
+S8,South,4,Harmstorf bei Dahlem,1
+S8,South,5,"Dahlem, Steinweg",1
+S8,South,6,"Dahlenburg, Quickborn",1
+S8,South,7,Bleckede (Fähre),4
+S8,South,8,"Bleckede, Schiedenitzweg",2
+S8,South,9,"Bleckede, Robert-Koch-Straße",1
+S8,South,10,"Bleckede, Saatbau",1
+S8,South,11,"Bleckede, Schulzentrum",3
+S9,South,1,"Bavendorf, Mitte/B 216",1
+S9,South,2,"Thomasburg, Radenbecker Weg",1
+S9,South,3,"Thomasburg, Im Winkel",1
+S9,South,4,"Gienau, Wiebecker Straße",1
+S9,South,5,Harmstorf bei Dahlem,2
+S9,South,6,"Walmsburg, Bruchdorfer Straße",2
+S9,South,7,"Dahlenburg, Buendorf",2
+S9,South,8,"Breetze, Ziegelei",3
+S9,South,9,"Breetze, Bokelstraße",4
+S9,South,10,Bleckede (Fähre),3
+S10,South,1,"Nahrendorf, Im Klint",1
+S10,South,2,Lüben,1
+S10,South,3,"Pommoissel, Pommoisseler Straße",2
+S10,South,4,"Dahlem, Steinweg",1
+S10,South,5,"Walmsburg, Kateminer Straße",1
+S10,South,6,"Walmsburg, Bruchdorfer Straße",5
+S10,South,7,Bleckede (Fähre),5
+S10,South,8,"Dahlenburg, Abzweigung Dumstorf",1
+S10,South,9,"Dahlenburg, Ehrenfriedhof",3
+S10,South,10,"Dahlenburg, Markt",1
+S10,South,11,"Dahlenburg, Buendorf",1
+S10,South,12,"Dahlenburg, Quickborn",1
+S10,South,13,"Dahlenburg, Schulzentrum",2
+S11,South,1,"Lemgrabe, Hauptstraße 32",2
+S11,South,2,Boitze,2
+S11,South,3,"Marienau, Drosselstraße 7",1
+S11,South,4,"Dahlenburg, Mittelfeld",2
+S11,South,5,"Alt Garge, Hauptstraße",2
+S11,South,6,"Bleckede, Rathaus",1
+S11,South,7,Bleckede (Fähre),3
+S11,South,8,"Ventschau, Ortsmitte",6
+S11,South,9,"Dahlenburg, Schulzentrum",1
+S12,South,1,"Pommoissel, Pommoisseler Straße",1
+S12,South,2,"Nahrendorf, Im Klint",1
+S12,South,3,"Alt Garge, Bahnhof",7
+S12,South,4,"Alt Garge, Hauptstraße",1
+S12,South,5,"Dumstorf, Am Kirchkamp",1
+S12,South,6,"Lemgrabe, An der Kleinbahn",1
+S12,South,7,"Dahlenburg, Fliederweg",2
+S12,South,8,"Dahlenburg, Ehrenfriedhof",2
+S12,South,9,"Dahlenburg, Markt",3
+S13,South,1,"Gienau, Wiebecker Straße",1
+S13,South,2,"Nahrendorf, Im Klint",1
+S13,South,3,"Ventschau, Ortsmitte",1
+S13,South,4,"Kovahl, Alter Rundling",1
+S13,South,5,"Bleckede, Brennbusch",1
+S13,South,6,"Bleckede, Elbweg",1
+S13,South,7,"Ellringen, Kettelberg",4
+S14,South,1,"Walmsburg, Kateminer Straße",1
+S14,South,2,"Köstorf, Haus Nr. 6",1
+S14,South,3,"Bleckede, Lüneburger Straße",1
+S14,South,4,"Bleckede, Schulzentrum",1
+S14,South,5,"Lemgrabe, Hauptstraße 32",1
+S14,South,6,"Walmsburg, Bruchdorfer Straße",1
+S14,South,7,"Dumstorf, Am Kirchkamp",1
+S14,South,8,"Bavendorf, Mitte/B 216",1
+S14,South,9,"Dahlenburg, Mittelfeld",1
+S14,South,10,"Dahlenburg, Ehrenfriedhof",2
+S14,South,11,Harmstorf bei Dahlem,2
+S14,South,12,"Göddingen, Wöppenberg",6
+S14,South,13,"Göddingen, Am Fischteich",2
+S15,South,1,"Bleckede, Lüneburger Straße",1
+S15,South,2,"Bleckede, Elbweg",1
+S15,South,3,"Bleckede, Brennbusch",1
+S15,South,4,Bleckede (Fähre),3
+S15,South,5,"Köstorf, Haus Nr. 6",3
+S15,South,6,"Nahrendorf, Tangsehler Weg",4
+S15,South,7,Klein Sommerbeck 15,2
+S15,South,8,"Bavendorf, Im Dorfe",3
+S15,South,9,"Bavendorf, Mitte/B 216",1
+S15,South,10,"Radenbeck, Im Siek",3
+S15,South,11,"Radenbeck, Linnenkamp",3
+S15,South,12,"Radenbeck, Dorfstraße",2
+S15,South,13,"Dahlenburg, Mittelfeld",3
+S15,South,14,"Dahlenburg, Markt",5
+S15,South,15,"Dahlenburg, Buendorf",2
+S15,South,16,"Dahlenburg, Quickborn",2
+S16,South,1,Bleckede (Fähre),1
+S16,South,2,Klein Sommerbeck 15,1
+S16,South,3,"Marienau, Drosselstraße 7",1
+S16,South,4,"Dahlenburg, Markt",1
+S16,South,5,"Dahlenburg, Quickborn",1
+S16,South,6,"Dahlenburg, Klein Sommerbeck 15",2
+S16,South,7,"Thomasburg, Im Winkel",2
+S16,South,8,"Thomasburg, Radenbecker Weg",1
+S16,South,9,"Lemgrabe, Hauptstraße 32",2
+S16,South,10,"Lemgrabe, Am Hasenberg",3
+S16,South,11,"Lemgrabe, An der Kleinbahn",4
+S16,South,12,"Dahlenburg, Fliederweg",1
+S17,South,1,Bleckede (Fähre),1
+S17,South,2,"Dahlem, Steinweg",1
+S17,South,3,"Ellringen, Kettelberg",1
+S17,South,4,Lüben,1
+S17,South,5,"Pommoissel, Pommoisseler Straße",5
+S17,South,6,"Dumstorf, Am Kirchkamp",1
+S17,South,7,"Lemgrabe, An der Kleinbahn",3
+S17,South,8,"Dahlenburg, Fliederweg",2
+S17,South,9,"Dahlenburg, Grundschule",1
+S17,South,10,"Dahlenburg, Markt",1
+S18,South,1,Dahlenburg Am Kirchkamp 16,1
+S18,South,2,"Oldendorf (Göhrde), Alte Poststraße",1
+S18,South,3,"Nahrendorf, Tangsehler Weg",1
+S18,South,4,"Pommoissel, Pommoisseler Straße",2
+S18,South,5,"Bleckede, Sandfeld",1
+S18,South,6,"Bleckede, Lüneburger Straße",2
+S18,South,7,"Göddingen, Am Fischteich",1
+S18,South,8,"Göddingen, Wöppenberg",1
+S18,South,9,"Alt Garge, Bahnhof",6
+S18,South,10,"Alt Garge, Hauptstraße",1
+S18,South,11,"Marienau, Gymnasium",2
+S18,South,12,"Marienau, Drosselstraße 7",5
+S18,South,13,"Dahlenburg, Ehrenfriedhof",1
+S18,South,14,"Dahlenburg, Markt",2
+S19,South,1,"Marienau, Gymnasium",1
+S19,South,2,"Dahlem, Steinweg",1
+S19,South,3,"Nahrendorf, Tangsehler Weg",1
+S19,South,4,"Nahrendorf, Im Klint",1
+S19,South,5,"Oldendorf (Göhrde), Alte Poststraße",2
+S19,South,6,"Alt Garge, Bahnhof",7
+S19,South,7,"Lemgrabe, An der Kleinbahn",3
+S19,South,8,"Dahlenburg, Fliederweg",1
+S19,South,9,"Marienau, Drosselstraße 7",5
+S19,South,10,"Dahlenburg, Ehrenfriedhof",2
+S20,South,1,"Nahrendorf, Mücklingen",1
+S20,South,2,"Thomasburg, Radenbecker Weg",1
+S20,South,3,"Radenbeck, Im Siek",1
+S20,South,4,"Ventschau, Ortsmitte",1
+S20,South,5,"Ventschau, Am Dicken Busch",1
+S20,South,6,Bleckede (Fähre),2
+S20,South,7,"Nahrendorf, Tangsehler Weg",2
+S20,South,8,"Nahrendorf, Im Klint",8
+S20,South,9,"Dahlenburg, Markt",1
+S21,South,1,Bleckede (Fähre),1
+S21,South,2,"Pommoissel, Pommoisseler Straße",1
+S21,South,3,"Neestahl, Abzweig Tangsehl",2
+S21,South,4,"Reeßeln, Abzweigung",1
+S21,South,5,"Walmsburg, Bruchdorfer Straße",2
+S21,South,6,"Nahrendorf, Mücklingen",5
+S21,South,7,"Nahrendorf, Tangsehler Weg",7
+S21,South,8,"Dahlenburg, Ehrenfriedhof",1
+S21,South,9,"Dahlenburg, Markt",3
+S22,South,1,"Pommoissel, Pommoisseler Straße",1
+S22,South,2,"Walmsburg, Bruchdorfer Straße",3
+S22,South,3,"Alt Garge, Bahnhof",3
+S22,South,4,"Alt Garge, Hauptstraße",1
+S22,South,5,"Ventschau, Ortsmitte",5
+S23,South,1,"Nahrendorf, Im Klint",2
+S23,South,2,Bleckede (Fähre),4
+S23,South,3,"Neestahl, Kleinmoor",2
+S23,South,4,"Riecklingen, Abzweigung",4
+S23,South,5,Vindorf,1
+S23,South,6,"Seedorf bei Boitze, Abzweigung",1
+S23,South,7,"Seedorf bei Boitze, Ort",3
+S23,South,8,"Thomasburg, Radenbecker Weg",7
+S23,South,9,"Radenbeck, Linnenkamp",2
+S23,South,10,"Radenbeck, Im Siek",5
+S23,South,11,"Dahlenburg, Schulzentrum",1
+S23,South,12,"Dahlenburg, Markt",4
+S24,South,1,"Bleckede, Lüneburger Straße",1
+S24,South,2,"Thomasburg, Radenbecker Weg",1
+S24,South,3,"Ellringen, Ellringer Neetzetal",1
+S24,South,4,"Ellringen, Kettelberg",1
+S24,South,5,"Radenbeck, Linnenkamp",1
+S24,South,6,"Kovahl, Alter Rundling",2
+S24,South,7,Bleckede (Fähre),4
+S24,South,8,"Oldendorf (Göhrde), Alte Poststraße",1
+S24,South,9,"Nahrendorf, Im Klint",1
+S24,South,10,"Tosterglope, Siedlung",6
+S24,South,11,"Tosterglope, Neuhauser Straße",5
+S24,South,12,"Ventschau, Am Dicken Busch",1
+S24,South,13,"Dahlenburg, Markt",1
+S25,South,1,"Dahlenburg, Birkenhof",1
+S25,South,2,"Pommoissel, Pommoisseler Straße",2
+S25,South,3,"Neestahl, Abzweig Tangsehl",1
+S25,South,4,"Nahrendorf, Im Klint",1
+S25,South,5,"Nahrendorf, Tangsehler Weg",1
+S25,South,6,"Kovahl, Alter Rundling",1
+S25,South,7,"Ventschau, Ortsmitte",2
+S25,South,8,"Dahlenburg, Mittelfeld",2
+S26,South,1,"Dahlenburg, Markt",3
+S26,South,2,"Dahlenburg, Mittelfeld",2
+S26,South,3,"Kovahl, Alter Rundling",1
+S26,South,4,"Ellringen, Kettelberg",2
+S26,South,5,"Göddingen, Wöppenberg",1
+S26,South,6,"Alt Garge, Bahnhof",5
+S26,South,7,"Alt Garge, Hauptstraße",5
+S26,South,8,Bleckede (Fähre),7
+S26,South,9,"Walmsburg, Bruchdorfer Straße",7
+S26,South,10,"Walmsburg, Kateminer Straße",9
+S27,South,1,"Tosterglope, Neuhauser Straße",1
+S27,South,2,"Nahrendorf, Im Klint",1
+S27,South,3,"Radenbeck, Linnenkamp",1
+S27,South,4,"Pommoissel, Pommoisseler Straße",1
+S27,South,5,"Ellringen, Kettelberg",1
+S27,South,6,"Kovahl, Alter Rundling",1
+S27,South,7,Bleckede (Fähre),3
+S27,South,8,"Bleckede, Rathaus",1
+S27,South,9,"Alt Garge, Bahnhof",5
+S27,South,10,"Alt Garge, Turnhalle",1
+S27,South,11,"Alt Garge, Hauptstraße",3
+S27,South,12,"Barskamp, Walmsburger Straße",1
+S27,South,13,"Barskamp, Markt",7
+S27,South,14,"Barskamp, Hohe Luft",7
+S27,South,15,"Dahlenburg, Schulzentrum",1
+S28,South,1,"Dumstorf, Am Kirchkamp",1
+S28,South,2,"Reeßeln, Abzweigung",1
+S28,South,3,"Bavendorf, Mitte/B 216",1
+S28,South,4,"Bavendorf, Im Dorfe",1
+S28,South,5,"Nahrendorf, Im Klint",1
+S28,South,6,"Tosterglope, Siedlung",1
+S28,South,7,"Tosterglope, Neuhauser Straße",1
+S28,South,8,"Pommoissel, Pommoisseler Straße",3
+S28,South,9,"Barskamp, Walmsburger Straße",3
+S28,South,10,Bavendorf Bahnhof,3
+S28,South,11,Bleckede (Fähre),7
+S29,South,1,"Ellringen, Kettelberg",1
+S29,South,2,"Breetze, Bokelstraße",1
+S29,South,3,"Bleckede, Lüneburger Straße",1
+S29,South,4,"Bleckede, Sandfeld",3
+S29,South,5,"Köstorf, Haus Nr. 6",3
+S29,South,6,"Nahrendorf, Im Klint",1
+S29,South,7,"Nahrendorf, Tangsehler Weg",2
+S29,South,8,"Kovahl, Alter Rundling",3
+S29,South,9,Bleckede (Fähre),12
+S29,South,10,"Bavendorf, Im Dorfe",9
+S29,South,11,"Bavendorf, Mitte/B 216",12
+S29,South,12,"Dahlenburg, Mittelfeld",6
+S29,South,13,"Dahlenburg, Markt",2
+S30,South,1,"Kovahl, Alter Rundling",2
+S30,South,2,"Nahrendorf, Tangsehler Weg",3
+S30,South,3,"Nahrendorf, Im Klint",1
+S30,South,4,"Seedorf bei Boitze, Abzweigung",1
+S30,South,5,"Ventschau, Ortsmitte",1
+S30,South,6,"Ellringen, Ellringer Neetzetal",1
+S30,South,7,"Ellringen, Kettelberg",1
+S30,South,8,"Bleckede, Elbweg",4
+S30,South,9,"Bleckede, Robert-Koch-Straße",1
+S30,South,10,"Bleckede, Dahlenburger Straße",2
+S30,South,11,"Bleckede, Lüneburger Straße",1
+S30,South,12,"Bleckede, Elbtalhaus",4
+S30,South,13,Bleckede (Fähre),4
+S30,South,14,"Pommoissel, Pommoisseler Straße",1
+S31,South,1,"Thomasburg, Radenbecker Weg",2
+S31,South,2,"Radenbeck, Dorfstraße",1
+S31,South,3,"Ventschau, Am Dicken Busch",2
+S31,South,4,"Nahrendorf, Im Klint",1
+S31,South,5,"Nahrendorf, Tangsehler Weg",1
+S31,South,6,"Kovahl, Alter Rundling",2
+S31,South,7,Harmstorf bei Dahlem,4
+S31,South,8,"Bleckede, Schulzentrum",3
+S31,South,9,Bleckede (Fähre),5
+S31,South,10,"Dahlenburg, Markt",2
+S32,South,1,"Süschendorf, Kreuzung",1
+S32,South,2,"Nahrendorf, Im Klint",2
+S32,South,3,"Dahlenburg, Quickborn",1
+S32,South,4,"Kovahl, Alter Rundling",1
+S32,South,5,"Neestahl, Kleinmoor",1
+S32,South,6,"Breetze, Bokelstraße",2
+S32,South,7,"Seedorf bei Boitze, Ort",3
+S32,South,8,"Seedorf bei Boitze, Abzweigung",1
+S32,South,9,"Gienau, Wiebecker Straße",4
+S32,South,10,"Bleckede, Sandfeld",2
+S32,South,11,"Bleckede, Lüneburger Straße",3
+S32,South,12,"Bleckede, Rathaus",1
+S32,South,13,Bleckede (Fähre),7
+S32,South,14,"Bleckede, Elbweg",2
