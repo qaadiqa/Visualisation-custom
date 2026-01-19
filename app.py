@@ -154,6 +154,12 @@ if chart_type == "Bar Chart":
 
     df_plot = df.copy()
     df_plot[y_col] = pd.to_numeric(df_plot[y_col], errors="coerce")
+    df_plot[y_col] = pd.to_numeric(df_plot[y_col], errors="coerce")
+    st.write(df_plot[[x_col, y_col]])  # Check values
+    df_plot[y_col] = df_plot[y_col].astype(str).str.replace(",", "").str.strip()
+    df_plot[y_col] = pd.to_numeric(df_plot[y_col], errors="coerce")
+
+
 
     if bar_mode == "Vertical":
         fig = px.bar(df_plot, x=x_col, y=y_col)
