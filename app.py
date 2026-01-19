@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 import plotly.graph_objects as go
+import duckdb
+import re
 
 st.set_page_config(page_title="CSV / Excel Dashboard", layout="wide")
 st.title("📊 CSV / Excel Data Dashboard")
@@ -18,8 +20,9 @@ def show_hint(msg):
 def numeric_columns(df):
     return df.select_dtypes(include=np.number).columns.tolist()
 
-def categorical_columns(df):
-    return df.select_dtypes(exclude=np.number).columns.tolist()
+def safe_table_name(name):
+    name = re.sub(r"\W+", "_", name.lower())
+    return name.replace("_csv", "").replace("_xlsx", "")
 
 # ----------------------------
 # FILE UPLOAD
@@ -29,7 +32,7 @@ st.markdown(
 📁 **Upload CSV / Excel Files**
 
 Upload one or more **CSV (.csv)** or **Excel (.xlsx)** files.  
-Each file can be analysed with a set of **EDA visualisations** to understand your data better.
+You can query across files using SQL and visualize derived results.
 """
 )
 
@@ -53,10 +56,63 @@ for f in uploaded_files:
     else:
         dataframes[f.name] = pd.read_excel(f)
 
-selected_file = st.selectbox("Select file to analyze", list(dataframes.keys()))
-df = dataframes[selected_file]
+# ----------------------------
+# SQL ENGINE (DuckDB)
+# ----------------------------
+con = duckdb.connect(database=":memory:")
+table_map = {}
 
-st.write(f"### Selected file: {selected_file} ({len(df)} records)")
+for fname, df_ in dataframes.items():
+    table = safe_table_name(fname)
+    table_map[fname] = table
+    con.register(table, df_)
+
+# ----------------------------
+# SQL QUERY UI
+# ----------------------------
+st.markdown("---")
+st.header("🧠 SQL Query Engine")
+
+st.markdown("**Available Tables:**")
+for f, t in table_map.items():
+    st.code(f"{t}  ←  {f}")
+
+sql_query = st.text_area(
+    "Write SQL query",
+    height=180,
+    placeholder="""
+Example:
+SELECT route, COUNT(*) AS total_students
+FROM route_details
+GROUP BY route
+"""
+)
+
+if st.button("▶ Run Query"):
+    try:
+        sql_result = con.execute(sql_query).df()
+        st.success(f"Query executed successfully ({len(sql_result)} rows)")
+        st.dataframe(sql_result, use_container_width=True)
+        st.session_state["sql_result"] = sql_result
+    except Exception as e:
+        st.error(f"SQL Error: {e}")
+
+# ----------------------------
+# DATA SOURCE SELECTION
+# ----------------------------
+st.markdown("---")
+st.header("📂 Data Source")
+
+selected_file = st.selectbox("Select original file", list(dataframes.keys()))
+df_original = dataframes[selected_file]
+
+use_sql = False
+if "sql_result" in st.session_state:
+    use_sql = st.checkbox("Use SQL query result for visualization", value=True)
+
+df = st.session_state["sql_result"] if use_sql else df_original
+
+st.write(f"### Active Dataset ({len(df)} records)")
 st.dataframe(df, use_container_width=True)
 
 # ----------------------------
@@ -84,8 +140,8 @@ if chart_type == "Bar Chart":
 
     show_hint(
         "Bar charts compare numeric values across categories.\n\n"
-        "• X-axis → categorical column (Route, Stop, School)\n"
-        "• Y-axis → numeric column (Count, Distance, Students)"
+        "• X-axis → categorical column\n"
+        "• Y-axis → numeric column"
     )
 
     x_col = st.selectbox("X-axis", df.columns)
@@ -123,8 +179,7 @@ elif chart_type == "Scatter Plot":
     show_hint(
         "Scatter plots show relationships between two numeric variables.\n\n"
         "• X-axis → numeric column\n"
-        "• Y-axis → numeric column\n"
-        "• Color → optional category"
+        "• Y-axis → numeric column"
     )
 
     num_cols = numeric_columns(df)
@@ -151,9 +206,7 @@ elif chart_type == "Scatter Plot":
 elif chart_type == "Spider / Radar Chart":
 
     show_hint(
-        "Radar charts compare multiple numeric metrics for ONE category.\n\n"
-        "• Category → Route / Stop / School\n"
-        "• Metrics → numeric columns only"
+        "Radar charts compare multiple numeric metrics for ONE category."
     )
 
     category_col = st.selectbox("Category column", df.columns)
@@ -168,34 +221,25 @@ elif chart_type == "Spider / Radar Chart":
         row = df[df[category_col] == selected_value][metrics]
 
         if not row.empty:
-            values = row.iloc[0]
-
             fig = go.Figure(
                 go.Scatterpolar(
-                    r=values.values,
+                    r=row.iloc[0].values,
                     theta=metrics,
                     fill="toself"
                 )
             )
-
             fig.update_layout(
-                title=f"Radar Chart – {selected_value}",
-                polar=dict(radialaxis=dict(visible=True))
+                polar=dict(radialaxis=dict(visible=True)),
+                title=f"Radar Chart – {selected_value}"
             )
-
             st.plotly_chart(fig, use_container_width=True)
-        else:
-            st.warning("No data for selected category.")
 
 # ----------------------------
 # PAIR PLOT
 # ----------------------------
 elif chart_type == "Pair Plot":
 
-    show_hint(
-        "Pair plots show distributions and relationships between numeric columns.\n\n"
-        "• Requires at least 2 numeric columns"
-    )
+    show_hint("Pair plots require at least two numeric columns.")
 
     num_cols = numeric_columns(df)
 
@@ -203,12 +247,10 @@ elif chart_type == "Pair Plot":
         st.warning("Not enough numeric columns.")
     else:
         hue = st.selectbox("Hue (optional)", ["None"] + list(df.columns))
-
         fig = sns.pairplot(
             df[num_cols + ([hue] if hue != "None" else [])],
             hue=None if hue == "None" else hue
         )
-
         st.pyplot(fig)
 
 # ----------------------------
@@ -216,19 +258,15 @@ elif chart_type == "Pair Plot":
 # ----------------------------
 elif chart_type == "Correlation Heatmap":
 
-    show_hint(
-        "Correlation heatmaps show the strength of relationships between numeric variables.\n\n"
-        "• Uses all numeric columns automatically"
-    )
+    show_hint("Correlation heatmaps show relationships between numeric variables.")
 
     num_df = df.select_dtypes(include=np.number)
 
     if num_df.shape[1] < 2:
         st.warning("Need at least 2 numeric columns.")
     else:
-        corr = num_df.corr()
         fig, ax = plt.subplots(figsize=(10, 6))
-        sns.heatmap(corr, annot=True, cmap="coolwarm", ax=ax)
+        sns.heatmap(num_df.corr(), annot=True, cmap="coolwarm", ax=ax)
         st.pyplot(fig)
 
 # ----------------------------
@@ -236,12 +274,9 @@ elif chart_type == "Correlation Heatmap":
 # ----------------------------
 elif chart_type == "Map":
 
-    show_hint(
-        "Maps require latitude and longitude columns.\n\n"
-        "• Column names must be 'lat' and 'lon'"
-    )
+    show_hint("Requires 'lat' and 'lon' columns.")
 
     if "lat" in df.columns and "lon" in df.columns:
         st.map(df[["lat", "lon"]])
     else:
-        st.warning("Latitude ('lat') and longitude ('lon') columns not found.")
+        st.warning("Latitude and longitude columns not found.")
