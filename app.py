@@ -4,133 +4,166 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
-import requests
-import time
+import plotly.graph_objects as go
 from streamlit_folium import st_folium
 
 st.set_page_config(page_title="CSV Dashboard", layout="wide")
-st.title("CSV Dashboard")
+st.title("CSV / Excel Dashboard")
 
 # ----------------------------
-# MULTIPLE FILE UPLOAD
+# FILE UPLOAD (CSV + EXCEL)
 # ----------------------------
-uploaded_files = st.file_uploader("Upload CSV files", type=["csv"], accept_multiple_files=True)
+st.markdown(
+    """
+📁 **Upload CSV / Excel Files**
+
+Upload one or more **CSV (.csv) or Excel (.xlsx)** files.  
+Each file can be analysed with multiple **EDA visualisations** to understand your data better.
+"""
+)
+
+uploaded_files = st.file_uploader(
+    "Upload files",
+    type=["csv", "xlsx"],
+    accept_multiple_files=True
+)
 
 if uploaded_files:
-    # Dictionary to store uploaded DataFrames
-    dataframes = {f.name: pd.read_csv(f) for f in uploaded_files}
 
-    # Dropdown to select which file to analyze
+    dataframes = {}
+    for f in uploaded_files:
+        if f.name.endswith(".csv"):
+            dataframes[f.name] = pd.read_csv(f)
+        else:
+            dataframes[f.name] = pd.read_excel(f)
+
     selected_file = st.selectbox("Select file to analyze", list(dataframes.keys()))
     df = dataframes[selected_file]
 
     st.write(f"### Selected file: {selected_file} ({len(df)} records)")
+    st.dataframe(df)
 
     # ----------------------------
-    # RECORD SELECTOR
+    # BAR CHARTS
     # ----------------------------
-    st.subheader("Select Number of Records")
-    record_options = ["All Data", 10, 50, 100, 500, 1000, "Custom"]
-    record_choice = st.selectbox("How many rows to analyze?", record_options)
-
-    if record_choice == "All Data":
-        df_filtered = df.copy()
-    elif record_choice == "Custom":
-        custom_n = st.number_input(
-            "Enter number of rows:", min_value=1, max_value=len(df), value=len(df)
-        )
-        df_filtered = df.head(int(custom_n))
-    else:
-        df_filtered = df.head(int(record_choice))
-
-    st.write(f"### Showing {len(df_filtered)} of {len(df)} records")
-    st.dataframe(df_filtered)
-    df = df_filtered
-
     st.markdown("---")
     st.header("Bar Charts")
 
-    # Bar chart columns
-    col_x = st.selectbox("X-axis (categorical)", df.columns, key="bar_x")
-    col_y = st.selectbox("Y-axis (numeric)", df.columns, key="bar_y")
+    col_x = st.selectbox("X-axis", df.columns, key="bar_x")
+    col_y = st.selectbox("Y-axis", df.columns, key="bar_y")
 
     chart_type = st.selectbox(
         "Bar Chart Type",
         ["Vertical Bar", "Horizontal Bar", "Grouped Bar", "Stacked Bar"]
     )
 
-    # -----------------------------------------
-    # FIXED: PLOTTING EXACT VALUES (NO AUTO AGGREGATION)
-    # -----------------------------------------
     df_plot = df.copy()
 
-    # If y column is non-numeric, convert safely
     if not np.issubdtype(df_plot[col_y].dtype, np.number):
-        try:
-            df_plot[col_y] = pd.to_numeric(df_plot[col_y], errors="coerce")
-        except:
-            st.error("Y-axis column must be numeric for bar charts.")
-            st.stop()
+        df_plot[col_y] = pd.to_numeric(df_plot[col_y], errors="coerce")
 
-    # ---------------------------
-    # INTERACTIVE PLOTLY BAR CHARTS
-    # ---------------------------
     if chart_type == "Vertical Bar":
         fig = px.bar(df_plot, x=col_x, y=col_y)
-        fig.update_layout(title="Vertical Bar Chart", xaxis_title=col_x, yaxis_title=col_y, xaxis_tickangle=-45)
         st.plotly_chart(fig, use_container_width=True)
 
     elif chart_type == "Horizontal Bar":
-        fig = px.bar(df_plot, x=col_y, y=col_x, orientation='h')
-        fig.update_layout(title="Horizontal Bar Chart", xaxis_title=col_y, yaxis_title=col_x)
+        fig = px.bar(df_plot, x=col_y, y=col_x, orientation="h")
         st.plotly_chart(fig, use_container_width=True)
 
     elif chart_type == "Grouped Bar":
-        group_col = st.selectbox("Grouping Column", df.columns, key="groupbar")
+        group_col = st.selectbox("Group by", df.columns)
         fig = px.bar(df_plot, x=col_x, y=col_y, color=group_col, barmode="group")
-        fig.update_layout(title="Grouped Bar Chart", xaxis_tickangle=-45)
         st.plotly_chart(fig, use_container_width=True)
 
     elif chart_type == "Stacked Bar":
-        stack_col = st.selectbox("Stack Column", df.columns, key="stackbar")
+        stack_col = st.selectbox("Stack by", df.columns)
         fig = px.bar(df_plot, x=col_x, y=col_y, color=stack_col, barmode="stack")
-        fig.update_layout(title="Stacked Bar Chart", xaxis_tickangle=-45)
         st.plotly_chart(fig, use_container_width=True)
 
-    # ---------------------------
-    # HEATMAPS
-    # ---------------------------
+    # ----------------------------
+    # SCATTER PLOTS
+    # ----------------------------
     st.markdown("---")
-    st.header("Heatmaps (Seaborn)")
-    heatmap_type = st.selectbox("Choose Heatmap Type", ["Correlation Heatmap", "Pivot Heatmap"])
+    st.header("Scatter Plot")
 
-    if heatmap_type == "Correlation Heatmap":
-        numeric_df = df.select_dtypes(include=[np.number])
-        if numeric_df.shape[1] >= 2:
-            corr = numeric_df.corr()
-            fig, ax = plt.subplots(figsize=(10, 6))
-            sns.heatmap(corr, annot=True, cmap="coolwarm", ax=ax)
-            st.pyplot(fig)
-        else:
-            st.warning("Need at least 2 numeric columns.")
+    scatter_x = st.selectbox("X-axis", df.columns, key="scatter_x")
+    scatter_y = st.selectbox("Y-axis", df.columns, key="scatter_y")
+    scatter_color = st.selectbox("Color (optional)", ["None"] + list(df.columns))
+    scatter_size = st.selectbox("Size (optional)", ["None"] + list(df.columns))
+
+    fig = px.scatter(
+        df,
+        x=scatter_x,
+        y=scatter_y,
+        color=None if scatter_color == "None" else scatter_color,
+        size=None if scatter_size == "None" else scatter_size
+    )
+    st.plotly_chart(fig, use_container_width=True)
+
+    # ----------------------------
+    # PAIR PLOT / FACET GRID
+    # ----------------------------
+    st.markdown("---")
+    st.header("Pair Plot / Facet Grid")
+
+    numeric_cols = df.select_dtypes(include=np.number).columns.tolist()
+
+    if len(numeric_cols) >= 2:
+        hue_col = st.selectbox("Hue (optional)", ["None"] + list(df.columns))
+        fig = sns.pairplot(df[numeric_cols + ([hue_col] if hue_col != "None" else [])],
+                           hue=None if hue_col == "None" else hue_col)
+        st.pyplot(fig)
     else:
-        x_col = st.selectbox("X-axis", df.columns)
-        y_col = st.selectbox("Y-axis", df.columns)
-        val_col = st.selectbox("Value (numeric)", df.columns)
-        try:
-            pivot = df.pivot_table(index=y_col, columns=x_col, values=val_col, aggfunc="mean")
-            fig, ax = plt.subplots(figsize=(10, 6))
-            sns.heatmap(pivot, annot=True, cmap="viridis", ax=ax)
-            st.pyplot(fig)
-        except:
-            st.error("Could not create pivot table. Choose valid columns.")
+        st.warning("Need at least two numeric columns for pair plots.")
 
-    # ---------------------------
-    # MAP PLOT (ORIGINAL)
-    # ---------------------------
+    # ----------------------------
+    # SPIDER / RADAR CHART (ROUTE DETAILS)
+    # ----------------------------
+    st.markdown("---")
+    st.header("🕸 Spider / Radar Chart (Route Comparison)")
+
+    category_col = st.selectbox("Category (Route / Stop / School)", df.columns)
+
+    value_cols = st.multiselect(
+        "Numeric metrics to compare",
+        df.select_dtypes(include=np.number).columns
+    )
+
+    if category_col and value_cols:
+        selected_category = st.selectbox(
+            "Select category value",
+            df[category_col].unique()
+        )
+
+        row = df[df[category_col] == selected_category][value_cols].iloc[0]
+
+        fig = go.Figure(
+            data=[
+                go.Scatterpolar(
+                    r=row.values,
+                    theta=value_cols,
+                    fill="toself"
+                )
+            ]
+        )
+
+        fig.update_layout(
+            polar=dict(radialaxis=dict(visible=True)),
+            title=f"Spider Chart for {selected_category}"
+        )
+
+        st.plotly_chart(fig, use_container_width=True)
+
+    # ----------------------------
+    # BASIC MAP (UNCHANGED)
+    # ----------------------------
     st.markdown("---")
     st.header("🗺 Basic Map Plot")
+
     if "lat" in df.columns and "lon" in df.columns:
         st.map(df[["lat", "lon"]])
     else:
-        st.info("CSV must include 'lat' & 'lon' columns to render a map. Skipping...")
+        st.info("Latitude & longitude not found. Map skipped.")
+
+else:
+    st.info("Upload one or more CSV / Excel files to begin.")
