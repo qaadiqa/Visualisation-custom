@@ -7,3 +7,4 @@ seaborn
 folium
 streamlit-folium
 requests
+duckdb
