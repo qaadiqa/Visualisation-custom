@@ -9,7 +9,7 @@ import duckdb
 import re
 
 st.set_page_config(page_title="CSV / Excel Dashboard", layout="wide")
-st.title("📊 CSV / Excel Data Dashboard")
+st.title("📊 Data Dashboard")
 
 # ----------------------------
 # Helper Functions
