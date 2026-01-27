@@ -24,11 +24,11 @@ html, body, [class*="css"] {
 }
 </style>
 """, unsafe_allow_html=True)
+
 # ----------------------------
 # LIGHT / DARK MODE
 # ----------------------------
 dark = st.toggle("🌗 Dark Mode")
-
 st.markdown(f"""
 <style>
 .stApp {{
@@ -40,6 +40,7 @@ h1,h2,h3,h4,h5,p,label {{
 }}
 </style>
 """, unsafe_allow_html=True)
+
 # ----------------------------
 # TITLE
 # ----------------------------
@@ -112,49 +113,56 @@ palette_map = {
     "Dark": px.colors.qualitative.Dark24,
     "Sunset": px.colors.sequential.Sunset
 }
-
 colors = palette_map[palette_name]
 
 # -------------------------------------------------
-# DATA SOURCE (RAW OR SQL RESULT)
+# SQL QUERY UI (REPLACED)
 # -------------------------------------------------
-df_base = dataframes[selected_file]
-df_viz = st.session_state.get("sql_result", df_base)
+st.markdown("---")
+st.header("🧠 SQL Query Engine")
 
-# -------------------------------------------------
-# DATA PREVIEW
-# -------------------------------------------------
-st.markdown('<div class="card">', unsafe_allow_html=True)
-st.subheader(f"📄 Preview ({len(df_viz)} rows)")
-st.dataframe(df_viz, use_container_width=True)
-st.markdown('</div>', unsafe_allow_html=True)
-
-# -------------------------------------------------
-# SQL QUERY EDITOR (REAL)
-# -------------------------------------------------
-st.markdown('<div class="card">', unsafe_allow_html=True)
-st.subheader("🧮 SQL Query Editor")
-
-st.info(
-    "Each uploaded file is available as a SQL table.\n"
-    "Table name = file name with dots replaced by underscores."
-)
+st.markdown("**Available Tables:**")
+table_map = {f.name.replace(".", "_").replace(" ", "_"): f.name for f in uploaded_files}
+for f, t in table_map.items():
+    st.code(f"{t}  ←  {f}")
 
 sql_query = st.text_area(
     "Write SQL query",
-    height=150,
-    placeholder="SELECT * FROM your_file_csv LIMIT 10;"
+    height=180,
+    placeholder="""
+Example:
+SELECT route, COUNT(*) AS total_students
+FROM route_details
+GROUP BY route
+"""
 )
 
-if st.button("Run Query"):
+if st.button("▶ Run Query"):
     try:
-        result = con.execute(sql_query).df()
-        st.session_state["sql_result"] = result
-        st.success(f"Query returned {len(result)} rows")
+        sql_result = con.execute(sql_query).df()
+        st.success(f"Query executed successfully ({len(sql_result)} rows)")
+        st.dataframe(sql_result, use_container_width=True)
+        st.session_state["sql_result"] = sql_result
     except Exception as e:
-        st.error(str(e))
+        st.error(f"SQL Error: {e}")
 
-st.markdown('</div>', unsafe_allow_html=True)
+# ----------------------------
+# DATA SOURCE SELECTION
+# ----------------------------
+st.markdown("---")
+st.header("📂 Data Source")
+
+selected_file = st.selectbox("Select original file", list(dataframes.keys()))
+df_original = dataframes[selected_file]
+
+use_sql = False
+if "sql_result" in st.session_state:
+    use_sql = st.checkbox("Use SQL query result for visualization", value=True)
+
+df_viz = st.session_state["sql_result"] if use_sql else df_original
+
+st.write(f"### Active Dataset ({len(df_viz)} records)")
+st.dataframe(df_viz, use_container_width=True)
 
 # -------------------------------------------------
 # VISUALIZATIONS
@@ -234,23 +242,4 @@ st.markdown('</div>', unsafe_allow_html=True)
 # CHATBOT (REAL STATEFUL)
 # -------------------------------------------------
 st.markdown('<div class="card">', unsafe_allow_html=True)
-st.subheader("🧠 Ask Your Data (Chatbot)")
-
-if "chat_history" not in st.session_state:
-    st.session_state.chat_history = []
-
-question = st.text_input(
-    "Ask a question (e.g. total students per route)"
-)
-
-if st.button("Ask"):
-    if question:
-        st.session_state.chat_history.append(("You", question))
-        st.session_state.chat_history.append(
-            ("Assistant", "LLM integration coming next (SQL generation).")
-        )
-
-for role, msg in st.session_state.chat_history:
-    st.markdown(f"**{role}:** {msg}")
-
-st.markdown('</div>', unsafe_allow_html=True)
+st.subheader("🧠 A
