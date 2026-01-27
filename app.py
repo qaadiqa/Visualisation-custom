@@ -24,7 +24,6 @@ html, body, [class*="css"] {
 }
 </style>
 """, unsafe_allow_html=True)
-
 # ----------------------------
 # LIGHT / DARK MODE
 # ----------------------------
@@ -41,137 +40,217 @@ h1,h2,h3,h4,h5,p,label {{
 }}
 </style>
 """, unsafe_allow_html=True)
-
 # ----------------------------
 # TITLE
 # ----------------------------
-st.title("📊 Intelligent Data Dashboard")
+st.title("📊 Power AID")
 
-# ----------------------------
+# -------------------------------------------------
 # FILE UPLOAD
-# ----------------------------
-files = st.file_uploader(
-    "📁 Upload CSV / Excel Files",
+# -------------------------------------------------
+st.markdown('<div class="card">', unsafe_allow_html=True)
+st.markdown("""
+📁 **Upload CSV / Excel Files**  
+Upload one or more **CSV (.csv)** or **Excel (.xlsx)** files.  
+Each dataset can be analysed using EDA visualisations or SQL queries.
+""")
+
+uploaded_files = st.file_uploader(
+    "Upload files",
     type=["csv", "xlsx"],
     accept_multiple_files=True
 )
+st.markdown('</div>', unsafe_allow_html=True)
 
-if not files:
-    st.info("Upload files to begin")
+if not uploaded_files:
+    st.info("Upload files to begin.")
     st.stop()
 
-# ----------------------------
-# LOAD INTO DUCKDB
-# ----------------------------
-con = duckdb.connect()
-dfs = {}
+# -------------------------------------------------
+# LOAD FILES + DUCKDB
+# -------------------------------------------------
+dataframes = {}
+con = duckdb.connect(database=":memory:")
 
-for f in files:
-    name = f.name.replace(".", "_")
+for f in uploaded_files:
     if f.name.endswith(".csv"):
-        df = pd.read_csv(f)
+        df_tmp = pd.read_csv(f)
     else:
-        df = pd.read_excel(f)
+        df_tmp = pd.read_excel(f)
 
-    dfs[name] = df
-    con.register(name, df)
+    table_name = f.name.replace(".", "_").replace(" ", "_")
+    dataframes[f.name] = df_tmp
+    con.register(table_name, df_tmp)
 
-# ----------------------------
-# SCHEMA CONTEXT
-# ----------------------------
-def schema_context():
-    text = ""
-    for k, v in dfs.items():
-        text += f"Table {k}: {', '.join(v.columns)}\n"
-    return text
+# -------------------------------------------------
+# SIDEBAR CONTROLS
+# -------------------------------------------------
+with st.sidebar:
+    st.header("🎛 Controls")
 
-# ----------------------------
-# AUTO CHART
-# ----------------------------
-def auto_chart(df):
-    num = df.select_dtypes(include=np.number).columns
-    cat = df.select_dtypes(exclude=np.number).columns
+    selected_file = st.selectbox("Dataset", list(dataframes.keys()))
+    chart_type = st.selectbox(
+        "Visualization",
+        [
+            "Bar Chart",
+            "Scatter Plot",
+            "Radar Chart",
+            "Pair Plot",
+            "Correlation Heatmap"
+        ]
+    )
 
-    if {"lat", "lon"}.issubset(df.columns):
-        return "map"
-    if len(num) == 1 and len(cat) >= 1:
-        return "bar"
-    if len(num) == 2 and len(cat) == 0:
-        return "scatter"
-    if len(num) > 2:
-        return "heatmap"
-    if len(num) >= 3 and len(cat) == 1:
-        return "radar"
-    return "table"
+    palette_name = st.selectbox(
+        "🎨 Color Palette",
+        ["Default", "Pastel", "Bold", "Dark", "Sunset"]
+    )
 
-# ----------------------------
-# LOCAL LLM → SQL
-# ----------------------------
-def generate_sql(prompt):
-    payload = {
-        "model": "llama3",
-        "prompt": f"""
-Generate ONLY DuckDB SQL.
-No explanation.
+palette_map = {
+    "Default": px.colors.qualitative.Plotly,
+    "Pastel": px.colors.qualitative.Pastel,
+    "Bold": px.colors.qualitative.Bold,
+    "Dark": px.colors.qualitative.Dark24,
+    "Sunset": px.colors.sequential.Sunset
+}
 
-Schema:
-{schema_context()}
+colors = palette_map[palette_name]
 
-User question:
-{prompt}
-"""
-    }
-    r = requests.post("http://localhost:11434/api/generate", json=payload)
-    r.raise_for_status()
-    return r.json()["response"]
+# -------------------------------------------------
+# DATA SOURCE (RAW OR SQL RESULT)
+# -------------------------------------------------
+df_base = dataframes[selected_file]
+df_viz = st.session_state.get("sql_result", df_base)
 
-# ----------------------------
-# CHAT / SQL
-# ----------------------------
-st.subheader("🧠 Ask Your Data")
+# -------------------------------------------------
+# DATA PREVIEW
+# -------------------------------------------------
+st.markdown('<div class="card">', unsafe_allow_html=True)
+st.subheader(f"📄 Preview ({len(df_viz)} rows)")
+st.dataframe(df_viz, use_container_width=True)
+st.markdown('</div>', unsafe_allow_html=True)
 
-question = st.text_input("Ask a question (natural language → SQL)")
+# -------------------------------------------------
+# SQL QUERY EDITOR (REAL)
+# -------------------------------------------------
+st.markdown('<div class="card">', unsafe_allow_html=True)
+st.subheader("🧮 SQL Query Editor")
 
-if st.button("Run"):
+st.info(
+    "Each uploaded file is available as a SQL table.\n"
+    "Table name = file name with dots replaced by underscores."
+)
+
+sql_query = st.text_area(
+    "Write SQL query",
+    height=150,
+    placeholder="SELECT * FROM your_file_csv LIMIT 10;"
+)
+
+if st.button("Run Query"):
     try:
-        sql = generate_sql(question)
-        st.code(sql, language="sql")
-
-        result = con.execute(sql).df()
-        st.dataframe(result, use_container_width=True)
-
-        chart = auto_chart(result)
-
-        st.subheader("📊 Auto Visualization")
-
-        if chart == "bar":
-            fig = px.bar(result, x=result.columns[0], y=result.columns[1])
-            st.plotly_chart(fig, use_container_width=True)
-
-        elif chart == "scatter":
-            fig = px.scatter(result, x=result.columns[0], y=result.columns[1])
-            st.plotly_chart(fig, use_container_width=True)
-
-        elif chart == "heatmap":
-            corr = result.corr()
-            fig, ax = plt.subplots()
-            sns.heatmap(corr, annot=True, ax=ax)
-            st.pyplot(fig)
-
-        elif chart == "radar":
-            row = result.iloc[0]
-            fig = go.Figure(go.Scatterpolar(
-                r=row.values,
-                theta=row.index,
-                fill="toself"
-            ))
-            st.plotly_chart(fig)
-
-        elif chart == "map":
-            st.map(result[["lat", "lon"]])
-
-        else:
-            st.info("Displayed as table")
-
+        result = con.execute(sql_query).df()
+        st.session_state["sql_result"] = result
+        st.success(f"Query returned {len(result)} rows")
     except Exception as e:
         st.error(str(e))
+
+st.markdown('</div>', unsafe_allow_html=True)
+
+# -------------------------------------------------
+# VISUALIZATIONS
+# -------------------------------------------------
+st.markdown('<div class="section-alt">', unsafe_allow_html=True)
+
+if chart_type == "Bar Chart":
+    st.subheader("📊 Bar Chart")
+    st.info("X → categorical | Y → numeric")
+
+    x = st.selectbox("X-axis", df_viz.columns)
+    y = st.selectbox("Y-axis", df_viz.columns)
+
+    df_viz[y] = pd.to_numeric(df_viz[y], errors="coerce")
+    fig = px.bar(df_viz, x=x, y=y, color_discrete_sequence=colors)
+    fig.update_layout(transition_duration=500)
+    st.plotly_chart(fig, use_container_width=True)
+
+elif chart_type == "Scatter Plot":
+    st.subheader("📈 Scatter Plot")
+    nums = df_viz.select_dtypes(include=np.number).columns
+
+    if len(nums) >= 2:
+        x = st.selectbox("X-axis", nums)
+        y = st.selectbox("Y-axis", nums)
+        fig = px.scatter(df_viz, x=x, y=y, color_discrete_sequence=colors)
+        fig.update_layout(transition_duration=500)
+        st.plotly_chart(fig, use_container_width=True)
+    else:
+        st.warning("Need at least two numeric columns.")
+
+elif chart_type == "Radar Chart":
+    st.subheader("🕸 Radar Chart")
+    cat = st.selectbox("Category column", df_viz.columns)
+    metrics = st.multiselect(
+        "Numeric metrics",
+        df_viz.select_dtypes(include=np.number).columns
+    )
+
+    if metrics:
+        val = st.selectbox("Category value", df_viz[cat].unique())
+        row = df_viz[df_viz[cat] == val][metrics]
+
+        if not row.empty:
+            fig = go.Figure(
+                go.Scatterpolar(
+                    r=row.iloc[0].values,
+                    theta=metrics,
+                    fill="toself"
+                )
+            )
+            fig.update_layout(title=val)
+            st.plotly_chart(fig, use_container_width=True)
+
+elif chart_type == "Pair Plot":
+    st.subheader("🔗 Pair Plot")
+    nums = df_viz.select_dtypes(include=np.number)
+    if nums.shape[1] >= 2:
+        fig = sns.pairplot(nums)
+        st.pyplot(fig)
+    else:
+        st.warning("Not enough numeric columns.")
+
+elif chart_type == "Correlation Heatmap":
+    st.subheader("🔥 Correlation Heatmap")
+    nums = df_viz.select_dtypes(include=np.number)
+    if nums.shape[1] >= 2:
+        fig, ax = plt.subplots(figsize=(10, 6))
+        sns.heatmap(nums.corr(), annot=True, cmap="coolwarm", ax=ax)
+        st.pyplot(fig)
+    else:
+        st.warning("Not enough numeric columns.")
+
+st.markdown('</div>', unsafe_allow_html=True)
+
+# -------------------------------------------------
+# CHATBOT (REAL STATEFUL)
+# -------------------------------------------------
+st.markdown('<div class="card">', unsafe_allow_html=True)
+st.subheader("🧠 Ask Your Data (Chatbot)")
+
+if "chat_history" not in st.session_state:
+    st.session_state.chat_history = []
+
+question = st.text_input(
+    "Ask a question (e.g. total students per route)"
+)
+
+if st.button("Ask"):
+    if question:
+        st.session_state.chat_history.append(("You", question))
+        st.session_state.chat_history.append(
+            ("Assistant", "LLM integration coming next (SQL generation).")
+        )
+
+for role, msg in st.session_state.chat_history:
+    st.markdown(f"**{role}:** {msg}")
+
+st.markdown('</div>', unsafe_allow_html=True)
