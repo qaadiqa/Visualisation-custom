@@ -242,4 +242,23 @@ st.markdown('</div>', unsafe_allow_html=True)
 # CHATBOT (REAL STATEFUL)
 # -------------------------------------------------
 st.markdown('<div class="card">', unsafe_allow_html=True)
-st.subheader("🧠 A
+st.subheader("🧠 Ask Your Data (Chatbot)")
+
+if "chat_history" not in st.session_state:
+    st.session_state.chat_history = []
+
+question = st.text_input(
+    "Ask a question (e.g. total students per route)"
+)
+
+if st.button("Ask"):
+    if question:
+        st.session_state.chat_history.append(("You", question))
+        st.session_state.chat_history.append(
+            ("Assistant", "LLM integration coming next (SQL generation).")
+        )
+
+for role, msg in st.session_state.chat_history:
+    st.markdown(f"**{role}:** {msg}")
+
+st.markdown('</div>', unsafe_allow_html=True)
